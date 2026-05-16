@@ -1,4 +1,4 @@
-# Awesome List for Claude Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](LICENSE) [![Last Commit](https://img.shields.io/github/last-commit/rdmgator12/awesome-claude-plugins)](https://github.com/rdmgator12/awesome-claude-plugins/commits/main)
+# Awesome List for Claude Plugins: [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](LICENSE) [![Last Commit](https://img.shields.io/github/last-commit/rdmgator12/awesome-claude-plugins)](https://github.com/rdmgator12/awesome-claude-plugins/commits/main)
 
 > A free, community-maintained directory of plugins in Anthropic's official [Claude Plugins catalog](https://claude.com/plugins/) — installable bundles of skills, MCP servers, slash commands, sub-agents, and hooks that extend Claude Code and Cowork with one-command installation.
 
