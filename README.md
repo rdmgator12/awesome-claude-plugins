@@ -194,7 +194,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 
 ## Design and Creative
 
-- [Adobe for Creativity](https://www.adobe.com/creativecloud.html) - Adobe Creative Cloud tools for images, vectors, design, and video covering Photoshop, Illustrator, Premiere, and Express. *Use case: Multi-asset editing, platform-adapted exports, multi-step creative workflows from chat.* (Cowork)
+- [Adobe for Creativity](https://creativecloud.adobe.com) - Adobe Creative Cloud tools for images, vectors, design, and video covering Photoshop, Illustrator, Premiere, and Express. *Use case: Multi-asset editing, platform-adapted exports, multi-step creative workflows from chat.* (Cowork)
 - [Brand Voice](https://www.tribe.ai) - Discover your brand voice from existing documents and conversations, generate enforceable guidelines, and validate AI-generated content. *Use case: Brand-voice extraction, content validation against tone, guideline authoring.* (Cowork)
 - [Cloudinary](https://cloudinary.com) - Integration to manage assets, apply transformations, and optimize media through natural conversation. *Use case: Image-transformation development, video-optimization pipelines, asset library management.* (Cowork)
 - [Design](https://claude.com/plugins#design) **`A`** - Accelerate design workflows including critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. *Use case: Design critique, design-system component authoring, accessibility audit, design-to-dev handoff specs.* (Cowork)
@@ -213,7 +213,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Feature Dev](https://claude.com/plugins#feature-dev) **`A`** - Feature development workflow with agents for exploration, design, and review. *Use case: New-feature scoping, multi-phase development workflow, design-then-review cadence.* (Claude Code)
 - [Hookify](https://claude.com/plugins#hookify) **`A`** - Create custom hooks via markdown to prevent unwanted behaviors from conversation patterns or explicit instructions. *Use case: Behavioral guardrail authoring, custom Stop hooks, pattern-based hook generation.* (Claude Code)
 - [Ralph Loop](https://claude.com/plugins#ralph-loop) **`A`** - Interactive AI loops for iterative development using the Ralph Wiggum technique where Claude works on tasks repeatedly until completion. *Use case: Stubborn-task iteration, /loop-driven development, autonomous task completion.* (Claude Code)
-- [Superpowers](https://github.com/superpowers-org/superpowers) - Brainstorming, subagent development with code review, debugging, TDD, and skill authoring. *Use case: Broad-spectrum developer enhancement, TDD workflow, skill-authoring scaffolds.* (Claude Code)
+- [Superpowers](https://github.com/obra/superpowers) - Brainstorming, subagent development with code review, debugging, TDD, and skill authoring. *Use case: Broad-spectrum developer enhancement, TDD workflow, skill-authoring scaffolds.* (Claude Code)
 
 
 ## Documentation
