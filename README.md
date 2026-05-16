@@ -115,7 +115,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Code Simplifier](https://claude.com/plugins#code-simplifier) **`A`** - Code clarity agent that simplifies and refines recently modified code while preserving functionality and consistency. *Use case: Post-edit cleanup, complexity reduction, dead-code elimination after refactors.* (Claude Code)
 - [CodeRabbit](https://www.coderabbit.ai) - AI code review with 40+ analyzers, AST parsing, security checks, and auto-integrated project guidelines. *Use case: PR review with deep linting, security-aware diff analysis, project-guideline enforcement.* (Claude Code)
 - [Greptile](https://www.greptile.com) - AI-powered codebase search to query repositories in natural language to find code, understand dependencies, and explore architecture. *Use case: Cross-repo code search, dependency tracing, architecture discovery in unfamiliar codebases.* (Claude Code)
-- [Optibot Code Review](https://www.optibot.dev) - AI code review that catches production bugs, business-logic issues, and security vulnerabilities. *Use case: Pre-merge production-bug detection, business-logic regression hunting, security pass on diffs.* (Claude Code)
+- [Optibot Code Review](https://getoptimal.ai) - AI code review that catches production bugs, business-logic issues, and security vulnerabilities. *Use case: Pre-merge production-bug detection, business-logic regression hunting, security pass on diffs.* (Claude Code)
 - [PR Review Toolkit](https://claude.com/plugins#pr-review-toolkit) **`A`** - PR review agents for comments, tests, errors, types, quality, and simplification. *Use case: Multi-axis PR review, test-coverage check, type-correctness validation in pull requests.* (Claude Code)
 - [Qodo Skills](https://www.qodo.ai) - AI agents that integrate code quality, testing, security, and compliance checks into your SDLC. *Use case: Test generation, code-quality gates, compliance scanning in CI.* (Claude Code)
 - [session-report](https://claude.com/plugins#session-report) **`A`** - Generate an explorable HTML report of Claude Code session usage including tokens, cache efficiency, subagents, skills, and tool calls. *Use case: Session retrospection, cache-hit analysis, subagent usage audit.* (Claude Code)
@@ -334,8 +334,8 @@ A plugin marketplace is a git repo or URL hosting `.claude-plugin/marketplace.js
 
 - [claude-plugins-official](https://github.com/anthropics/claude-plugins-public#readme) - Anthropic's curated, vetted marketplace, auto-installed on Claude Code startup. *Use case: First-stop discovery; install with `/plugin install <name>@claude-plugins-official`.*
 - [claude-code-plugins (Anthropic demo)](https://github.com/anthropics/claude-code) - Anthropic's example marketplace of reference plugins demonstrating the plugin system. *Use case: Plugin format examples, integration patterns; install with `/plugin marketplace add anthropics/claude-code`.*
-- [Dan Ávila's marketplace](https://github.com/danavila/claude-code-plugins) - Community plugins for DevOps automation, documentation generation, project management, and testing suites.
 - [Seth Hobson's sub-agents](https://github.com/wshobson/agents) - 80+ specialized sub-agents packaged as a plugin collection.
+- [ClaudePluginHub](https://www.claudepluginhub.com) - Community-maintained third-party plugin discovery hub indexing marketplaces and individual plugins outside the official directory.
 
 
 ## Related
