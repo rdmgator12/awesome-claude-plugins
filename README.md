@@ -1,8 +1,8 @@
-# Awesome List for Claude Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome List for Claude Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](LICENSE) [![Last Commit](https://img.shields.io/github/last-commit/rdmgator12/awesome-claude-plugins)](https://github.com/rdmgator12/awesome-claude-plugins/commits/main)
 
 > A directory of plugins in Anthropic's official [Claude Plugins catalog](https://claude.com/plugins/) — installable bundles of skills, MCP servers, slash commands, sub-agents, and hooks that extend Claude Code and Cowork with one-command installation.
 
-**Last updated:** May 16, 2026 | **Total plugins:** 140+ | **Surfaces:** Claude Code · Cowork | **Categories:** 25+
+**Last updated:** May 16, 2026 | **Total plugins:** 132 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -40,6 +40,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Contents
 
+- [How to install](#how-to-install)
 - [AI Development and Agents](#ai-development-and-agents)
 - [Browser Automation](#browser-automation)
 - [Business Operations](#business-operations)
@@ -72,6 +73,31 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Related](#related)
 
 ---
+
+## How to install
+
+Inside Claude Code, type `/plugin` to open the Plugin Manager. The official Anthropic marketplace (`claude-plugins-official`) is auto-installed on startup, so most plugins below are one command away:
+
+```
+/plugin install <plugin-name>@claude-plugins-official
+```
+
+For plugins from other marketplaces, add the marketplace first:
+
+```
+/plugin marketplace add owner/repo
+/plugin install <plugin-name>
+```
+
+To load a plugin from a local directory or remote `.zip` (for one-off testing or private builds):
+
+```
+claude --plugin-dir /path/to/plugin
+claude --plugin-url https://example.com/plugin.zip
+```
+
+In Cowork, plugins appear in the workspace's plugin manager — connect the marketplace once per workspace and enable plugins per project.
+
 
 ## AI Development and Agents
 
@@ -129,7 +155,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [discord](https://discord.com) - Messaging bridge with built-in access control, pairing, allowlists, and policy management. *Use case: Discord server moderation from Claude, allowlisted Discord posting, policy-controlled bot workflows.* (Claude Code)
 - [fakechat](https://claude.com/plugins#fakechat) - Localhost web chat for testing channel notification flows with no tokens, access control, or third-party services. *Use case: Local notification testing, channel-integration development without external dependencies.* (Claude Code)
 - [iMessage](https://claude.com/plugins#imessage) - Messaging bridge with built-in access control that reads chat.db directly and sends via AppleScript. *Use case: macOS-only iMessage automation, allowlisted texting workflows, message-history search.* (Claude Code)
-- [Slack](https://slack.com) **`A`** - Official Slack MCP server for interactive and collaborative workflows including surfacing insights, drafting messages, and engaging teams from Claude Cowork. *Use case: Slack-message drafting, channel-thread summarization, async standups, in-Slack analysis.* (Claude Code, Cowork)
+- [Slack](https://slack.com) **`A`** - Official Slack MCP server with skills and slash commands for searching messages, sending communications, managing canvases, and surfacing channel insights. *Use case: Slack-message drafting, channel-thread summarization, async standups, in-Slack analysis.* (Claude Code, Cowork)
 - [telegram](https://telegram.org) - Messaging bridge with built-in access control, pairing, and policy management. *Use case: Telegram bot workflows, allowlisted messaging, channel automation.* (Claude Code)
 - [Zoom](https://zoom.us) - Plan, build, and debug Zoom integrations across REST APIs, Meeting SDK, Video SDK, webhooks, bots, and MCP workflows. *Use case: Zoom app development, meeting recording retrieval, transcript access, AI-powered Zoom experiences.* (Claude Code, Cowork)
 
