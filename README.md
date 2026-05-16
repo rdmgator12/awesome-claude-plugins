@@ -1,6 +1,9 @@
 # Awesome List for Claude Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](LICENSE) [![Last Commit](https://img.shields.io/github/last-commit/rdmgator12/awesome-claude-plugins)](https://github.com/rdmgator12/awesome-claude-plugins/commits/main)
 
-> A directory of plugins in Anthropic's official [Claude Plugins catalog](https://claude.com/plugins/) — installable bundles of skills, MCP servers, slash commands, sub-agents, and hooks that extend Claude Code and Cowork with one-command installation.
+> A free, community-maintained directory of plugins in Anthropic's official [Claude Plugins catalog](https://claude.com/plugins/) — installable bundles of skills, MCP servers, slash commands, sub-agents, and hooks that extend Claude Code and Cowork with one-command installation.
+
+> [!NOTE]
+> **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
 **Last updated:** May 16, 2026 | **Total plugins:** 132 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
 
@@ -11,8 +14,6 @@ For more information, see the [Plugins overview](https://claude.com/docs/plugins
 Plugins marked with **`A`** are built and verified by Anthropic. Each entry ends with a surface tag: `(Claude Code)`, `(Cowork)`, or `(Claude Code, Cowork)`.
 
 This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-> This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each plugin is the property of its respective owner.
 
 > [!IMPORTANT]
 > ### Plugin vs Connector vs MCP vs Custom Plugin

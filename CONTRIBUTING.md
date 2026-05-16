@@ -2,7 +2,7 @@
 
 This list tracks every plugin available in [Anthropic's official Claude Plugins catalog](https://claude.com/plugins) — plugins for **Claude Code** (developer workflows) and **Cowork** (knowledge-work agentic workspace). Contributions welcome.
 
-> This is an independent, community-maintained project. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.
+> **This is a free, independent, community-maintained project. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. Contributions are made under the project's [CC0](LICENSE) license — public domain dedication.
 
 ## What You Can Contribute
 
