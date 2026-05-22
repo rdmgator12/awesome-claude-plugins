@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** May 16, 2026 | **Total plugins:** 132 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
+**Last updated:** May 22, 2026 | **Total plugins:** 134 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -308,6 +308,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Fastly Agent Toolkit](https://www.fastly.com) - Fastly development tools and platform skills for VCL, edge functions, and CDN configuration. *Use case: Fastly edge function development, VCL authoring, CDN configuration.* (Claude Code, Cowork)
 - [Laravel Boost](https://laravel.com) - Laravel MCP server for intelligent Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation. *Use case: Laravel app development, Eloquent query authoring, Artisan command exploration.* (Claude Code)
 - [postman](https://www.postman.com) - Full API lifecycle management to sync collections, generate client code, discover APIs, run tests, and create requests. *Use case: API exploration, client SDK generation from collections, API test authoring.* (Claude Code)
+- [Zapier](https://zapier.com) - Connect 8,000+ apps to your AI workflow by discovering, enabling, and executing Zapier actions directly from your client. *Use case: Cross-app automation, no-code integration bridging, executing actions across SaaS tools without writing each integration.* (Claude Code, Cowork)
 
 
 ## Productivity and Documents
@@ -331,6 +332,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Security Guidance](https://claude.com/plugins#security-guidance) **`A`** - Security hook that warns about command injection, XSS, and unsafe code patterns when editing files. *Use case: In-editor security guardrails, OWASP-pattern detection, real-time vulnerability prevention.* (Claude Code)
 - [Semgrep](https://semgrep.dev) - Catch security vulnerabilities in real-time and guide secure code authoring. *Use case: SAST scanning, custom-rule authoring, secure-by-default code generation.* (Claude Code)
 - [Sonatype Guide](https://www.sonatype.com) - MCP for supply chain intelligence and dependency security analysis with vulnerability detection and version recommendations. *Use case: Dependency vulnerability scanning, version-recommendation lookup, supply-chain risk analysis.* (Claude Code)
+- [Vanta](https://www.vanta.com) - Connect Claude to Vanta's security and compliance platform via the Vanta MCP server to list failing compliance tests and get test-specific remediation. *Use case: Compliance test triage, SOC 2/ISO remediation workflows, security-control gap analysis from chat.* (Claude Code, Cowork)
 
 
 ## Skills Authoring
