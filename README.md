@@ -31,11 +31,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > Mental model: **Connector** = "Claude can call your API" (tool surface). **Plugin** = "Claude knows how to use your product" (workflow + tools + skills). **MCP** = the protocol both speak. Most partners ship both — a remote MCP server (connector) and a plugin that wraps it with skills and slash commands.
 
 > [!TIP]
-> ### Plugin of the Week — May 16, 2026
+> ### Plugin of the Week — May 28, 2026
 >
-> **[Frontend Design](https://claude.com/plugins/frontend-design)** · *Design and Creative* · **`A`**
+> **[Airtable](https://claude.com/plugins/airtable)** · *Data and Databases*
 >
-> The most-installed third-party-ready plugin built by Anthropic for Claude Code (732K+ installs and climbing). Frontend Design isn't a tool wrapper — it's a *taste cartridge*. The skill ships with a curated design vocabulary that pushes generated frontends past the generic-AI-aesthetic floor: real type hierarchies, intentional spacing, distinctive component composition. For builders who use Claude Code to ship Lovable, Vercel, or Next.js apps and have noticed how default LLM frontends all converge to the same shadcn-flavored beige, this plugin is the antidote. Composes naturally with the `impeccable`, `critique`, `polish`, and `delight` skills if you're running a multi-pass design workflow. The deeper signal: with 700K+ installs, Frontend Design demonstrates that *skill-bundles-as-product* — not MCP servers, not slash commands, but curated design taste — is now a distribution category. The plugin format is doing the same thing for AI design that npm packages did for utility libraries.
+> This week's wave is small and finance-led, but Airtable is the arrival that changes what an agent can *stand on*. Most plugins hand Claude a verb — search this, deploy that. Airtable hands it a place to keep things: a structured datastore that doubles as a multiplayer workspace, where the grid, kanban, calendar, and timeline views your team already lives in are the same surface the agent reads and writes. Bundling the official Airtable MCP server, it lets Claude create bases and schema, manage records, and sync data across Jira, Salesforce, Zendesk, Google Drive, and Databricks — so an agent's output isn't trapped in a transcript, it lands in a table a human can see, sort, and correct. That shared-state property is the real unlock: it pairs naturally with the Asana, Linear, and GitHub plugins for execution tracking and with Atlan or the Data plugin for analytics. The deeper signal: as agents take on more multi-step work, the bottleneck stops being *can Claude call the tool* and becomes *where does the work persist so both sides can act on it* — and Airtable is a bet that the answer is a database humans and agents share. Currently Claude Code only, aimed squarely at builders wiring up that backbone.
 
 ---
 
