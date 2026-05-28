@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** May 22, 2026 | **Total plugins:** 134 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
+**Last updated:** May 28, 2026 | **Total plugins:** 139 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -164,8 +164,10 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 ## CRM and Sales
 
 - [Apollo](https://www.apollo.io) - Prospect, enrich leads, and load outreach sequences with Apollo.io. *Use case: B2B prospect discovery, lead enrichment from chat, outreach-sequence loading.* (Cowork)
+- [Carta crm](https://carta.com/product-updates/crm-plugin/) - Manage the Carta CRM conversationally to search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings. *Use case: dealflow and pipeline management, investor and LP record updates, company enrichment from websites, fundraising-round tracking.* (Claude Code, Cowork)
 - [Common Room](https://www.commonroom.io) - Turn Common Room into your GTM copilot — research accounts and contacts, prep for calls, and draft personalized outreach across email, LinkedIn, and phone. *Use case: Call prep, account research, multi-channel outreach drafting.* (Cowork)
 - [Sales](https://claude.com/plugins#sales) **`A`** - Prospect, craft outreach, build deal strategy, prep for calls, manage pipeline, and write personalized messaging. *Use case: Pipeline management, prospect research, personalized cold outreach.* (Cowork)
+- [Vibe Prospecting](https://www.vibeprospecting.ai) - Search, match, enrich, filter, and export live B2B prospects through natural-language GTM workflows. *Use case: lead-list building, CRM enrichment, executive discovery, multi-step prospecting automation.* (Claude Code, Cowork)
 - [ZoomInfo](https://www.zoominfo.com) - Search companies and contacts, enrich leads, find lookalikes, and get AI-ranked contact recommendations with pre-built B2B sales workflows. *Use case: B2B prospect enrichment, lookalike-account discovery, AI-ranked contact targeting.* (Cowork)
 
 
@@ -177,6 +179,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 
 ## Data and Databases
 
+- [Airtable](https://www.airtable.com) - Database and operations layer for agents, with shared visual surfaces and sync integrations via the official Airtable MCP server. *Use case: base and schema creation, record management, multiplayer grid/kanban/calendar collaboration, syncing to Jira/Salesforce/Zendesk.* (Claude Code)
 - [Atlan](https://atlan.com) - Data catalog plugin with semantic search, lineage traversal, glossary management, and data-quality rules via the Atlan MCP server. *Use case: Data discovery, lineage exploration, glossary management, data-quality rule authoring.* (Cowork)
 - [Bigdata.com](https://bigdata.com) - Official Bigdata.com plugin providing financial research, analytics, and intelligence tools powered by the Bigdata MCP. *Use case: Equity research, financial-data analytics, market intelligence queries.* (Cowork)
 - [CockroachDB](https://www.cockroachlabs.com) - Distributed SQL plugin to explore schemas, write optimized SQL, debug queries, and manage distributed database clusters. *Use case: Distributed SQL development, query plan analysis, multi-region schema design.* (Cowork)
@@ -233,6 +236,8 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 
 ## Finance and Accounting
 
+- [Carta cap table](https://carta.com/equity-management/cap-table/) - Query cap tables, grants, SAFEs, 409A valuations, and waterfall scenarios via the Carta MCP server. *Use case: fully-diluted ownership breakdowns, 409A expiry checks, SAFE conversion math, exit waterfall modeling.* (Claude Code, Cowork)
+- [Carta investors](https://carta.com/fund-management/fund-administration/) - Query fund and investor data, performance benchmarks, regulatory reporting, and AGM decks via the Carta MCP server. *Use case: fund performance benchmarking, Form ADV regulatory reporting, AGM deck generation, portfolio tearsheet PDFs.* (Claude Code, Cowork)
 - [Finance](https://claude.com/plugins#finance) **`A`** - Streamline finance and accounting workflows from journal entries and reconciliation to financial statements, variance analysis, audit prep, and month-end close. *Use case: Month-end close, variance analysis, audit prep, journal-entry triage.* (Cowork)
 
 
