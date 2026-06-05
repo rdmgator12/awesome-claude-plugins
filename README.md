@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** May 28, 2026 | **Total plugins:** 139 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
+**Last updated:** June 5, 2026 | **Total plugins:** 142 | **Surfaces:** Claude Code · Cowork | **Categories:** 27
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -158,6 +158,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [iMessage](https://claude.com/plugins#imessage) - Messaging bridge with built-in access control that reads chat.db directly and sends via AppleScript. *Use case: macOS-only iMessage automation, allowlisted texting workflows, message-history search.* (Claude Code)
 - [Slack](https://slack.com) **`A`** - Official Slack MCP server with skills and slash commands for searching messages, sending communications, managing canvases, and surfacing channel insights. *Use case: Slack-message drafting, channel-thread summarization, async standups, in-Slack analysis.* (Claude Code, Cowork)
 - [telegram](https://telegram.org) - Messaging bridge with built-in access control, pairing, and policy management. *Use case: Telegram bot workflows, allowlisted messaging, channel automation.* (Claude Code)
+- [Twilio developer kit](https://www.twilio.com) - Procedural knowledge for AI coding agents on which Twilio APIs to use, in what order, and what to avoid, across SMS, Voice, WhatsApp, Verify, SendGrid, and 30+ products. *Use case: Twilio messaging and voice integration, SendGrid email workflows, compliance-aware comms.* (Claude Code)
 - [Zoom](https://zoom.us) - Plan, build, and debug Zoom integrations across REST APIs, Meeting SDK, Video SDK, webhooks, bots, and MCP workflows. *Use case: Zoom app development, meeting recording retrieval, transcript access, AI-powered Zoom experiences.* (Claude Code, Cowork)
 
 
@@ -213,9 +214,11 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [CLAUDE.md Management](https://claude.com/plugins#claude-md-management) **`A`** - Maintain CLAUDE.md by auditing quality, capturing learnings, and keeping project memory current. *Use case: CLAUDE.md hygiene, learning capture, project-memory refresh after major changes.* (Claude Code)
 - [Claude Code Setup](https://claude.com/plugins#claude-code-setup) **`A`** - Analyze codebases and recommend tailored Claude Code automations including hooks, skills, MCP servers, and subagents. *Use case: First-time Claude Code setup on an unfamiliar repo, automation discovery, configuration audit.* (Claude Code)
 - [Commit Commands](https://claude.com/plugins#commit-commands) **`A`** - Commands for git commit workflows including commit, push, and PR creation. *Use case: Commit-message generation, PR creation, conventional-commit enforcement.* (Claude Code)
+- [Desktop commander](https://desktopcommander.app) - MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data. *Use case: Local terminal automation, multi-format file editing, long-running process management from Claude.* (Claude Code)
 - [Feature Dev](https://claude.com/plugins#feature-dev) **`A`** - Feature development workflow with agents for exploration, design, and review. *Use case: New-feature scoping, multi-phase development workflow, design-then-review cadence.* (Claude Code)
 - [Hookify](https://claude.com/plugins#hookify) **`A`** - Create custom hooks via markdown to prevent unwanted behaviors from conversation patterns or explicit instructions. *Use case: Behavioral guardrail authoring, custom Stop hooks, pattern-based hook generation.* (Claude Code)
 - [Ralph Loop](https://claude.com/plugins#ralph-loop) **`A`** - Interactive AI loops for iterative development using the Ralph Wiggum technique where Claude works on tasks repeatedly until completion. *Use case: Stubborn-task iteration, /loop-driven development, autonomous task completion.* (Claude Code)
+- [Servicenow sdk](https://developer.servicenow.com) - Create, edit, and deploy ServiceNow applications with the Fluent SDK through Claude, building and managing ServiceNow apps, workflows, and agents. *Use case: ServiceNow app development, Fluent SDK scaffolding, workflow and agent deployment.* (Claude Code)
 - [Superpowers](https://github.com/obra/superpowers) - Brainstorming, subagent development with code review, debugging, TDD, and skill authoring. *Use case: Broad-spectrum developer enhancement, TDD workflow, skill-authoring scaffolds.* (Claude Code)
 
 
