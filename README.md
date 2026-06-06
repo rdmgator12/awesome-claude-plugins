@@ -306,6 +306,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 
 - [RevenueCat](https://www.revenuecat.com) - Manage RevenueCat in-app purchase backend directly from your development workflow. *Use case: Subscription product configuration, entitlement management, IAP backend tuning.* (Claude Code)
 - [Stripe](https://stripe.com) - Development plugin for payments, billing, subscriptions, and Stripe API integration. *Use case: Stripe API exploration, payment-flow development, subscription-product configuration.* (Claude Code)
+- **[TWZRD Agent Intel](https://github.com/twzrd-sol/wzrd-final)** — Solana-native AI agent trust scoring + x402 payment receipt MCP plugin. Issues signed V5 trust receipts via HTTP 402 micropayment protocol. Free preflight scoring, paid receipts at https://intel.twzrd.xyz/mcp. *Use case: Agent trust verification, x402 payment receipts, on-chain Solana trust scoring.* (Claude Code)
 
 
 ## Platforms and SaaS
