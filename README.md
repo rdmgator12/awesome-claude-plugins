@@ -43,11 +43,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > Mental model: **Connector** = "Claude can call your API" (tool surface). **Plugin** = "Claude knows how to use your product" (workflow + tools + skills). **MCP** = the protocol both speak. Most partners ship both — a remote MCP server (connector) and a plugin that wraps it with skills and slash commands.
 
 > [!TIP]
-> ### Plugin of the Week — May 28, 2026
+> ### Plugin of the Week — June 18, 2026
 >
-> **[Airtable](https://claude.com/plugins/airtable)** · *Data and Databases*
+> **[Datadog](https://claude.com/plugins/datadog)** · *Observability and Monitoring*
 >
-> This week's wave is small and finance-led, but Airtable is the arrival that changes what an agent can *stand on*. Most plugins hand Claude a verb — search this, deploy that. Airtable hands it a place to keep things: a structured datastore that doubles as a multiplayer workspace, where the grid, kanban, calendar, and timeline views your team already lives in are the same surface the agent reads and writes. Bundling the official Airtable MCP server, it lets Claude create bases and schema, manage records, and sync data across Jira, Salesforce, Zendesk, Google Drive, and Databricks — so an agent's output isn't trapped in a transcript, it lands in a table a human can see, sort, and correct. That shared-state property is the real unlock: it pairs naturally with the Asana, Linear, and GitHub plugins for execution tracking and with Atlan or the Data plugin for analytics. The deeper signal: as agents take on more multi-step work, the bottleneck stops being *can Claude call the tool* and becomes *where does the work persist so both sides can act on it* — and Airtable is a bet that the answer is a database humans and agents share. Currently Claude Code only, aimed squarely at builders wiring up that backbone.
+> This week's wave was the biggest yet — ~115 new plugins, overwhelmingly cloud, database, and infrastructure tooling — and Datadog is the one that closes the loop. Most of the new arrivals let an agent *act* on a system: provision a database, deploy to a cloud, run a migration. Datadog is about letting it *see* what happened next. Through a preconfigured MCP server it puts your logs, metrics, traces, and dashboards one natural-language question away — "why did p95 latency jump after the 2pm deploy?" becomes a query instead of a context-switch into another tab. The deeper signal: as agents take on more of the build-and-ship loop, the missing half has been observability — an agent that can deploy but can't read production telemetry is flying blind. Datadog (currently in preview) is a bet that what agents need next isn't another way to change systems, but a way to understand the ones they're already changing. It pairs naturally with the Sentry, PagerDuty, and Rootly plugins for incident work, and with the AWS and GCP fleet for the systems it watches. Claude Code only for now.
 
 ---
 
