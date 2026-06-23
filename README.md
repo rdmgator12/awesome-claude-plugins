@@ -503,7 +503,7 @@ A plugin marketplace is a git repo or URL hosting `.claude-plugin/marketplace.js
 
 - [claude-plugins-official](https://github.com/anthropics/claude-plugins-public#readme) - Anthropic's curated, vetted marketplace, auto-installed on Claude Code startup. *Use case: First-stop discovery; install with `/plugin install <name>@claude-plugins-official`.*
 - [claude-code-plugins (Anthropic demo)](https://github.com/anthropics/claude-code) - Anthropic's example marketplace of reference plugins demonstrating the plugin system. *Use case: Plugin format examples, integration patterns; install with `/plugin marketplace add anthropics/claude-code`.*
-- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source SEO, GEO, Google Ads, and Meta Ads skills for Claude Code, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. *Install with `/plugin marketplace add nowork-studio/NotFair`.*
+- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source SEO, GEO, Google Ads, and Meta Ads skills for Claude Code (18 skills, MIT). *Install with `/plugin marketplace add nowork-studio/NotFair`.*
 - [Seth Hobson's sub-agents](https://github.com/wshobson/agents) - 80+ specialized sub-agents packaged as a plugin collection.
 - [ClaudePluginHub](https://www.claudepluginhub.com) - Community-maintained third-party plugin discovery hub indexing marketplaces and individual plugins outside the official directory.
 
