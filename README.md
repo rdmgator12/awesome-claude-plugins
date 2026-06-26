@@ -37,15 +37,15 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > - **Connector** is an MCP server listed in Anthropic's [Connectors Directory](https://claude.com/partners/mcp) — reviewed by Anthropic, named-card UI, cross-surface (Claude.ai, Desktop, Mobile, Cowork, Code). Tracked in [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors).
 > - **Custom Connector** is an MCP server you add yourself via Settings → "Add custom connector" with a URL. Same runtime as directory connectors; no Anthropic review; appears as "Custom".
 > - **Plugin** is a packaged bundle that can contain any combination of skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers. Versioned, semver, one-command install via `/plugin install`. Works on Claude Code and Cowork. **This list covers plugins.**
-> - **Plugin Marketplace** is a git repo or URL hosting `.claude-plugin/marketplace.json` that catalogs plugins. The official Anthropic marketplace (`claude-plugins-official`) is auto-installed on Claude Code startup.
-> - **Custom Plugin** is a plugin you build and install from a local directory, your own git repo, or a private marketplace. Same components as directory plugins; no Anthropic review. Install via `/plugin install`, `--plugin-dir`, or `--plugin-url`.
+> - **Plugin Marketplace** is a Git repo or URL hosting `.claude-plugin/marketplace.json` that catalogs plugins. The official Anthropic marketplace (`claude-plugins-official`) is auto-installed on Claude Code startup.
+> - **Custom Plugin** is a plugin you build and install from a local directory, your own Git repo, or a private marketplace. Same components as directory plugins; no Anthropic review. Install via `/plugin install`, `--plugin-dir`, or `--plugin-url`.
 >
 > Mental model: **Connector** = "Claude can call your API" (tool surface). **Plugin** = "Claude knows how to use your product" (workflow + tools + skills). **MCP** = the protocol both speak. Most partners ship both — a remote MCP server (connector) and a plugin that wraps it with skills and slash commands.
 
 > [!TIP]
 > ### Plugin of the Week — June 26, 2026
 >
-> **[Dropbox](https://www.dropbox.com)** · *Platforms and SaaS*
+> **[Dropbox](https://www.dropbox.com/features)** · *Platforms and SaaS*
 >
 > After last week's ~115-plugin infrastructure flood, this was a quiet week — two new arrivals — and Dropbox is the one worth pointing at. It sits in the same lane as Box and Notion: a content connector that lets an agent search, organize, and save back to where your files already live, respecting the permissions you already have. The reason it matters more than "another storage integration" is grounding. Most of the headline plugins of the last month let an agent *do* things — deploy, provision, migrate. The recurring failure mode is that the agent reasons over a blank slate, hallucinating context it should have just read. Dropbox closes that gap on the input side: the spec you wrote, the deck you saved, the contract draft — all one query away, so the agent answers from your actual material instead of guessing. Pairs naturally with Box for teams split across both, and with the Productivity and Notion plugins for end-to-end "find it, work on it, save it back" loops. Available on Claude Code and Cowork.
 
@@ -157,13 +157,13 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [AWS Startup Advisor](https://aws.amazon.com/startups/) - Get personalized AWS architecture, cost, security, and migration guidance for startups, including Activate credits eligibility. *Use case: Day-one account setup, startup architecture review, cost optimization.* (Claude Code)
 - [AWS Transform](https://aws.amazon.com/transform/) - Migrate and modernize codebases to AWS including .NET, mainframe COBOL, VMware, SQL Server, and language and SDK upgrades. *Use case: NET-to-.NET 8 migration, COBOL-to-Java modernization, SDK upgrades.* (Claude Code)
 - [Azure](https://azure.microsoft.com) - Turn Claude into an Azure expert with the Azure MCP server and skills to list resources, validate deployments, and optimize costs across 50+ services. *Use case: Azure resource inventory, deployment validation, cost optimization.* (Claude Code)
-- [cloudflare](https://www.cloudflare.com) - Skills for the Cloudflare developer platform covering Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and Worker testing. *Use case: Edge function development, Durable Object design, Workers deployment, Cloudflare-hosted MCP servers.* (Claude Code)
+- [Cloudflare](https://www.cloudflare.com) - Skills for the Cloudflare developer platform covering Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and Worker testing. *Use case: Edge function development, Durable Object design, Workers deployment, Cloudflare-hosted MCP servers.* (Claude Code)
 - [Deploy on AWS](https://aws.amazon.com) - Deploy applications to AWS with architecture recommendations, cost estimates, and infrastructure-as-code deployment. *Use case: Greenfield AWS deployments, architecture review, cost-aware service selection.* (Claude Code)
 - [Firebase](https://firebase.google.com) - MCP integration for managing Firestore, authentication, Functions, hosting, and storage. *Use case: Mobile-backend operations, real-time database management, Firebase rules editing.* (Claude Code)
 - [Migration to AWS](https://aws.amazon.com/cloud-migration/) - Plan a migration from GCP and OpenAI/Gemini workloads to AWS by analyzing IaC, app code, and billing to design an architecture. *Use case: GCP-to-AWS migration planning, AI-provider mapping to Bedrock, cost estimation.* (Claude Code)
 - [Netlify Skills](https://www.netlify.com) - Netlify platform skills for functions, edge functions, blobs, database, image CDN, forms, config, and CLI workflows. *Use case: JAMstack deployment, edge function development, Netlify forms and config tuning.* (Claude Code)
 - [Railway](https://railway.app) - Deploy and manage apps, databases, and infrastructure on Railway covering project setup, deploys, and environment configuration. *Use case: Quick app deploys, database provisioning, env-var management.* (Claude Code)
-- [terraform](https://www.terraform.io) - MCP server for advanced infrastructure-as-code automation and Terraform-ecosystem integration. *Use case: HCL authoring, state-file inspection, provider exploration.* (Claude Code)
+- [Terraform](https://www.terraform.io) - MCP server for advanced infrastructure-as-code automation and Terraform-ecosystem integration. *Use case: HCL authoring, state-file inspection, provider exploration.* (Claude Code)
 - [Val Town](https://val.town) - Build and deploy on Val Town with HTTP vals, cron jobs, SQLite, email, OAuth, and React UI. *Use case: Serverless function deployment, scheduled jobs, lightweight full-stack vals.* (Claude Code)
 - [Vercel](https://vercel.com) - Integration to manage deployments, builds, logs, domains, and frontend infrastructure. *Use case: Next.js deployment workflows, build-log triage, domain configuration, edge function management.* (Claude Code)
 - [Wix](https://www.wix.com) - Build, manage, and deploy Wix sites and apps with CLI skills for dashboard extensions, backend APIs, and site widgets. *Use case: Wix custom-app development, dashboard extension authoring, widget shipping.* (Claude Code)
@@ -248,7 +248,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Knowledge Catalog](https://cloud.google.com/dataplex) - Discover, manage, monitor, and govern data and AI artifacts across your data platform. *Use case: Data-artifact discovery, governance, catalog monitoring.* (Claude Code)
 - [Looker](https://cloud.google.com/looker) - Connect to Looker and interact with your data using LookML. *Use case: LookML modeling, Looker exploration, BI query authoring.* (Claude Code)
 - [LSEG](https://www.lseg.com) - Price bonds, analyze yield curves, evaluate FX carry trades, value options, and build macro dashboards using LSEG financial data and analytics. *Use case: Fixed-income analysis, FX strategy work, options valuation, macro-research dashboards.* (Cowork)
-- [mongodb](https://www.mongodb.com) - Official MongoDB plugin with MCP server and skills for connecting, exploring data, managing collections, and optimizing queries. *Use case: MongoDB query authoring, schema design, aggregation-pipeline optimization.* (Claude Code)
+- [MongoDB](https://www.mongodb.com) - Official MongoDB plugin with MCP server and skills for connecting, exploring data, managing collections, and optimizing queries. *Use case: MongoDB query authoring, schema design, aggregation-pipeline optimization.* (Claude Code)
 - [Neon](https://neon.tech) - Manage Neon PostgreSQL projects and databases through its skill and MCP server. *Use case: Serverless PostgreSQL branching, Neon project management, schema migrations.* (Claude Code)
 - [Oracle AI Data Platform Spark Connectors](https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html) - Connect Spark to Oracle Autonomous DB, Fusion ERP, OCI Streaming, Iceberg, and external systems with 18 connector skills. *Use case: Spark source connectivity, Iceberg and ADB ingestion, cross-system data loading.* (Claude Code)
 - [Oracle AI Data Platform Workbench](https://www.oracle.com/data-platform/) - Operate a Spark/Delta lakehouse in natural language across discovery, Spark SQL, pipelines, governance, and MLOps with 37 skills. *Use case: Lakehouse SQL generation, pipeline authoring, Delta governance and time-travel.* (Claude Code)
@@ -256,14 +256,14 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Pigment](https://www.pigment.com) - Analyze business data and build custom Pigment models, metrics, and boards through natural language. *Use case: Business planning models, metric authoring, board building.* (Claude Code)
 - [Pinecone](https://www.pinecone.io) - Vector database integration for managing indexes, querying, and rapid prototyping. *Use case: Vector-search prototyping, RAG pipeline development, index management.* (Claude Code)
 - [PlanetScale](https://planetscale.com) - Authenticated hosted MCP server for PlanetScale organizations, databases, branches, schema, and Insights. *Use case: Database branching, slow-query analysis, schema migration on serverless MySQL/Postgres.* (Claude Code, Cowork)
-- [Prisma](https://www.prisma.io) - MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. *Use case: Prisma schema authoring, migration generation, Postgres data interaction.* (Claude Code, Cowork)
+- [Prisma](https://www.prisma.io) - MCP integration for PostgreSQL database management, schema migrations, SQL queries, and connection string management. *Use case: Prisma schema authoring, migration generation, PostgreSQL data interaction.* (Claude Code, Cowork)
 - [Qdrant Skills](https://qdrant.tech) - Scale, tune, and monitor Qdrant vector search and improve search quality across multi-language SDKs. *Use case: Vector-search tuning, index optimization, RAG retrieval quality.* (Claude Code)
 - [Redis Development](https://redis.io) - Apply best practices for Redis data structures, query engine, vector search, caching, and performance. *Use case: Redis data modeling, caching strategy, vector-search setup.* (Claude Code)
 - [Rill](https://www.rilldata.com) - Develop and query projects in the Rill business-intelligence platform. *Use case: Rill dashboard development, metrics-layer authoring, BI querying.* (Claude Code)
 - [S&P Global](https://www.spglobal.com) - Financial data and analytics including company tearsheets, earnings previews, and transaction summaries via Kensho. *Use case: Equity tear-sheet generation, earnings-preview drafting, M&A transaction analysis.* (Cowork)
 - [Snowflake Cortex Code](https://www.snowflake.com) - Route Snowflake prompts to Cortex Code for execution, with commands for code review and task delegation. *Use case: Snowflake SQL execution, Cortex Code delegation, in-warehouse code review.* (Claude Code)
 - [Spanner](https://cloud.google.com/spanner) - Connect and interact with Spanner data using natural language. *Use case: Spanner SQL queries, distributed-schema design, data exploration.* (Claude Code)
-- [Supabase](https://supabase.com) - MCP integration for database operations, authentication, storage, and real-time features. *Use case: Postgres backend management, auth flow development, real-time subscription debugging.* (Claude Code)
+- [Supabase](https://supabase.com) - MCP integration for database operations, authentication, storage, and real-time features. *Use case: PostgreSQL backend management, auth flow development, real-time subscription debugging.* (Claude Code)
 - [Zilliz](https://zilliz.com) - Manage Zilliz Cloud with 14 skills for cluster lifecycle, collection schema, vector search, index tuning, and backups. *Use case: Zilliz cluster lifecycle, vector-collection schema, index tuning.* (Claude Code)
 
 
@@ -290,7 +290,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [CLAUDE.md Management](https://claude.com/plugins#claude-md-management) **`A`** - Maintain CLAUDE.md by auditing quality, capturing learnings, and keeping project memory current. *Use case: CLAUDE.md hygiene, learning capture, project-memory refresh after major changes.* (Claude Code)
 - [Claude Code Setup](https://claude.com/plugins#claude-code-setup) **`A`** - Analyze codebases and recommend tailored Claude Code automations including hooks, skills, MCP servers, and subagents. *Use case: First-time Claude Code setup on an unfamiliar repo, automation discovery, configuration audit.* (Claude Code)
 - [Code Modernization](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization) **`A`** - Modernize legacy codebases such as COBOL, legacy Java/C++, and monoliths with a structured assess, map, extract, and transform workflow. *Use case: Legacy-code assessment, business-rule extraction, staged modernization.* (Claude Code)
-- [Commit Commands](https://claude.com/plugins#commit-commands) **`A`** - Commands for git commit workflows including commit, push, and PR creation. *Use case: Commit-message generation, PR creation, conventional-commit enforcement.* (Claude Code)
+- [Commit Commands](https://claude.com/plugins#commit-commands) **`A`** - Commands for Git commit workflows including commit, push, and PR creation. *Use case: Commit-message generation, PR creation, conventional-commit enforcement.* (Claude Code)
 - [CWC Makers](https://claude.com/cwc-makers) **`A`** - Onboard a Code-with-Claude Makers Cardputer with one command that clones the repo, flashes firmware, and installs the Claude Buddy app. *Use case: Cardputer setup, UIFlow firmware flashing, maker-project onboarding.* (Claude Code)
 - [Desktop commander](https://desktopcommander.app) - MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data. *Use case: Local terminal automation, multi-format file editing, long-running process management from Claude.* (Claude Code)
 - [Feature Dev](https://claude.com/plugins#feature-dev) **`A`** - Feature development workflow with agents for exploration, design, and review. *Use case: New-feature scoping, multi-phase development workflow, design-then-review cadence.* (Claude Code)
@@ -431,12 +431,12 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Base44](https://base44.com) - Build and deploy full-stack apps with CLI project management and JavaScript/TypeScript SDK development. *Use case: Full-stack app scaffolding, Base44 SDK development, deployment.* (Claude Code)
 - [Box](https://www.box.com) - Search files, organize folders, collaborate with teams, and use Box AI to answer questions, summarize documents, and extract data. *Use case: Enterprise file management, Box AI document Q&A, folder organization automation.* (Claude Code, Cowork)
 - [Dropbox](https://www.dropbox.com) - Search, organize, and save generated content to Dropbox, create sharing links, and ground Claude's answers in your files — respecting your existing Dropbox permissions. *Use case: File search across Dropbox, saving generated artifacts back to Dropbox, share-link creation, grounding answers in stored documents.* (Claude Code, Cowork)
-- [expo](https://expo.dev) - Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. *Use case: Expo app development, EAS build configuration, React Native debugging.* (Claude Code)
+- [Expo](https://expo.dev) - Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. *Use case: Expo app development, EAS build configuration, React Native debugging.* (Claude Code)
 - [Fastly Agent Toolkit](https://www.fastly.com) - Fastly development tools and platform skills for VCL, edge functions, and CDN configuration. *Use case: Fastly edge function development, VCL authoring, CDN configuration.* (Claude Code, Cowork)
 - [Laravel Boost](https://laravel.com) - Laravel MCP server for intelligent Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation. *Use case: Laravel app development, Eloquent query authoring, Artisan command exploration.* (Claude Code)
 - [Lovable](https://lovable.dev) - Build, iterate on, deploy, and manage apps with the official MCP server and build and database commands. *Use case: App generation, iterative editing, deploy and publish with credit safety.* (Claude Code)
 - [Mapbox](https://www.mapbox.com) - Build location-aware apps with skills and MCP servers covering geospatial tools, style management, and web and mobile patterns. *Use case: Maps integration, custom style management, geospatial app development.* (Claude Code)
-- [postman](https://www.postman.com) - Full API lifecycle management to sync collections, generate client code, discover APIs, run tests, and create requests. *Use case: API exploration, client SDK generation from collections, API test authoring.* (Claude Code)
+- [Postman](https://www.postman.com) - Full API lifecycle management to sync collections, generate client code, discover APIs, run tests, and create requests. *Use case: API exploration, client SDK generation from collections, API test authoring.* (Claude Code)
 - [Zapier](https://zapier.com) - Connect 8,000+ apps to your AI workflow by discovering, enabling, and executing Zapier actions directly from your client. *Use case: Cross-app automation, no-code integration bridging, executing actions across SaaS tools without writing each integration.* (Claude Code, Cowork)
 
 
@@ -492,7 +492,7 @@ You can install plugins outside the official directory. Custom plugins are not r
 
 **From a URL:** `claude --plugin-url https://example.com/plugin.zip` fetches and loads a plugin archive.
 
-**From a git repo:** `/plugin marketplace add owner/repo` followed by `/plugin install <name>` installs via a personal marketplace.
+**From a Git repo:** `/plugin marketplace add owner/repo` followed by `/plugin install <name>` installs via a personal marketplace.
 
 **From a private marketplace:** configure required marketplaces in your repository's `.claude/settings.json` for team-wide plugin distribution.
 
@@ -501,7 +501,7 @@ For complete authoring guidance, see the Plugin Developer Toolkit entry in the S
 
 ## Plugin Marketplaces
 
-A plugin marketplace is a git repo or URL hosting `.claude-plugin/marketplace.json` that catalogs available plugins. Anyone can run one. Notable marketplaces:
+A plugin marketplace is a Git repo or URL hosting `.claude-plugin/marketplace.json` that catalogs available plugins. Anyone can run one. Notable marketplaces:
 
 - [claude-plugins-official](https://github.com/anthropics/claude-plugins-public#readme) - Anthropic's curated, vetted marketplace, auto-installed on Claude Code startup. *Use case: First-stop discovery; install with `/plugin install <name>@claude-plugins-official`.*
 - [claude-code-plugins (Anthropic demo)](https://github.com/anthropics/claude-code) - Anthropic's example marketplace of reference plugins demonstrating the plugin system. *Use case: Plugin format examples, integration patterns; install with `/plugin marketplace add anthropics/claude-code`.*
