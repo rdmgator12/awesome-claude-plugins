@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** June 18, 2026 | **Total plugins:** 257 | **Surfaces:** Claude Code (225) · Cowork (55) · both (23) | **Categories:** 28
+**Last updated:** June 26, 2026 | **Total plugins:** 259 | **Surfaces:** Claude Code (226) · Cowork (57) · both (24) | **Categories:** 28
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -43,11 +43,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > Mental model: **Connector** = "Claude can call your API" (tool surface). **Plugin** = "Claude knows how to use your product" (workflow + tools + skills). **MCP** = the protocol both speak. Most partners ship both — a remote MCP server (connector) and a plugin that wraps it with skills and slash commands.
 
 > [!TIP]
-> ### Plugin of the Week — June 18, 2026
+> ### Plugin of the Week — June 26, 2026
 >
-> **[Datadog](https://www.datadoghq.com/product/)** · *Observability and Monitoring*
+> **[Dropbox](https://www.dropbox.com)** · *Platforms and SaaS*
 >
-> This week's wave was the biggest yet — ~115 new plugins, overwhelmingly cloud, database, and infrastructure tooling — and Datadog is the one that closes the loop. Most of the new arrivals let an agent *act* on a system: provision a database, deploy to a cloud, run a migration. Datadog is about letting it *see* what happened next. Through a preconfigured MCP server it puts your logs, metrics, traces, and dashboards one natural-language question away — "why did p95 latency jump after the 2pm deploy?" becomes a query instead of a context-switch into another tab. The deeper signal: as agents take on more of the build-and-ship loop, the missing half has been observability — an agent that can deploy but can't read production telemetry is flying blind. Datadog (currently in preview) is a bet that what agents need next isn't another way to change systems, but a way to understand the ones they're already changing. It pairs naturally with the Sentry, PagerDuty, and Rootly plugins for incident work, and with the AWS and GCP fleet for the systems it watches. Claude Code only for now.
+> After last week's ~115-plugin infrastructure flood, this was a quiet week — two new arrivals — and Dropbox is the one worth pointing at. It sits in the same lane as Box and Notion: a content connector that lets an agent search, organize, and save back to where your files already live, respecting the permissions you already have. The reason it matters more than "another storage integration" is grounding. Most of the headline plugins of the last month let an agent *do* things — deploy, provision, migrate. The recurring failure mode is that the agent reasons over a blank slate, hallucinating context it should have just read. Dropbox closes that gap on the input side: the spec you wrote, the deck you saved, the contract draft — all one query away, so the agent answers from your actual material instead of guessing. Pairs naturally with Box for teams split across both, and with the Productivity and Notion plugins for end-to-end "find it, work on it, save it back" loops. Available on Claude Code and Cowork.
 
 ---
 
@@ -322,6 +322,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 
 ## Education and Learning
 
+- [Learn with Coursera](https://www.coursera.org) - Turn any learning intent into a personalized Coursera path — asks topic, familiarity, and preferred format, searches the catalog, and returns the right course, hands-on project, short video, or live roleplay. Requires the Coursera connector for catalog tools. *Use case: Personalized course discovery, skill-path planning, matching learning format to the goal.* (Cowork)
 - [Math Olympiad](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad) **`A`** - Solve competition math (IMO, Putnam, USAMO) with adversarial verification that attacks proofs to catch errors self-verification misses. *Use case: Olympiad proof solving, adversarial proof verification, calibrated abstention.* (Claude Code)
 
 
@@ -429,6 +430,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Appwrite](https://appwrite.io) - Use SDK skills, MCP servers, and deployment commands for the open-source backend platform. *Use case: Backend-as-a-service setup, Appwrite SDK development, function deployment.* (Claude Code)
 - [Base44](https://base44.com) - Build and deploy full-stack apps with CLI project management and JavaScript/TypeScript SDK development. *Use case: Full-stack app scaffolding, Base44 SDK development, deployment.* (Claude Code)
 - [Box](https://www.box.com) - Search files, organize folders, collaborate with teams, and use Box AI to answer questions, summarize documents, and extract data. *Use case: Enterprise file management, Box AI document Q&A, folder organization automation.* (Claude Code, Cowork)
+- [Dropbox](https://www.dropbox.com) - Search, organize, and save generated content to Dropbox, create sharing links, and ground Claude's answers in your files — respecting your existing Dropbox permissions. *Use case: File search across Dropbox, saving generated artifacts back to Dropbox, share-link creation, grounding answers in stored documents.* (Claude Code, Cowork)
 - [expo](https://expo.dev) - Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. *Use case: Expo app development, EAS build configuration, React Native debugging.* (Claude Code)
 - [Fastly Agent Toolkit](https://www.fastly.com) - Fastly development tools and platform skills for VCL, edge functions, and CDN configuration. *Use case: Fastly edge function development, VCL authoring, CDN configuration.* (Claude Code, Cowork)
 - [Laravel Boost](https://laravel.com) - Laravel MCP server for intelligent Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation. *Use case: Laravel app development, Eloquent query authoring, Artisan command exploration.* (Claude Code)
