@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** July 2, 2026 | **Total plugins:** 277 | **Surfaces:** Claude Code (244) · Cowork (57) · both (24) | **Categories:** 28
+**Last updated:** July 15, 2026 | **Total plugins:** 279 | **Surfaces:** Claude Code (246) · Cowork (57) · both (24) | **Categories:** 28
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -43,11 +43,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > Mental model: **Connector** = "Claude can call your API" (tool surface). **Plugin** = "Claude knows how to use your product" (workflow + tools + skills). **MCP** = the protocol both speak. Most partners ship both — a remote MCP server (connector) and a plugin that wraps it with skills and slash commands.
 
 > [!TIP]
-> ### Plugin of the Week — July 2, 2026
+> ### Plugin of the Week — July 15, 2026
 >
-> **Unreal Engine Skills** · *Developer Workflows*
+> **Databricks** · *Data and Databases*
 >
-> Epic Games' first-party plugin lands the same week Unreal Engine 5.8 shipped a native embedded MCP server, putting hundreds of editor tools across 30+ toolsets — blueprints, materials, Niagara, Sequencer, the Gameplay Ability System — under agentic control from Claude Code. Unlike most weeks' SaaS wrappers, this is a platform owner embedding the agent surface directly into its flagship editor, opening an entire industry to agentic workflows. It headlines an 18-plugin week that reinforced the same first-party trend: Grafana shipped three entries (Assistant, Cloud MCP, MCP), Honeycomb brought skills and agents for production investigation, and Canva, Render, Hostinger, Mergify, Tavily, Pixeltable, and Zyte all arrived vendor-built. Also this week: Claude Sonnet 5 became Claude Code's default model (June 30), and the official marketplace tightened its security review to cover the full plugin payload including cross-service credential routing (July 1). Listed under Developer Workflows below.
+> The quietest official-marketplace window on record — zero brand-new plugins landed July 2–15 — so this week's pick is a backfill catch: Databricks' first-party agent-skills bundle entered the manifest June 23 and slipped past the last sweep. It covers the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, and Declarative Automation Bundles, plus classic-to-serverless migration, making it one of the broadest single-vendor data-platform bundles in the catalog. Also this window: WordPress.com was renamed Build with WordPress (July 6) with an auto-migration redirect, the deprecated Shopify plugin was removed in favor of the already-tracked shopify-ai-toolkit (July 14), and the marketplace added a rename auto-migration map and stricter Apache-2.0 license validation (July 4). The community told a louder story: OpenAI's codex-plugin-cc grew roughly 22,700 to 28,750 stars across the window, and Pilotfish, a multi-model orchestration layer where a frontier model plans while cheaper models execute, pulled 459 stars in its first week. Listed under Data and Databases below.
 
 ---
 
@@ -244,6 +244,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Data Agent Kit Starter Pack](https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack) - Architect GCP data pipelines, transform data with dbt, and orchestrate Spark and BigQuery notebooks via natural language. *Use case: GCP pipeline design, dbt transformations, cross-service data orchestration.* (Claude Code)
 - [Data Engineering](https://github.com/astronomer/agents) - Warehouse and pipeline workflows covering warehouse exploration, pipeline authoring, and Airflow integration. *Use case: ETL development, warehouse schema exploration, Airflow DAG authoring.* (Claude Code)
 - [Databases on AWS](https://aws.amazon.com/products/databases/) - Get expert guidance across the AWS database portfolio covering schema design, queries, migrations, and database selection. *Use case: AWS database selection, schema design, cross-engine migration.* (Claude Code)
+- [Databricks](https://developers.databricks.com) - First-party Databricks skills spanning the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, and Declarative Automation Bundles. *Use case: Databricks pipeline authoring, model serving, classic-to-serverless migration.* (Claude Code)
 - [DataHub Skills](https://datahub.com) - Plan connectors, search the catalog, enrich metadata, trace lineage, and manage data quality with DataHub. *Use case: Metadata cataloging, lineage tracing, data-quality rule setup.* (Claude Code)
 - [Dataproc](https://cloud.google.com/dataproc) - Manage Dataproc clusters and jobs. *Use case: Spark and Hadoop cluster management, job submission, Dataproc orchestration.* (Claude Code)
 - [Dataverse](https://powerplatform.microsoft.com/en-us/dataverse/) - Build on, analyze, and manage Microsoft Dataverse with the Dataverse MCP, PAC CLI, and Python SDK. *Use case: Dataverse table modeling, PAC CLI automation, Dynamics data access.* (Claude Code)
@@ -316,7 +317,6 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [SAP Fiori](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server) - Build and modify SAP Fiori applications with AI assistance. *Use case: Fiori app development, UI adaptation, Fiori tooling automation.* (Claude Code)
 - [SAP Mobile Development Kit](https://help.sap.com/docs/MDK) - Build and modify SAP Mobile Development Kit apps with schema lookups, action validation, rule editing, and scaffolding. *Use case: MDK app scaffolding, action validation, rule editing.* (Claude Code)
 - [Servicenow sdk](https://developer.servicenow.com) - Create, edit, and deploy ServiceNow applications with the Fluent SDK through Claude, building and managing ServiceNow apps, workflows, and agents. *Use case: ServiceNow app development, Fluent SDK scaffolding, workflow and agent deployment.* (Claude Code)
-- [Shopify](https://shopify.dev/docs/apps) - Search Shopify docs and generate and validate GraphQL, Liquid, and UI-extension code with developer tools. *Use case: Shopify GraphQL authoring, Liquid validation, UI-extension development.* (Claude Code)
 - [Superpowers](https://github.com/obra/superpowers) - Brainstorming, subagent development with code review, debugging, TDD, and skill authoring. *Use case: Broad-spectrum developer enhancement, TDD workflow, skill-authoring scaffolds.* (Claude Code)
 - [TeamCity CLI](https://www.jetbrains.com/teamcity) - Drive TeamCity CI/CD via the teamcity CLI to explore builds, view logs, start jobs, and manage queues and agents. *Use case: TeamCity build inspection, job triggering, agent and queue management.* (Claude Code)
 - [UI5](https://ui5.sap.com/) - Create and validate SAPUI5/OpenUI5 projects, access API docs, run the UI5 linter, and follow best practices. *Use case: UI5 project creation, linter-driven validation, API-doc lookup.* (Claude Code)
@@ -394,6 +394,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 
 - [Adspirer Ads Agent](https://www.adspirer.com) - Cross-platform ad management for Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads with 91 tools for keyword research, campaign creation, and optimization. *Use case: Cross-platform ad campaign authoring, keyword research, budget optimization across ad networks.* (Claude Code, Cowork)
 - [Bright Data](https://brightdata.com) - Web scraping, Google search, structured data extraction, and 60+ MCP tools covering Web Unlocker, SERP API, Web Scraper API, and Browser API. *Use case: Scraping bot-protected sites, structured Google SERP results, large-scale data extraction.* (Cowork)
+- [Build with WordPress](https://wordpress.com) - Craft production-grade WordPress sites and applications, from themes and plugins to commerce and deployment. *Use case: WordPress site building, theme and plugin development, commerce setup and deployment.* (Claude Code)
 - [Firecrawl](https://www.firecrawl.dev) - Convert websites to LLM-ready markdown or data with scraping, crawling, and structured extraction. *Use case: RAG-corpus building, structured site extraction, AI-friendly web data preparation.* (Claude Code)
 - [Marketing](https://claude.com/plugins#marketing) **`A`** - Create content, plan campaigns, and analyze performance across marketing channels with brand-voice consistency and competitor tracking. *Use case: Content authoring, campaign planning, brand-voice enforcement, competitor monitoring.* (Cowork)
 - [Nimble](https://nimbleway.com) - Web data toolkit for search, extract, map, crawl, and structured data agents. *Use case: Structured web data harvesting, SERP extraction, site mapping for crawl-aware AI agents.* (Cowork)
@@ -401,7 +402,6 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [SearchFit SEO](https://searchfit.ai) - AI-powered SEO toolkit for auditing websites, planning content strategy, optimizing pages, generating schema markup, and tracking AI visibility. *Use case: SEO audit on any site, content-cluster planning, schema-markup generation, AI-search visibility tracking.* (Claude Code, Cowork)
 - [Spotify Ads API](https://ads.spotify.com) - Manage Spotify ad campaigns in natural language to create campaigns, ad sets, and ads, pull reports, and handle OAuth. *Use case: Spotify campaign creation, ad-set management, performance reporting.* (Claude Code)
 - [Windsor.ai](https://windsor.ai) - Query marketing, sales, CRM, ecommerce, finance, and analytics data from 325+ business sources. *Use case: Cross-platform marketing data, CRM and analytics querying, GTM data consolidation.* (Claude Code)
-- [WordPress.com](https://wordpress.com) - Create and edit WordPress sites with WordPress Studio before deploying changes to your WordPress.com site. *Use case: WordPress site building, local Studio editing, deploy to WordPress.com.* (Claude Code)
 - [Zyte Web Data](https://www.zyte.com) - Web scraping skills powered by the Zyte API to scrape sites, generate and run Scrapy spiders, define extraction schemas, and ship to Scrapy Cloud. *Use case: Scrapy spider generation, extraction-schema design, managed crawling at scale.* (Claude Code)
 
 
@@ -418,6 +418,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Grafana MCP](https://github.com/grafana/mcp-grafana) - MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management. *Use case: Dashboard authoring, alert-rule management, incident investigation.* (Claude Code)
 - [Honeycomb](https://www.honeycomb.io) - Skills, agents, and workflows for Honeycomb observability covering query patterns, production investigations, SLOs, and OpenTelemetry instrumentation. *Use case: Production investigations, SLO management, OTel instrumentation, Beeline migration.* (Claude Code)
 - [Langfuse](https://langfuse.com) - Add observability for Claude Code covering tracing, prompt management, and evaluation for LLM engineering. *Use case: LLM tracing, prompt versioning, evaluation runs.* (Claude Code)
+- [Langfuse Observability](https://github.com/langfuse/claude-observability-plugin) - Capture and export traces, spans, and session telemetry from Claude Code to Langfuse. *Use case: LLM monitoring, trace export, session debugging.* (Claude Code)
 - [Logfire](https://logfire.pydantic.dev) - Add observability to Python apps with auto-instrumentation for FastAPI, httpx, asyncpg, and SQLAlchemy. *Use case: Python app instrumentation, request tracing, query monitoring.* (Claude Code)
 - [LogRocket](https://logrocket.com) - Query session replays, metrics, issues, and user behavior in natural language. *Use case: Frontend session-replay analysis, error triage, user-behavior insight.* (Claude Code)
 - [PagerDuty Pre-Commit Risk Score](https://www.pagerduty.com) - Score pre-commit diffs against PagerDuty incident history to surface deployment risk before shipping. *Use case: Risk-aware commit gating, incident-history-informed code review, pre-deploy safety checks.* (Claude Code)
@@ -463,6 +464,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Notion](https://www.notion.so) - Search pages, create and update documents, and manage databases in your workspace. *Use case: Notion doc authoring, database management, knowledge-base search.* (Claude Code)
 - [PDF Viewer](https://claude.com/plugins#pdf-viewer) **`A`** - View, annotate, and sign PDFs in a live interactive viewer with markup, form-fill, approval stamps, and signature placement. *Use case: Contract review with annotations, PDF form filling, signature workflows, approval stamping.* (Cowork)
 - [Productivity](https://claude.com/plugins#productivity) **`A`** - Manage tasks, plan your day, and build memory of important work context by syncing with calendar, email, and chat. *Use case: Daily planning, task management, cross-tool context building, calendar/email/chat synthesis.* (Cowork)
+- [Project Artifact](https://claude.com/plugins#project-artifact) **`A`** - Generate and publish a living project status page as a shareable claude.ai artifact, redeploying the same URL with each refresh. *Use case: Stakeholder-facing project status, living progress reports, delta-only updates.* (Claude Code)
 
 
 ## Project Management
