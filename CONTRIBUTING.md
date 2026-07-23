@@ -51,6 +51,18 @@ Each entry must follow this exact format and live in the appropriate category, a
 
 A plugin is **removed** only when it disappears from *every* surface it was listed on. If it merely leaves one surface but remains on another — e.g. it drops out of the official `claude-plugins-official` manifest but is still live in the Cowork catalog — **re-tag** it to the surface(s) where it survives rather than deleting the entry. Absence from a single surface is a surface change, not a delisting. (This mirrors the two-surface removal rule used in [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors).)
 
+## How this list is generated
+
+`README.md` and `INSTALL.md` are **generated** from [`data/plugins.json`](data/plugins.json) — do not hand-edit them. The data file is the single source of truth; the prose lives in `README.template.md`. Counts (total, per-surface, categories) are computed by the generator, so the stats line can never drift from the body.
+
+To add, edit, or move a plugin:
+
+1. Edit `data/plugins.json` (one object per plugin: `name`, `url`, `category`, `surfaces`, `anthropic`, `slug`, `description`, `use_case`). Set `slug` to the plugin's `claude-plugins-official` manifest slug for a Claude Code plugin, or `null` if it isn't in the official manifest.
+2. Regenerate: `python3 scripts/generate_readme.py`
+3. Commit the changed `data/plugins.json`, `README.md`, and `INSTALL.md` together.
+
+CI runs `python3 scripts/generate_readme.py --check` and fails if the generated files are out of sync with the data — so a hand-edited README won't merge.
+
 ## Weekly Updates
 
 This list is updated weekly to stay in sync with claude.com/plugins. If you notice plugins added to the directory that aren't listed here, please open an issue or PR.

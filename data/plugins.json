@@ -1,0 +1,4098 @@
+{
+  "categories": [
+    "AI Development and Agents",
+    "Browser Automation",
+    "Business Operations",
+    "Cloud and Infrastructure",
+    "Code Quality and Review",
+    "Communication and Messaging",
+    "CRM and Sales",
+    "Customer Support",
+    "Data and Databases",
+    "Design and Creative",
+    "Developer Workflows",
+    "Documentation",
+    "Education and Learning",
+    "Engineering and Product",
+    "Finance and Accounting",
+    "Healthcare and Life Sciences",
+    "Human Resources",
+    "Language Servers",
+    "Legal",
+    "Marketing and Web",
+    "Observability and Monitoring",
+    "Output Styles",
+    "Payments and Billing",
+    "Platforms and SaaS",
+    "Productivity and Documents",
+    "Project Management",
+    "Security",
+    "Skills Authoring"
+  ],
+  "plugins": [
+    {
+      "name": "Agent SDK Dev",
+      "url": "https://claude.com/plugins#agent-sdk-dev",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "agent-sdk-dev",
+      "description": "Development kit for working with the Claude Agent SDK.",
+      "use_case": "Scaffolding agents, validating SDK usage, testing agent workflows locally."
+    },
+    {
+      "name": "Agentforce ADLC",
+      "url": "https://www.salesforce.com/agentforce",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "agentforce-adlc",
+      "description": "Author, scaffold, deploy, test, and optimize Agentforce .agent files through the Agent Development Life Cycle.",
+      "use_case": "Agentforce agent authoring, .agent scaffolding, agent testing and tuning."
+    },
+    {
+      "name": "AI-Firstify",
+      "url": "https://ai-first.techwolf.ai",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Audit, re-engineer, or bootstrap any codebase to align with TechWolf's 9 AI-first design principles and 7 design patterns.",
+      "use_case": "AI-first codebase audit, project re-engineering, greenfield AI-first scaffolding."
+    },
+    {
+      "name": "AMD Skills",
+      "url": "https://developer.amd.com",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "amd-skills",
+      "description": "AMD's verified agent skills for routing image and audio through local AI on Ryzen AI, serving LLMs on Instinct GPUs with vLLM, and analyzing GPU workloads.",
+      "use_case": "Local Ryzen AI inference, vLLM model serving on Instinct GPUs, GPU workload analysis."
+    },
+    {
+      "name": "atomic-agents",
+      "url": "https://github.com/BrainBlend-AI/atomic-agents",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "atomic-agents",
+      "description": "Build AI agents with the Atomic Agents framework.",
+      "use_case": "Multi-agent system development, best-practice validation, agent tool orchestration."
+    },
+    {
+      "name": "AWS Agents",
+      "url": "https://aws.amazon.com/bedrock/agentcore/",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-agents",
+      "description": "Build, deploy, and operate AI agents on AWS with Amazon Bedrock AgentCore, covering tools, memory, policies, and evaluation.",
+      "use_case": "Bedrock agent scaffolding, agent memory and policy wiring, production agent hardening."
+    },
+    {
+      "name": "DataRobot Agent Skills",
+      "url": "https://datarobot.com",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "datarobot-agent-skills",
+      "description": "Train, deploy, predict, monitor, and explain ML models with DataRobot, including App Framework CI/CD.",
+      "use_case": "AutoML model training, deployment monitoring, model-explainability reports."
+    },
+    {
+      "name": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "deepeval",
+      "description": "Add DeepEval evaluations, tracing, datasets, and Confident AI reports with iterative improvement loops to AI applications.",
+      "use_case": "LLM output evaluation, test-dataset authoring, agent-quality regression tracking."
+    },
+    {
+      "name": "Domino Data Lab",
+      "url": "https://www.domino.ai",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "dominodatalab",
+      "description": "Operate the full Domino Data Lab platform across workspaces, jobs, model deployment, experiment tracking, and GenAI tracing.",
+      "use_case": "Enterprise MLOps, experiment tracking, Spark/Ray/Dask job orchestration."
+    },
+    {
+      "name": "Exa",
+      "url": "https://exa.ai",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "exa",
+      "description": "Run AI web search, deep research, and content extraction with MCP tools and research skills.",
+      "use_case": "Web-search grounding, multi-source research, page-content extraction for RAG."
+    },
+    {
+      "name": "FiftyOne",
+      "url": "https://voxel51.com",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "fiftyone",
+      "description": "Build high-quality datasets and computer-vision models by visualizing data, finding duplicates, running inference, and evaluating predictions.",
+      "use_case": "CV dataset curation, model-error analysis, duplicate and edge-case discovery."
+    },
+    {
+      "name": "GoodMem",
+      "url": "https://goodmem.ai",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "AI memory infrastructure with Python SDK and MCP tools for managing embedders, spaces, and memories.",
+      "use_case": "Long-term agent memory, semantic memory recall, embedding management via chat."
+    },
+    {
+      "name": "Hugging Face Skills",
+      "url": "https://huggingface.co",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "huggingface-skills",
+      "description": "Build, train, evaluate, and use open source AI models, datasets, and Spaces from Hugging Face.",
+      "use_case": "Model exploration, dataset selection, running inference on hosted models."
+    },
+    {
+      "name": "NVIDIA Skills",
+      "url": "https://github.com/NVIDIA/skills",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "nvidia-skills",
+      "description": "Tackle accelerated-computing workflows, starting with cuOpt vehicle-routing optimization (VRP, TSP, PDP).",
+      "use_case": "Route optimization, vehicle-routing problems, GPU-accelerated solver work."
+    },
+    {
+      "name": "Output.ai",
+      "url": "https://output.ai",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "outputai",
+      "description": "Develop AI workflows with specialist agents for planning, building, debugging, and reviewing on the Output.ai platform.",
+      "use_case": "Output SDK workflow scaffolding, workflow debugging, prompt authoring."
+    },
+    {
+      "name": "Pixeltable",
+      "url": "https://docs.pixeltable.com",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "pixeltable",
+      "description": "Build multimodal AI applications with tables, computed columns, embedding search, UDFs, and tool-calling agents across 25+ AI provider integrations.",
+      "use_case": "Multimodal data infrastructure, embedding-search pipelines, agent tool-calling over media tables."
+    },
+    {
+      "name": "Pydantic AI",
+      "url": "https://ai.pydantic.dev",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "pydantic-ai",
+      "description": "Write accurate agent code with up-to-date patterns for tools, structured output, streaming, and multi-agent apps.",
+      "use_case": "Type-safe agent authoring, structured-output design, multi-agent orchestration."
+    },
+    {
+      "name": "Remember",
+      "url": "https://github.com/Digital-Process-Tools/claude-remember",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "remember",
+      "description": "Continuous memory for Claude Code that extracts, summarizes, and compresses conversations into tiered daily logs.",
+      "use_case": "Long-running project memory, daily session continuity, conversation archival."
+    },
+    {
+      "name": "SageMaker AI",
+      "url": "https://aws.amazon.com/sagemaker/",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sagemaker-ai",
+      "description": "Build, train, and deploy ML models with deep Amazon SageMaker expertise across the service surface.",
+      "use_case": "Model training pipelines, endpoint deployment, SageMaker feature engineering."
+    },
+    {
+      "name": "Tavily",
+      "url": "https://www.tavily.com",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "tavily",
+      "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+      "use_case": "Web-search grounding, structured extraction, research-agent data feeds."
+    },
+    {
+      "name": "Together AI Skills",
+      "url": "https://www.together.ai",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "togetherai-skills",
+      "description": "Run inference, training, embeddings, audio, video, images, function calling, and infrastructure on Together AI.",
+      "use_case": "Open-model inference, fine-tuning jobs, batch inference and evaluations."
+    },
+    {
+      "name": "You.com Agent Skills",
+      "url": "https://you.com",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "youdotcom-agent-skills",
+      "description": "Search the web, research with citations, and extract content with guided framework integrations.",
+      "use_case": "Cited web research, search-augmented agents, content extraction across SDKs."
+    },
+    {
+      "name": "Browser Use",
+      "url": "https://browser-use.com",
+      "category": "Browser Automation",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "browser-use",
+      "description": "Give Claude a real Chrome or a Browser Use Cloud browser for browsing, scraping, form-filling, testing, and web-workflow automation.",
+      "use_case": "Web scraping and data extraction, form automation, site testing with a real browser."
+    },
+    {
+      "name": "Chrome DevTools",
+      "url": "https://developer.chrome.com/docs/devtools",
+      "category": "Browser Automation",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "chrome-devtools-mcp",
+      "description": "Control and inspect a live Chrome browser from your coding agent, record performance traces, and analyze network requests.",
+      "use_case": "Web app debugging, performance profiling, network capture for reproduction cases."
+    },
+    {
+      "name": "Playwright",
+      "url": "https://playwright.dev",
+      "category": "Browser Automation",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "playwright",
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft.",
+      "use_case": "E2E test authoring, web scraping with form interaction, screenshot-based visual regression, headless workflow automation."
+    },
+    {
+      "name": "TinyFish",
+      "url": "https://www.tinyfish.ai",
+      "category": "Browser Automation",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Web infrastructure for AI agents, including web search, URL-to-markdown fetching, and browser automation for navigating sites and extracting structured data.",
+      "use_case": "Send a browser agent to fill out a web form and extract structured data from a target site."
+    },
+    {
+      "name": "Enterprise Search",
+      "url": "https://claude.com/plugins#enterprise-search",
+      "category": "Business Operations",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Search across all of your company's tools in one place — email, chat, documents, and wikis without switching between apps.",
+      "use_case": "Cross-tool knowledge retrieval, finding decisions across Slack/email/Drive, answering \"where did we discuss X\" questions."
+    },
+    {
+      "name": "Operations",
+      "url": "https://claude.com/plugins#operations",
+      "category": "Business Operations",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Optimize business operations including vendor management, process documentation, change management, capacity planning, and compliance tracking.",
+      "use_case": "Vendor onboarding, SOP authoring, ops dashboards, audit prep."
+    },
+    {
+      "name": "Small Business",
+      "url": "https://claude.com/plugins#small-business",
+      "category": "Business Operations",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Pre-built small business workflows including payroll planning, month-end close, weekly briefs, and growth campaigns using QuickBooks, PayPal, HubSpot, and related tools.",
+      "use_case": "Solo founder ops, bookkeeping triage, weekly business reviews, growth-campaign coordination."
+    },
+    {
+      "name": "AWS Amplify",
+      "url": "https://docs.amplify.aws/",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-amplify",
+      "description": "Build full-stack apps with AWS Amplify Gen 2 covering auth, data models, storage, GraphQL APIs, and Lambda functions.",
+      "use_case": "Amplify Gen 2 scaffolding, GraphQL data modeling, auth flow setup."
+    },
+    {
+      "name": "AWS Core",
+      "url": "https://aws.amazon.com/developer/",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-core",
+      "description": "Build, deploy, and operate applications on AWS with infrastructure-as-code authoring and core-service skills.",
+      "use_case": "AWS IaC authoring, core-service usage, common-task automation."
+    },
+    {
+      "name": "AWS Dev Toolkit",
+      "url": "https://github.com/aws-samples/sample-claude-code-plugins-for-startups",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-dev-toolkit",
+      "description": "Use 34 skills, 11 agents, and 3 MCP servers for building, migrating, and reviewing AWS architecture.",
+      "use_case": "AWS architecture review, migration planning, multi-service development."
+    },
+    {
+      "name": "AWS Serverless",
+      "url": "https://aws.amazon.com/serverless",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-serverless",
+      "description": "Design, build, deploy, test, and debug serverless applications using AWS Lambda, API Gateway, DynamoDB, and related services.",
+      "use_case": "Lambda authoring, SAM template generation, serverless local testing."
+    },
+    {
+      "name": "AWS Startup Advisor",
+      "url": "https://aws.amazon.com/startups/",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-startup-advisor",
+      "description": "Get personalized AWS architecture, cost, security, and migration guidance for startups, including Activate credits eligibility.",
+      "use_case": "Day-one account setup, startup architecture review, cost optimization."
+    },
+    {
+      "name": "AWS Transform",
+      "url": "https://aws.amazon.com/transform/",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-transform",
+      "description": "Migrate and modernize codebases to AWS including .NET, mainframe COBOL, VMware, SQL Server, and language and SDK upgrades.",
+      "use_case": "NET-to-.NET 8 migration, COBOL-to-Java modernization, SDK upgrades."
+    },
+    {
+      "name": "Azure",
+      "url": "https://azure.microsoft.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "azure",
+      "description": "Turn Claude into an Azure expert with the Azure MCP server and skills to list resources, validate deployments, and optimize costs across 50+ services.",
+      "use_case": "Azure resource inventory, deployment validation, cost optimization."
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "cloudflare",
+      "description": "Skills for the Cloudflare developer platform covering Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and Worker testing.",
+      "use_case": "Edge function development, Durable Object design, Workers deployment, Cloudflare-hosted MCP servers."
+    },
+    {
+      "name": "Deploy on AWS",
+      "url": "https://aws.amazon.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "deploy-on-aws",
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and infrastructure-as-code deployment.",
+      "use_case": "Greenfield AWS deployments, architecture review, cost-aware service selection."
+    },
+    {
+      "name": "Firebase",
+      "url": "https://firebase.google.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "firebase",
+      "description": "MCP integration for managing Firestore, authentication, Functions, hosting, and storage.",
+      "use_case": "Mobile-backend operations, real-time database management, Firebase rules editing."
+    },
+    {
+      "name": "Hostinger",
+      "url": "https://www.hostinger.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "hostinger",
+      "description": "Deploy, manage, and monitor Hostinger services covering websites, domains, ecommerce, email marketing, and VPS with OAuth or API-token auth.",
+      "use_case": "Website deployment, domain management, VPS operations from chat."
+    },
+    {
+      "name": "Migration to AWS",
+      "url": "https://aws.amazon.com/cloud-migration/",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "migration-to-aws",
+      "description": "Plan a migration from GCP and OpenAI/Gemini workloads to AWS by analyzing IaC, app code, and billing to design an architecture.",
+      "use_case": "GCP-to-AWS migration planning, AI-provider mapping to Bedrock, cost estimation."
+    },
+    {
+      "name": "Netlify Skills",
+      "url": "https://www.netlify.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "netlify-skills",
+      "description": "Netlify platform skills for functions, edge functions, blobs, database, image CDN, forms, config, and CLI workflows.",
+      "use_case": "JAMstack deployment, edge function development, Netlify forms and config tuning."
+    },
+    {
+      "name": "Railway",
+      "url": "https://railway.app",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "railway",
+      "description": "Deploy and manage apps, databases, and infrastructure on Railway covering project setup, deploys, and environment configuration.",
+      "use_case": "Quick app deploys, database provisioning, env-var management."
+    },
+    {
+      "name": "Render",
+      "url": "https://render.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "render",
+      "description": "Deploy, debug, and monitor applications on Render with skills, an agent, slash commands, and a render.yaml validation hook.",
+      "use_case": "Render deploys, config validation pre-push, production debugging."
+    },
+    {
+      "name": "Terraform",
+      "url": "https://www.terraform.io",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "terraform",
+      "description": "MCP server for advanced infrastructure-as-code automation and Terraform-ecosystem integration.",
+      "use_case": "HCL authoring, state-file inspection, provider exploration."
+    },
+    {
+      "name": "Val Town",
+      "url": "https://val.town",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "valtown",
+      "description": "Build and deploy on Val Town with HTTP vals, cron jobs, SQLite, email, OAuth, and React UI.",
+      "use_case": "Serverless function deployment, scheduled jobs, lightweight full-stack vals."
+    },
+    {
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "vercel",
+      "description": "Integration to manage deployments, builds, logs, domains, and frontend infrastructure.",
+      "use_case": "Next.js deployment workflows, build-log triage, domain configuration, edge function management."
+    },
+    {
+      "name": "Wix",
+      "url": "https://www.wix.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "wix",
+      "description": "Build, manage, and deploy Wix sites and apps with CLI skills for dashboard extensions, backend APIs, and site widgets.",
+      "use_case": "Wix custom-app development, dashboard extension authoring, widget shipping."
+    },
+    {
+      "name": "Aikido Security",
+      "url": "https://www.aikido.dev",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aikido",
+      "description": "Security scanning for SAST, secrets, and IaC vulnerability detection via Aikido MCP server.",
+      "use_case": "Pre-commit security scan, secrets-leak detection, IaC misconfiguration triage."
+    },
+    {
+      "name": "Code Review",
+      "url": "https://claude.com/plugins#code-review",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "code-review",
+      "description": "AI code review with specialized agents and confidence-based filtering for pull requests.",
+      "use_case": "PR review automation, multi-agent code analysis, confidence-weighted feedback."
+    },
+    {
+      "name": "Code Simplifier",
+      "url": "https://claude.com/plugins#code-simplifier",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "code-simplifier",
+      "description": "Code clarity agent that simplifies and refines recently modified code while preserving functionality and consistency.",
+      "use_case": "Post-edit cleanup, complexity reduction, dead-code elimination after refactors."
+    },
+    {
+      "name": "CodeRabbit",
+      "url": "https://www.coderabbit.ai",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "coderabbit",
+      "description": "AI code review with 40+ analyzers, AST parsing, security checks, and auto-integrated project guidelines.",
+      "use_case": "PR review with deep linting, security-aware diff analysis, project-guideline enforcement."
+    },
+    {
+      "name": "Greptile",
+      "url": "https://www.greptile.com",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "greptile",
+      "description": "AI-powered codebase search to query repositories in natural language to find code, understand dependencies, and explore architecture.",
+      "use_case": "Cross-repo code search, dependency tracing, architecture discovery in unfamiliar codebases."
+    },
+    {
+      "name": "Lumen",
+      "url": "https://github.com/ory/lumen",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "lumen",
+      "description": "Run precise local semantic code search via MCP, indexing your codebase with Go AST parsing and embedding with Ollama or LM Studio.",
+      "use_case": "Local semantic code search, AST-aware symbol lookup, on-device vector code search."
+    },
+    {
+      "name": "Optibot Code Review",
+      "url": "https://getoptimal.ai",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "AI code review that catches production bugs, business-logic issues, and security vulnerabilities.",
+      "use_case": "Pre-merge production-bug detection, business-logic regression hunting, security pass on diffs."
+    },
+    {
+      "name": "PR Review Toolkit",
+      "url": "https://claude.com/plugins#pr-review-toolkit",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "pr-review-toolkit",
+      "description": "PR review agents for comments, tests, errors, types, quality, and simplification.",
+      "use_case": "Multi-axis PR review, test-coverage check, type-correctness validation in pull requests."
+    },
+    {
+      "name": "Qodo Skills",
+      "url": "https://www.qodo.ai",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "qodo",
+      "description": "AI agents that integrate code quality, testing, security, and compliance checks into your SDLC.",
+      "use_case": "Test generation, code-quality gates, compliance scanning in CI."
+    },
+    {
+      "name": "session-report",
+      "url": "https://claude.com/plugins#session-report",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "session-report",
+      "description": "Generate an explorable HTML report of Claude Code session usage including tokens, cache efficiency, subagents, skills, and tool calls.",
+      "use_case": "Session retrospection, cache-hit analysis, subagent usage audit."
+    },
+    {
+      "name": "sonarqube",
+      "url": "https://www.sonarsource.com/products/sonarqube",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sonarqube",
+      "description": "Automatically enforce SonarQube code quality and security in the agent coding loop.",
+      "use_case": "Quality-gate enforcement, SAST scanning, code-smell detection inline with edits."
+    },
+    {
+      "name": "Sourcegraph",
+      "url": "https://sourcegraph.com",
+      "category": "Code Quality and Review",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sourcegraph",
+      "description": "Search code across codebases, trace references, analyze refactor impact, investigate incidents, and run security sweeps.",
+      "use_case": "Cross-repo refactor planning, incident investigation, security sweep on call paths."
+    },
+    {
+      "name": "Circleback",
+      "url": "https://circleback.ai",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "circleback",
+      "description": "Conversational-context integration for searching and accessing meetings, emails, and calendar events.",
+      "use_case": "Pulling meeting context into current work, finding action items from past calls."
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.com",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "discord",
+      "description": "Messaging bridge with built-in access control, pairing, allowlists, and policy management.",
+      "use_case": "Discord server moderation from Claude, allowlisted Discord posting, policy-controlled bot workflows."
+    },
+    {
+      "name": "fakechat",
+      "url": "https://claude.com/plugins#fakechat",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "fakechat",
+      "description": "Localhost web chat for testing channel notification flows with no tokens, access control, or third-party services.",
+      "use_case": "Local notification testing, channel-integration development without external dependencies."
+    },
+    {
+      "name": "iMessage",
+      "url": "https://claude.com/plugins#imessage",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "imessage",
+      "description": "Messaging bridge with built-in access control that reads chat.db directly and sends via AppleScript.",
+      "use_case": "macOS-only iMessage automation, allowlisted texting workflows, message-history search."
+    },
+    {
+      "name": "Resend",
+      "url": "https://resend.com",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "resend",
+      "description": "Send and receive email with Resend covering API integration, agent inbox, CLI, React Email components, and deliverability.",
+      "use_case": "Transactional email integration, React Email templating, agent inbox workflows."
+    },
+    {
+      "name": "Slack",
+      "url": "https://slack.com",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": "slack",
+      "description": "Official Slack MCP server with skills and slash commands for searching messages, sending communications, managing canvases, and surfacing channel insights.",
+      "use_case": "Slack-message drafting, channel-thread summarization, async standups, in-Slack analysis."
+    },
+    {
+      "name": "telegram",
+      "url": "https://telegram.org",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "telegram",
+      "description": "Messaging bridge with built-in access control, pairing, and policy management.",
+      "use_case": "Telegram bot workflows, allowlisted messaging, channel automation."
+    },
+    {
+      "name": "Twilio developer kit",
+      "url": "https://www.twilio.com",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "twilio-developer-kit",
+      "description": "Procedural knowledge for AI coding agents on which Twilio APIs to use, in what order, and what to avoid, across SMS, Voice, WhatsApp, Verify, SendGrid, and 30+ products.",
+      "use_case": "Twilio messaging and voice integration, SendGrid email workflows, compliance-aware comms."
+    },
+    {
+      "name": "Zoom",
+      "url": "https://zoom.us",
+      "category": "Communication and Messaging",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "zoom-plugin",
+      "description": "Plan, build, and debug Zoom integrations across REST APIs, Meeting SDK, Video SDK, webhooks, bots, and MCP workflows.",
+      "use_case": "Zoom app development, meeting recording retrieval, transcript access, AI-powered Zoom experiences."
+    },
+    {
+      "name": "Apollo",
+      "url": "https://www.apollo.io",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "apollo",
+      "description": "Prospect, enrich leads, and load outreach sequences with Apollo.io.",
+      "use_case": "B2B prospect discovery, lead enrichment from chat, outreach-sequence loading."
+    },
+    {
+      "name": "Carta crm",
+      "url": "https://carta.com/product-updates/crm-plugin/",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "carta-crm",
+      "description": "Manage the Carta CRM conversationally to search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings.",
+      "use_case": "dealflow and pipeline management, investor and LP record updates, company enrichment from websites, fundraising-round tracking."
+    },
+    {
+      "name": "Common Room",
+      "url": "https://www.commonroom.io",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Turn Common Room into your GTM copilot — research accounts and contacts, prep for calls, and draft personalized outreach across email, LinkedIn, and phone.",
+      "use_case": "Call prep, account research, multi-channel outreach drafting."
+    },
+    {
+      "name": "Hunter",
+      "url": "https://hunter.io",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "hunter",
+      "description": "Find and verify professional email addresses, search contacts by domain, and enrich company data.",
+      "use_case": "Email discovery, contact verification, domain-based prospecting."
+    },
+    {
+      "name": "Lusha",
+      "url": "https://www.lusha.com",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "lusha",
+      "description": "Prospect, enrich, and build call-ready lead lists with verified phone numbers, company signals, and lookalike targeting.",
+      "use_case": "Lead-list building, contact enrichment, lookalike-account targeting."
+    },
+    {
+      "name": "monday CRM",
+      "url": "https://monday.com/crm",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "monday-crm",
+      "description": "Run your CRM in plain language to build pipelines, ranked deal briefings, and forecast dashboards, and turn meeting notes into deal updates.",
+      "use_case": "Pipeline building, ranked deal briefings, CRM data cleanup."
+    },
+    {
+      "name": "Sales",
+      "url": "https://claude.com/plugins#sales",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Prospect, craft outreach, build deal strategy, prep for calls, manage pipeline, and write personalized messaging.",
+      "use_case": "Pipeline management, prospect research, personalized cold outreach."
+    },
+    {
+      "name": "Vibe Prospecting",
+      "url": "https://www.vibeprospecting.ai",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "vibe-prospecting",
+      "description": "Search, match, enrich, filter, and export live B2B prospects through natural-language GTM workflows.",
+      "use_case": "lead-list building, CRM enrichment, executive discovery, multi-step prospecting automation."
+    },
+    {
+      "name": "ZoomInfo",
+      "url": "https://www.zoominfo.com",
+      "category": "CRM and Sales",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "zoominfo",
+      "description": "Search companies and contacts, enrich leads, find lookalikes, and get AI-ranked contact recommendations with pre-built B2B sales workflows.",
+      "use_case": "B2B prospect enrichment, lookalike-account discovery, AI-ranked contact targeting."
+    },
+    {
+      "name": "Customer Support",
+      "url": "https://claude.com/plugins#customer-support",
+      "category": "Customer Support",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Triage tickets, draft responses, escalate issues, build knowledge base, research customer context, and turn resolved issues into self-service content.",
+      "use_case": "Support-ticket triage, response drafting, knowledge-base content generation."
+    },
+    {
+      "name": "Intercom",
+      "url": "https://www.intercom.com",
+      "category": "Customer Support",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "intercom",
+      "description": "Integration to search conversations, analyze customer support patterns, and look up contacts and companies.",
+      "use_case": "Customer-conversation analytics, support-pattern detection, real-time customer-data lookup."
+    },
+    {
+      "name": "Airtable",
+      "url": "https://www.airtable.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "airtable",
+      "description": "Database and operations layer for agents, with shared visual surfaces and sync integrations via the official Airtable MCP server.",
+      "use_case": "base and schema creation, record management, multiplayer grid/kanban/calendar collaboration, syncing to Jira/Salesforce/Zendesk."
+    },
+    {
+      "name": "AlloyDB",
+      "url": "https://cloud.google.com/alloydb",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "alloydb",
+      "description": "Create, connect, and interact with an AlloyDB for PostgreSQL database and its data.",
+      "use_case": "AlloyDB provisioning, PostgreSQL-compatible queries, data exploration."
+    },
+    {
+      "name": "AlloyDB Omni",
+      "url": "https://cloud.google.com/alloydb/omni",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "alloydb-omni",
+      "description": "Create, connect, and interact with an AlloyDB Omni database and its data.",
+      "use_case": "Self-managed AlloyDB Omni setup, local PostgreSQL-compatible queries, data access."
+    },
+    {
+      "name": "altimate-code",
+      "url": "https://www.altimate.ai",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "altimate-code",
+      "description": "Delegates dbt and warehouse work to the altimate-code CLI agent with 100+ data tools for SQL analysis, column-level lineage, and dbt development.",
+      "use_case": "dbt model development, column-level lineage tracing, SQL analysis over a warehouse."
+    },
+    {
+      "name": "Astronomer Data Agents",
+      "url": "https://www.astronomer.io",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "astronomer-data-agents",
+      "description": "Engineer Apache Airflow and Astronomer pipelines, authoring DAGs, debugging failures, tracing lineage, and migrating Airflow 2 to 3.",
+      "use_case": "Airflow DAG authoring, pipeline debugging, Airflow 2-to-3 migration."
+    },
+    {
+      "name": "Atlan",
+      "url": "https://atlan.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "atlan",
+      "description": "Data catalog plugin with semantic search, lineage traversal, glossary management, and data-quality rules via the Atlan MCP server.",
+      "use_case": "Data discovery, lineage exploration, glossary management, data-quality rule authoring."
+    },
+    {
+      "name": "AWS Data Analytics",
+      "url": "https://aws.amazon.com/big-data/datalakes-and-analytics/",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-data-analytics",
+      "description": "Build data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena.",
+      "use_case": "Data-lake setup, Glue ETL authoring, Athena querying."
+    },
+    {
+      "name": "Azure Cosmos DB Assistant",
+      "url": "https://azure.microsoft.com/products/cosmos-db",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "azure-cosmos-db-assistant",
+      "description": "Get expert help with Azure Cosmos DB data modeling, query optimization, performance tuning, and best practices.",
+      "use_case": "Cosmos DB data modeling, request-unit optimization, query tuning."
+    },
+    {
+      "name": "Azure SQL Developer",
+      "url": "https://github.com/microsoft/azure-sql-database-container",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "azure-sql-developer",
+      "description": "Run the Azure SQL Database engine locally in a container and teach the agent to connect, migrate, and query it.",
+      "use_case": "Local Azure SQL development, containerized DB testing, migration authoring."
+    },
+    {
+      "name": "Bigdata.com",
+      "url": "https://bigdata.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "bigdata-com",
+      "description": "Official Bigdata.com plugin providing financial research, analytics, and intelligence tools powered by the Bigdata MCP.",
+      "use_case": "Equity research, financial-data analytics, market intelligence queries."
+    },
+    {
+      "name": "BigQuery Data Analytics",
+      "url": "https://cloud.google.com/bigquery",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "bigquery-data-analytics",
+      "description": "Connect, query, and generate data insights for BigQuery datasets.",
+      "use_case": "BigQuery SQL authoring, dataset exploration, analytics insight generation."
+    },
+    {
+      "name": "ClickHouse",
+      "url": "https://clickhouse.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "clickhouse",
+      "description": "Connect to ClickHouse Cloud, browse services and schemas, run read-only SQL, and monitor backups and costs.",
+      "use_case": "ClickHouse analytics queries, service monitoring, ClickPipe inspection."
+    },
+    {
+      "name": "ClickHouse Best Practices",
+      "url": "https://clickhouse.com/docs/best-practices",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "clickhouse",
+      "description": "Apply 28 prioritized best-practice rules for ClickHouse schema design, query optimization, and data ingestion.",
+      "use_case": "ClickHouse schema review, query optimization, ingestion tuning."
+    },
+    {
+      "name": "Cloud SQL for MySQL",
+      "url": "https://cloud.google.com/sql/docs/mysql",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "cloud-sql-mysql",
+      "description": "Connect and interact with a Cloud SQL for MySQL database and its data.",
+      "use_case": "Cloud SQL MySQL queries, schema inspection, managed-database access."
+    },
+    {
+      "name": "Cloud SQL for PostgreSQL",
+      "url": "https://cloud.google.com/sql/docs/postgres",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "cloud-sql-postgresql",
+      "description": "Create, connect, and interact with a Cloud SQL for PostgreSQL database.",
+      "use_case": "Cloud SQL PostgreSQL provisioning, query authoring, data exploration."
+    },
+    {
+      "name": "Cloud SQL for SQL Server",
+      "url": "https://cloud.google.com/sql/docs/sqlserver",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "cloud-sql-sqlserver",
+      "description": "Connect to Cloud SQL for SQL Server and work with its data.",
+      "use_case": "Cloud SQL Server queries, schema inspection, managed-instance access."
+    },
+    {
+      "name": "CockroachDB",
+      "url": "https://www.cockroachlabs.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "cockroachdb",
+      "description": "Distributed SQL plugin to explore schemas, write optimized SQL, debug queries, and manage distributed database clusters.",
+      "use_case": "Distributed SQL development, query plan analysis, multi-region schema design."
+    },
+    {
+      "name": "Convex",
+      "url": "https://convex.dev",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "convex",
+      "description": "Develop a Convex backend covering schema design, real-time features, auth, file storage, scheduled jobs, and AI agents.",
+      "use_case": "Convex schema authoring, real-time backend development, runtime-error monitoring."
+    },
+    {
+      "name": "Daloopa",
+      "url": "https://daloopa.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Financial analysis skills powered by Daloopa's institutional-grade data.",
+      "use_case": "Equity research with structured financials, model-building from validated data, earnings-quality analysis."
+    },
+    {
+      "name": "Data",
+      "url": "https://claude.com/plugins#data-cowork",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": "data",
+      "description": "Write SQL, explore datasets, generate insights, build visualizations and dashboards, and turn raw data into clear stories.",
+      "use_case": "Ad-hoc SQL, dashboard authoring, stakeholder-facing data storytelling."
+    },
+    {
+      "name": "Data Agent Kit Starter Pack",
+      "url": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "data-agent-kit-starter-pack",
+      "description": "Architect GCP data pipelines, transform data with dbt, and orchestrate Spark and BigQuery notebooks via natural language.",
+      "use_case": "GCP pipeline design, dbt transformations, cross-service data orchestration."
+    },
+    {
+      "name": "Data Engineering",
+      "url": "https://github.com/astronomer/agents",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "data-engineering",
+      "description": "Warehouse and pipeline workflows covering warehouse exploration, pipeline authoring, and Airflow integration.",
+      "use_case": "ETL development, warehouse schema exploration, Airflow DAG authoring."
+    },
+    {
+      "name": "Databases on AWS",
+      "url": "https://aws.amazon.com/products/databases/",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "databases-on-aws",
+      "description": "Get expert guidance across the AWS database portfolio covering schema design, queries, migrations, and database selection.",
+      "use_case": "AWS database selection, schema design, cross-engine migration."
+    },
+    {
+      "name": "Databricks",
+      "url": "https://developers.databricks.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "databricks",
+      "description": "First-party Databricks skills spanning the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, and Declarative Automation Bundles.",
+      "use_case": "Databricks pipeline authoring, model serving, classic-to-serverless migration."
+    },
+    {
+      "name": "DataHub Skills",
+      "url": "https://datahub.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "datahub-skills",
+      "description": "Plan connectors, search the catalog, enrich metadata, trace lineage, and manage data quality with DataHub.",
+      "use_case": "Metadata cataloging, lineage tracing, data-quality rule setup."
+    },
+    {
+      "name": "Dataproc",
+      "url": "https://cloud.google.com/dataproc",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "dataproc",
+      "description": "Manage Dataproc clusters and jobs.",
+      "use_case": "Spark and Hadoop cluster management, job submission, Dataproc orchestration."
+    },
+    {
+      "name": "Dataverse",
+      "url": "https://powerplatform.microsoft.com/en-us/dataverse/",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "dataverse",
+      "description": "Build on, analyze, and manage Microsoft Dataverse with the Dataverse MCP, PAC CLI, and Python SDK.",
+      "use_case": "Dataverse table modeling, PAC CLI automation, Dynamics data access."
+    },
+    {
+      "name": "DuckDB Skills",
+      "url": "https://duckdb.org",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "duckdb-skills",
+      "description": "Read any data file, attach and query DuckDB databases, search docs, and manage extensions.",
+      "use_case": "Local analytical queries, ad-hoc file analysis, DuckLake and DuckDB workflows."
+    },
+    {
+      "name": "Firestore",
+      "url": "https://cloud.google.com/firestore",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "firestore-native",
+      "description": "Connect and interact with Firestore databases, collections, and documents.",
+      "use_case": "Firestore document CRUD, collection queries, NoSQL data exploration."
+    },
+    {
+      "name": "Knowledge Catalog",
+      "url": "https://cloud.google.com/dataplex",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "knowledge-catalog",
+      "description": "Discover, manage, monitor, and govern data and AI artifacts across your data platform.",
+      "use_case": "Data-artifact discovery, governance, catalog monitoring."
+    },
+    {
+      "name": "Looker",
+      "url": "https://cloud.google.com/looker",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "looker",
+      "description": "Connect to Looker and interact with your data using LookML.",
+      "use_case": "LookML modeling, Looker exploration, BI query authoring."
+    },
+    {
+      "name": "LSEG",
+      "url": "https://www.lseg.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Price bonds, analyze yield curves, evaluate FX carry trades, value options, and build macro dashboards using LSEG financial data and analytics.",
+      "use_case": "Fixed-income analysis, FX strategy work, options valuation, macro-research dashboards."
+    },
+    {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mongodb",
+      "description": "Official MongoDB plugin with MCP server and skills for connecting, exploring data, managing collections, and optimizing queries.",
+      "use_case": "MongoDB query authoring, schema design, aggregation-pipeline optimization."
+    },
+    {
+      "name": "Neon",
+      "url": "https://neon.tech",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "neon",
+      "description": "Manage Neon PostgreSQL projects and databases through its skill and MCP server.",
+      "use_case": "Serverless PostgreSQL branching, Neon project management, schema migrations."
+    },
+    {
+      "name": "Oracle AI Data Platform Databricks Migrator",
+      "url": "https://github.com/oracle-samples/oracle-aidp-samples",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "oracle-ai-data-platform-workbench-databricks-migrator",
+      "description": "Drive the Oracle AIDP Databricks Migration Toolkit in natural language, planning and executing automated Databricks-to-AIDP migrations of notebooks, jobs, schedules, and catalog DDL.",
+      "use_case": "Databricks-to-AIDP migration, dependency rewrite, cell-by-cell execute-verify-fix on a live cluster."
+    },
+    {
+      "name": "Oracle AI Data Platform Spark Connectors",
+      "url": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "oracle-ai-data-platform-workbench-spark-connectors",
+      "description": "Connect Spark to Oracle Autonomous DB, Fusion ERP, OCI Streaming, Iceberg, and external systems with 18 connector skills.",
+      "use_case": "Spark source connectivity, Iceberg and ADB ingestion, cross-system data loading."
+    },
+    {
+      "name": "Oracle AI Data Platform Workbench",
+      "url": "https://www.oracle.com/data-platform/",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "oracle-ai-data-platform-workbench-engineer-agent",
+      "description": "Operate a Spark/Delta lakehouse in natural language across discovery, Spark SQL, pipelines, governance, and MLOps with 37 skills.",
+      "use_case": "Lakehouse SQL generation, pipeline authoring, Delta governance and time-travel."
+    },
+    {
+      "name": "Oracle Database",
+      "url": "https://www.oracle.com/database",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "oracledb",
+      "description": "Connect, query, and interact with Oracle Databases and their data.",
+      "use_case": "Oracle SQL authoring, schema inspection, database interaction."
+    },
+    {
+      "name": "Pigment",
+      "url": "https://www.pigment.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "pigment",
+      "description": "Analyze business data and build custom Pigment models, metrics, and boards through natural language.",
+      "use_case": "Business planning models, metric authoring, board building."
+    },
+    {
+      "name": "Pinecone",
+      "url": "https://www.pinecone.io",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "pinecone",
+      "description": "Vector database integration for managing indexes, querying, and rapid prototyping.",
+      "use_case": "Vector-search prototyping, RAG pipeline development, index management."
+    },
+    {
+      "name": "PlanetScale",
+      "url": "https://planetscale.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "planetscale",
+      "description": "Authenticated hosted MCP server for PlanetScale organizations, databases, branches, schema, and Insights.",
+      "use_case": "Database branching, slow-query analysis, schema migration on serverless MySQL/Postgres."
+    },
+    {
+      "name": "Preset CLI Skills",
+      "url": "https://www.preset.io",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "preset-cli-skills",
+      "description": "Drive Apache Superset and Preset from the `sup` CLI for shell, scripting, and CI/CD workflows.",
+      "use_case": "Superset/Preset automation, BI-asset CI/CD, scripted dashboard management."
+    },
+    {
+      "name": "Prisma",
+      "url": "https://www.prisma.io",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "prisma",
+      "description": "MCP integration for PostgreSQL database management, schema migrations, SQL queries, and connection string management.",
+      "use_case": "Prisma schema authoring, migration generation, PostgreSQL data interaction."
+    },
+    {
+      "name": "Qdrant Skills",
+      "url": "https://qdrant.tech",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "qdrant-skills",
+      "description": "Scale, tune, and monitor Qdrant vector search and improve search quality across multi-language SDKs.",
+      "use_case": "Vector-search tuning, index optimization, RAG retrieval quality."
+    },
+    {
+      "name": "Redis Development",
+      "url": "https://redis.io",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "redis-development",
+      "description": "Apply best practices for Redis data structures, query engine, vector search, caching, and performance.",
+      "use_case": "Redis data modeling, caching strategy, vector-search setup."
+    },
+    {
+      "name": "Rill",
+      "url": "https://www.rilldata.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "rill",
+      "description": "Develop and query projects in the Rill business-intelligence platform.",
+      "use_case": "Rill dashboard development, metrics-layer authoring, BI querying."
+    },
+    {
+      "name": "SAP HANA CLI",
+      "url": "https://github.com/SAP-samples/hana-cli-claude-plugin",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sap-hana-cli",
+      "description": "Work SAP HANA Cloud and on-premise databases with 150+ tools covering queries, import/export, data-quality profiling, schema comparison, backups, and performance monitoring.",
+      "use_case": "HANA query authoring, schema comparison, backup and performance operations."
+    },
+    {
+      "name": "Snowflake Cortex Code",
+      "url": "https://www.snowflake.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "snowflake-cortex-code",
+      "description": "Route Snowflake prompts to Cortex Code for execution, with commands for code review and task delegation.",
+      "use_case": "Snowflake SQL execution, Cortex Code delegation, in-warehouse code review."
+    },
+    {
+      "name": "S&P Global",
+      "url": "https://www.spglobal.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Financial data and analytics including company tearsheets, earnings previews, and transaction summaries via Kensho.",
+      "use_case": "Equity tear-sheet generation, earnings-preview drafting, M&A transaction analysis."
+    },
+    {
+      "name": "Spanner",
+      "url": "https://cloud.google.com/spanner",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "spanner",
+      "description": "Connect and interact with Spanner data using natural language.",
+      "use_case": "Spanner SQL queries, distributed-schema design, data exploration."
+    },
+    {
+      "name": "Supabase",
+      "url": "https://supabase.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "supabase",
+      "description": "MCP integration for database operations, authentication, storage, and real-time features.",
+      "use_case": "PostgreSQL backend management, auth flow development, real-time subscription debugging."
+    },
+    {
+      "name": "TDengine IDMP",
+      "url": "https://github.com/taosdata/agent-skills",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "idmp-plugin",
+      "description": "Packaged skills for TDengine's industrial data management platform covering discovery, schema inspection, and safe operational workflows.",
+      "use_case": "Industrial time-series data discovery, schema inspection, guarded operational tasks."
+    },
+    {
+      "name": "VSQL Extension Builder",
+      "url": "https://villagesql.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "vsql-extension-builder",
+      "description": "Build a VillageSQL extension for MySQL end-to-end through a 7-phase persona-driven workflow.",
+      "use_case": "Porting PostgreSQL extensions to MySQL, MySQL extension scaffolding."
+    },
+    {
+      "name": "Zilliz",
+      "url": "https://zilliz.com",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "zilliz",
+      "description": "Manage Zilliz Cloud with 14 skills for cluster lifecycle, collection schema, vector search, index tuning, and backups.",
+      "use_case": "Zilliz cluster lifecycle, vector-collection schema, index tuning."
+    },
+    {
+      "name": "Adobe for Creativity",
+      "url": "https://creativecloud.adobe.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "adobe-for-creativity",
+      "description": "Adobe Creative Cloud tools for images, vectors, design, and video covering Photoshop, Illustrator, Premiere, and Express.",
+      "use_case": "Multi-asset editing, platform-adapted exports, multi-step creative workflows from chat."
+    },
+    {
+      "name": "Brand Voice",
+      "url": "https://www.tribe.ai",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Discover your brand voice from existing documents and conversations, generate enforceable guidelines, and validate AI-generated content.",
+      "use_case": "Brand-voice extraction, content validation against tone, guideline authoring."
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "canva",
+      "description": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.",
+      "use_case": "Design generation from chat, brand-compliance checks, batch resizing for platforms."
+    },
+    {
+      "name": "Cloudinary",
+      "url": "https://cloudinary.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "cloudinary",
+      "description": "Integration to manage assets, apply transformations, and optimize media through natural conversation.",
+      "use_case": "Image-transformation development, video-optimization pipelines, asset library management."
+    },
+    {
+      "name": "Design",
+      "url": "https://claude.com/plugins#design",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Accelerate design workflows including critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff.",
+      "use_case": "Design critique, design-system component authoring, accessibility audit, design-to-dev handoff specs."
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "figma",
+      "description": "Design platform integration to access design files, extract component information, read design tokens, and translate designs into code.",
+      "use_case": "Design-token export, component-to-code translation, design-file inspection from dev workflow."
+    },
+    {
+      "name": "Frontend Design",
+      "url": "https://claude.com/plugins#frontend-design",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "frontend-design",
+      "description": "Craft production-grade frontends with distinctive design that avoids generic AI aesthetics.",
+      "use_case": "Landing-page design, app-shell composition, distinctive component design, anti-shadcn-default polish."
+    },
+    {
+      "name": "HyperFrames",
+      "url": "https://hyperframes.heygen.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "hyperframes",
+      "description": "Write HTML and render video with GSAP animations, captions, voiceovers, and website-to-video capture, by HeyGen.",
+      "use_case": "Programmatic video composition, animated explainers, website-to-video capture."
+    },
+    {
+      "name": "Miro",
+      "url": "https://miro.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "miro",
+      "description": "Secure access to Miro boards to read board context, create diagrams, and generate code with enterprise-grade security.",
+      "use_case": "Whiteboard-to-code workflows, architecture-diagram authoring, board-context retrieval."
+    },
+    {
+      "name": "Playground",
+      "url": "https://claude.com/plugins#playground",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "playground",
+      "description": "Interactive HTML playgrounds with visual controls, live preview, and prompt output including design, data, concept map, and critique templates.",
+      "use_case": "Live design iteration, prompt-output visualization, concept-map authoring, in-chat critique surfaces."
+    },
+    {
+      "name": "Runway API",
+      "url": "https://runwayml.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "runway-api",
+      "description": "Generate videos, images, and audio at scale across seedance2, gen4.5, veo3, and more.",
+      "use_case": "Batch ad-video generation, product videos, creative iteration at scale."
+    },
+    {
+      "name": "Sanity",
+      "url": "https://www.sanity.io",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "sanity",
+      "description": "Content platform integration with MCP server, agent skills, and slash commands for content authoring, GROQ query building, schema design, and Visual Editing.",
+      "use_case": "GROQ query optimization, schema design, Visual Editing setup, structured-content authoring."
+    },
+    {
+      "name": "Save to Spotify",
+      "url": "https://open.spotify.com",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "save-to-spotify",
+      "description": "Create polished audio episodes with TTS narration, timelines, and cover images, then save them to Spotify.",
+      "use_case": "Podcast-episode generation, TTS narration, Spotify publishing."
+    },
+    {
+      "name": "UI Theme Designer",
+      "url": "https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents",
+      "category": "Design and Creative",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "ui-theme-designer",
+      "description": "SAP's plugin for working with UI Theme Designer, bundling how-to and conceptual skills for theming on SAP BTP.",
+      "use_case": "SAP BTP theming, UI Theme Designer how-to lookups, theme-question answering."
+    },
+    {
+      "name": "Apollo GraphQL",
+      "url": "https://www.apollographql.com",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "apollo-skills",
+      "description": "Build with Apollo Client, Server, Federation, Connectors, Router, Rover CLI, and the Apollo MCP server.",
+      "use_case": "GraphQL schema design, federation setup, query optimization."
+    },
+    {
+      "name": "Buildkite",
+      "url": "https://buildkite.com",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "buildkite",
+      "description": "Use official Buildkite skills for pipelines, migration, preflight, agent runtime, CLI, and API.",
+      "use_case": "CI/CD pipeline authoring, build debugging, Buildkite agent setup."
+    },
+    {
+      "name": "CKEditor",
+      "url": "https://ckeditor.com",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "ckeditor",
+      "description": "Install, configure, and integrate CKEditor 5, free and premium, into any JavaScript project.",
+      "use_case": "Rich-text editor integration, CKEditor 5 configuration, plugin setup in a web app."
+    },
+    {
+      "name": "Claude Code Setup",
+      "url": "https://claude.com/plugins#claude-code-setup",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "claude-code-setup",
+      "description": "Analyze codebases and recommend tailored Claude Code automations including hooks, skills, MCP servers, and subagents.",
+      "use_case": "First-time Claude Code setup on an unfamiliar repo, automation discovery, configuration audit."
+    },
+    {
+      "name": "CLAUDE.md Management",
+      "url": "https://claude.com/plugins#claude-md-management",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "claude-md-management",
+      "description": "Maintain CLAUDE.md by auditing quality, capturing learnings, and keeping project memory current.",
+      "use_case": "CLAUDE.md hygiene, learning capture, project-memory refresh after major changes."
+    },
+    {
+      "name": "Code Modernization",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "code-modernization",
+      "description": "Modernize legacy codebases such as COBOL, legacy Java/C++, and monoliths with a structured assess, map, extract, and transform workflow.",
+      "use_case": "Legacy-code assessment, business-rule extraction, staged modernization."
+    },
+    {
+      "name": "Commit Commands",
+      "url": "https://claude.com/plugins#commit-commands",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "commit-commands",
+      "description": "Commands for Git commit workflows including commit, push, and PR creation.",
+      "use_case": "Commit-message generation, PR creation, conventional-commit enforcement."
+    },
+    {
+      "name": "CWC Makers",
+      "url": "https://claude.com/cwc-makers",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "cwc-makers",
+      "description": "Onboard a Code-with-Claude Makers Cardputer with one command that clones the repo, flashes firmware, and installs the Claude Buddy app.",
+      "use_case": "Cardputer setup, UIFlow firmware flashing, maker-project onboarding."
+    },
+    {
+      "name": "Desktop commander",
+      "url": "https://desktopcommander.app",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "desktop-commander",
+      "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data.",
+      "use_case": "Local terminal automation, multi-format file editing, long-running process management from Claude."
+    },
+    {
+      "name": "Feature Dev",
+      "url": "https://claude.com/plugins#feature-dev",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "feature-dev",
+      "description": "Feature development workflow with agents for exploration, design, and review.",
+      "use_case": "New-feature scoping, multi-phase development workflow, design-then-review cadence."
+    },
+    {
+      "name": "Forge Skills",
+      "url": "https://developer.atlassian.com/platform/forge",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "forge-skills",
+      "description": "Scaffold and deploy Atlassian Forge apps, build Teamwork Graph connectors for Rovo, and debug systematically.",
+      "use_case": "Forge app scaffolding, Rovo connector development, pre-deploy review."
+    },
+    {
+      "name": "GitKraken",
+      "url": "https://www.gitkraken.com",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "gitkraken",
+      "description": "Gives Claude access to real Git and project context — commits, branches, pull requests, and issues across GitHub, GitLab, Azure DevOps, Bitbucket, and Jira.",
+      "use_case": "Cross-repo Git context, PR and issue lookup, branch and commit history queries."
+    },
+    {
+      "name": "Hookify",
+      "url": "https://claude.com/plugins#hookify",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "hookify",
+      "description": "Create custom hooks via markdown to prevent unwanted behaviors from conversation patterns or explicit instructions.",
+      "use_case": "Behavioral guardrail authoring, custom Stop hooks, pattern-based hook generation."
+    },
+    {
+      "name": "Liquid Skills",
+      "url": "https://shopify.dev/docs/api/liquid",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "liquid-lsp",
+      "description": "Apply Liquid fundamentals, CSS/JS/HTML standards, and WCAG accessibility patterns for Shopify themes.",
+      "use_case": "Liquid theme coding, accessibility compliance, theme coding standards."
+    },
+    {
+      "name": "Mergify",
+      "url": "https://mergify.com",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mergify",
+      "description": "Skills for the Mergify CLI covering merge queues, stacked pull requests, Test Insights, merge protections, and configuration.",
+      "use_case": "Merge-queue management, stacked-PR workflows, flaky-test triage and quarantine."
+    },
+    {
+      "name": "Modern Web Guidance",
+      "url": "https://goo.gle/modern-web-guidance",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "modern-web-guidance",
+      "description": "Keep a coding agent current with the latest web platform best practices, maintained by the Google Chrome team.",
+      "use_case": "Up-to-date web-standards guidance, baseline-feature checks, modern-API adoption."
+    },
+    {
+      "name": "NetSuite SuiteCloud",
+      "url": "https://www.netsuite.com",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "netsuite-suitecloud",
+      "description": "Author SuiteCloud Development Framework objects, UIF single-page-app components, and AI Service Connector integrations.",
+      "use_case": "SDF object authoring, SuiteCloud customization, NetSuite AI connector setup."
+    },
+    {
+      "name": "Qt Development Skills",
+      "url": "https://www.qt.io",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "qt-development-skills",
+      "description": "Review and write Qt C++/QML code and generate Qt documentation.",
+      "use_case": "QML coding, Qt C++ review, Qt code documentation."
+    },
+    {
+      "name": "Quarkus Agent",
+      "url": "https://quarkus.io",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "quarkus-agent",
+      "description": "Create, manage, and interact with Quarkus applications covering scaffolding, dev mode, extensions, and docs search.",
+      "use_case": "Quarkus project scaffolding, dev-mode lifecycle, extension management."
+    },
+    {
+      "name": "Ralph Loop",
+      "url": "https://claude.com/plugins#ralph-loop",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "ralph-loop",
+      "description": "Interactive AI loops for iterative development using the Ralph Wiggum technique where Claude works on tasks repeatedly until completion.",
+      "use_case": "Stubborn-task iteration, /loop-driven development, autonomous task completion."
+    },
+    {
+      "name": "SAP CDS / CAP",
+      "url": "https://cap.cloud.sap",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "cds-mcp",
+      "description": "Develop SAP Cloud Application Programming Model (CAP) projects with CDS model and CAP documentation search.",
+      "use_case": "CAP project development, CDS model search, CAP documentation lookup."
+    },
+    {
+      "name": "SAP Fiori",
+      "url": "https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sap-fiori-mcp-server",
+      "description": "Build and modify SAP Fiori applications with AI assistance.",
+      "use_case": "Fiori app development, UI adaptation, Fiori tooling automation."
+    },
+    {
+      "name": "SAP Mobile Development Kit",
+      "url": "https://help.sap.com/docs/MDK",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sap-mdk-server",
+      "description": "Build and modify SAP Mobile Development Kit apps with schema lookups, action validation, rule editing, and scaffolding.",
+      "use_case": "MDK app scaffolding, action validation, rule editing."
+    },
+    {
+      "name": "Servicenow sdk",
+      "url": "https://developer.servicenow.com",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "servicenow-sdk",
+      "description": "Create, edit, and deploy ServiceNow applications with the Fluent SDK through Claude, building and managing ServiceNow apps, workflows, and agents.",
+      "use_case": "ServiceNow app development, Fluent SDK scaffolding, workflow and agent deployment."
+    },
+    {
+      "name": "Superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "superpowers",
+      "description": "Brainstorming, subagent development with code review, debugging, TDD, and skill authoring.",
+      "use_case": "Broad-spectrum developer enhancement, TDD workflow, skill-authoring scaffolds."
+    },
+    {
+      "name": "TeamCity CLI",
+      "url": "https://www.jetbrains.com/teamcity",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "teamcity-cli",
+      "description": "Drive TeamCity CI/CD via the teamcity CLI to explore builds, view logs, start jobs, and manage queues and agents.",
+      "use_case": "TeamCity build inspection, job triggering, agent and queue management."
+    },
+    {
+      "name": "UI5",
+      "url": "https://ui5.sap.com/",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "ui5",
+      "description": "Create and validate SAPUI5/OpenUI5 projects, access API docs, run the UI5 linter, and follow best practices.",
+      "use_case": "UI5 project creation, linter-driven validation, API-doc lookup."
+    },
+    {
+      "name": "UI5 Modernization",
+      "url": "https://github.com/UI5/plugins-coding-agents/tree/main/plugins/ui5-modernization",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "ui5-modernization",
+      "description": "Complete toolkit with workflow and specialized fix patterns for modernizing SAPUI5/OpenUI5 applications.",
+      "use_case": "Legacy UI5 modernization, automated fix patterns, staged upgrade workflow."
+    },
+    {
+      "name": "UI5 TypeScript Conversion",
+      "url": "https://github.com/UI5/plugins-coding-agents",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "ui5-typescript-conversion",
+      "description": "Convert JavaScript-based UI5 projects to TypeScript.",
+      "use_case": "UI5 JS-to-TS migration, type-safe view controllers, incremental conversion."
+    },
+    {
+      "name": "Unreal Engine Skills",
+      "url": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "unreal-engine-skills-for-claude-code",
+      "description": "Control Unreal Editor from Claude Code via MCP with hundreds of tools across 30+ toolsets covering actors, blueprints, materials, Niagara, Sequencer, widgets, and automation testing, by Epic Games.",
+      "use_case": "Agentic game development, editor automation, blueprint and level scripting from chat."
+    },
+    {
+      "name": "Context7",
+      "url": "https://context7.com",
+      "category": "Documentation",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "context7",
+      "description": "Upstash Context7 MCP server for live documentation lookup that pulls version-specific docs and code examples from source repos.",
+      "use_case": "Version-correct library lookups, current-API documentation in context, eliminating training-data drift on fast-moving libraries."
+    },
+    {
+      "name": "Microsoft Docs",
+      "url": "https://learn.microsoft.com",
+      "category": "Documentation",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "microsoft-docs",
+      "description": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more.",
+      "use_case": "Azure SDK lookup, .NET API reference, Windows-specific implementation patterns."
+    },
+    {
+      "name": "mintlify",
+      "url": "https://mintlify.com",
+      "category": "Documentation",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mintlify",
+      "description": "Build documentation with Mintlify covering MDX conversion, content modification, and automated updates.",
+      "use_case": "Docs migration to Mintlify, automated docs-as-code workflows, MDX authoring."
+    },
+    {
+      "name": "shopify-ai-toolkit",
+      "url": "https://shopify.dev",
+      "category": "Documentation",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "shopify-ai-toolkit",
+      "description": "Shopify's AI Toolkit with 18 development skills for building on the Shopify platform including documentation search, theme development, and app development.",
+      "use_case": "Shopify theme work, Shopify app development, Liquid-template authoring."
+    },
+    {
+      "name": "Learn with Coursera",
+      "url": "https://www.coursera.org",
+      "category": "Education and Learning",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "learn-with-coursera",
+      "description": "Turn any learning intent into a personalized Coursera path — asks topic, familiarity, and preferred format, searches the catalog, and returns the right course, hands-on project, short video, or live roleplay. Requires the Coursera connector for catalog tools.",
+      "use_case": "Personalized course discovery, skill-path planning, matching learning format to the goal."
+    },
+    {
+      "name": "Math Olympiad",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
+      "category": "Education and Learning",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "math-olympiad",
+      "description": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that attacks proofs to catch errors self-verification misses.",
+      "use_case": "Olympiad proof solving, adversarial proof verification, calibrated abstention."
+    },
+    {
+      "name": "Engineering",
+      "url": "https://claude.com/plugins#engineering",
+      "category": "Engineering and Product",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Streamline engineering workflows including standups, code review, architecture decisions, incident response, and technical documentation.",
+      "use_case": "Engineering standups, architecture-decision documentation, incident post-mortems."
+    },
+    {
+      "name": "Product Management",
+      "url": "https://claude.com/plugins#product-management",
+      "category": "Engineering and Product",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Write feature specs, plan roadmaps, synthesize user research, keep stakeholders updated, and stay ahead of competitive landscape.",
+      "use_case": "Spec authoring, roadmap planning, research synthesis, competitive monitoring."
+    },
+    {
+      "name": "Product Tracking Skills",
+      "url": "https://accoil.com",
+      "category": "Engineering and Product",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "AI agent skills that make SaaS products data-ready by scanning codebases, building tracking plans, and generating instrumentation code.",
+      "use_case": "Product-analytics instrumentation, tracking-plan generation, event-schema design."
+    },
+    {
+      "name": "Airwallex AgentOS",
+      "url": "https://www.airwallex.com",
+      "category": "Finance and Accounting",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "airwallex-agentos",
+      "description": "Orchestrate global financial infrastructure in plain language including invoices from purchase orders, supplier onboarding, and multi-currency cash position.",
+      "use_case": "Invoice automation, supplier onboarding, multi-currency cash management."
+    },
+    {
+      "name": "Carta cap table",
+      "url": "https://carta.com/equity-management/cap-table/",
+      "category": "Finance and Accounting",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "carta-cap-table",
+      "description": "Query cap tables, grants, SAFEs, 409A valuations, and waterfall scenarios via the Carta MCP server.",
+      "use_case": "fully-diluted ownership breakdowns, 409A expiry checks, SAFE conversion math, exit waterfall modeling."
+    },
+    {
+      "name": "Carta investors",
+      "url": "https://carta.com/fund-management/fund-administration/",
+      "category": "Finance and Accounting",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "carta-investors",
+      "description": "Query fund and investor data, performance benchmarks, regulatory reporting, and AGM decks via the Carta MCP server.",
+      "use_case": "fund performance benchmarking, Form ADV regulatory reporting, AGM deck generation, portfolio tearsheet PDFs."
+    },
+    {
+      "name": "Finance",
+      "url": "https://claude.com/plugins#finance",
+      "category": "Finance and Accounting",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Streamline finance and accounting workflows from journal entries and reconciliation to financial statements, variance analysis, audit prep, and month-end close.",
+      "use_case": "Month-end close, variance analysis, audit prep, journal-entry triage."
+    },
+    {
+      "name": "Grasp",
+      "url": "https://www.grasp-ai.com",
+      "category": "Finance and Accounting",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "AI analyst platform for investment banking, private equity, and consulting deal work, automating company lookup, buyer/target screening, and market research.",
+      "use_case": "Build a prioritized list of acquisition targets and buyers for an M&A deal from a natural-language brief."
+    },
+    {
+      "name": "10x Genomics",
+      "url": "https://www.10xgenomics.com",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Single-cell and spatial genomics platform whose Cloud MCP exposes analysis data and workflows.",
+      "use_case": "Pull single-cell sequencing analysis results from the 10x Genomics Cloud into a research workflow."
+    },
+    {
+      "name": "AdisInsight",
+      "url": "https://adisinsight.springer.com",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Springer Nature drug-development pipeline, clinical-trial, and deals intelligence via MCP.",
+      "use_case": "Check the development stage and trial history of a competitor's drug candidate."
+    },
+    {
+      "name": "Bio Research",
+      "url": "https://claude.com/plugins#bio-research",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Connect to preclinical research tools and databases including literature search, genomics analysis, and target prioritization.",
+      "use_case": "Early-stage life sciences R&D, target discovery, preclinical literature synthesis."
+    },
+    {
+      "name": "BioRender",
+      "url": "https://www.biorender.com",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Create and access scientific illustrations through the BioRender MCP server.",
+      "use_case": "Build a publication-ready figure illustrating an experimental workflow."
+    },
+    {
+      "name": "bioRxiv",
+      "url": "https://www.biorxiv.org",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Access bioRxiv and medRxiv preprint data.",
+      "use_case": "Search recent preprints on a specific biology topic before peer review is complete."
+    },
+    {
+      "name": "Boltz",
+      "url": "https://boltz.bio",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "boltz",
+      "description": "Predict structures, screen molecules and proteins, and design binders.",
+      "use_case": "Protein-structure prediction, molecular screening, binder design."
+    },
+    {
+      "name": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Query the ChEMBL database of bioactive molecules and drug-discovery data.",
+      "use_case": "Look up bioactivity and target data for a candidate compound."
+    },
+    {
+      "name": "Claude for Healthcare",
+      "url": "https://claude.com/plugins#claude-for-healthcare",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Prior authorization, ICD-10-CM medical coding, clinical-trial protocols, and FHIR development, with CMS Coverage, ICD-10, NPI Registry, Clinical Trials, and PubMed connected.",
+      "use_case": "Prior-auth drafting, ICD-10-CM coding, clinical-trial protocol and FHIR work."
+    },
+    {
+      "name": "Clinical Trials",
+      "url": "https://clinicaltrials.gov",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "ClinicalTrials.gov is the U.S. National Library of Medicine's public registry of FDA-regulated clinical studies.",
+      "use_case": "Search for actively recruiting trials for a specific condition and location."
+    },
+    {
+      "name": "Consensus",
+      "url": "https://consensus.app",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "AI-powered search across peer-reviewed scientific research papers.",
+      "use_case": "Find and summarize the peer-reviewed evidence on a specific research question."
+    },
+    {
+      "name": "Cortellis",
+      "url": "https://clarivate.com/life-sciences-healthcare/cortellis",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Clarivate's Cortellis platform provides expert-curated global pharmaceutical regulatory intelligence and life-sciences data across 80+ markets.",
+      "use_case": "Track global regulatory changes and requirements while preparing a drug submission dossier for multiple markets."
+    },
+    {
+      "name": "Instrument Data to Allotrope",
+      "url": "https://www.allotrope.org",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "The Allotrope Foundation maintains open data standards, including the Allotrope Simple Model (ASM), for representing laboratory instrument data.",
+      "use_case": "Convert raw output from a lab instrument into standardized ASM format for downstream data analysis and sharing."
+    },
+    {
+      "name": "Medidata",
+      "url": "https://www.medidata.com",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Clinical-trial platform help and predictive site ranking through Medidata's MCP connector.",
+      "use_case": "Query Medidata's platform help and predictive site-ranking data while planning enrollment for a clinical trial."
+    },
+    {
+      "name": "Nextflow",
+      "url": "https://www.nextflow.io",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Run nf-core bioinformatics pipelines such as rnaseq, sarek, and atacseq on local or public sequencing data.",
+      "use_case": "Run an nf-core rnaseq or sarek pipeline against public GEO or SRA sequencing data on a local or cloud cluster."
+    },
+    {
+      "name": "Open Targets",
+      "url": "https://www.opentargets.org",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Drug-target discovery and prioritization across the Open Targets platform.",
+      "use_case": "Prioritize candidate drug targets for a disease of interest by reviewing genetic association and tractability evidence."
+    },
+    {
+      "name": "Owkin",
+      "url": "https://www.owkin.com",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Interact with AI agents built for biology from Owkin.",
+      "use_case": "Consult Owkin's AI agents while formulating a hypothesis about a disease mechanism during early-stage drug discovery."
+    },
+    {
+      "name": "scvi-tools",
+      "url": "https://scvi-tools.org",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Deep-learning toolkit for single-cell omics analysis.",
+      "use_case": "Integrate multiple single-cell RNA-seq datasets and correct for batch effects using an scVI model."
+    },
+    {
+      "name": "Single-Cell RNA QC",
+      "url": "https://www.sc-best-practices.org",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Single-cell best practices is an open community reference, maintained under the scverse ecosystem, documenting current best practices for single-cell omics data analysis, including quality control.",
+      "use_case": "Filter low-quality cells and doublets from a new single-cell RNA-seq dataset following the documented QC workflow."
+    },
+    {
+      "name": "Synapse",
+      "url": "https://www.synapse.org",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Sage Bionetworks collaborative research data management on Synapse.org.",
+      "use_case": "Share a processed genomics dataset and its analysis code with collaborators on a multi-institution research project."
+    },
+    {
+      "name": "ToolUniverse",
+      "url": "https://github.com/mims-harvard/ToolUniverse",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "A large library of scientific tools and AI agents for research and discovery, from MIMS Harvard.",
+      "use_case": "Assemble an AI agent that queries multiple biomedical databases and tools to investigate a drug-target hypothesis."
+    },
+    {
+      "name": "Wiley Scholar Gateway",
+      "url": "https://www.wiley.com/en-us/research/scholar-gateway-connect-claude-mistral-ai",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Scholar Gateway is Wiley's MCP connector giving AI assistants grounded access to millions of peer-reviewed Wiley journal articles with citations and DOI links.",
+      "use_case": "Pull cited, peer-reviewed literature from Wiley journals directly into a grant proposal or literature review draft."
+    },
+    {
+      "name": "Human Resources",
+      "url": "https://claude.com/plugins#human-resources",
+      "category": "Human Resources",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Streamline people operations including recruiting, onboarding, performance reviews, compensation analysis, and policy guidance.",
+      "use_case": "Recruiting workflows, performance-review drafting, compensation benchmarking, HR-policy lookups."
+    },
+    {
+      "name": "C# LSP",
+      "url": "https://claude.com/plugins#csharp-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "csharp-lsp",
+      "description": "C# language server for code intelligence.",
+      "use_case": "C#/.NET autocomplete, type checking, refactoring support inside Claude Code."
+    },
+    {
+      "name": "Clangd LSP",
+      "url": "https://claude.com/plugins#clangd-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "clangd-lsp",
+      "description": "C/C++ language server (clangd) for code intelligence.",
+      "use_case": "C/C++ autocomplete, diagnostics, cross-reference navigation."
+    },
+    {
+      "name": "Elixir LS",
+      "url": "https://github.com/elixir-lsp/elixir-ls",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "ElixirLS code intelligence and diagnostics for .ex, .exs, and .heex files.",
+      "use_case": "Elixir/Phoenix development, HEEx template editing."
+    },
+    {
+      "name": "Go LSP (gopls)",
+      "url": "https://claude.com/plugins#go-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "gopls-lsp",
+      "description": "Go language server for code intelligence and refactoring.",
+      "use_case": "Go autocomplete, refactor-rename support, package navigation."
+    },
+    {
+      "name": "Java LSP (Eclipse JDT.LS)",
+      "url": "https://claude.com/plugins#java-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "jdtls-lsp",
+      "description": "Java language server (Eclipse JDT.LS) for code intelligence.",
+      "use_case": "Java autocomplete, type checking, JDT-powered refactoring."
+    },
+    {
+      "name": "Kotlin LSP",
+      "url": "https://claude.com/plugins#kotlin-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "kotlin-lsp",
+      "description": "Kotlin language server for code intelligence.",
+      "use_case": "Kotlin autocomplete, Android development, multiplatform Kotlin work."
+    },
+    {
+      "name": "Liquid LSP",
+      "url": "https://shopify.dev/docs/storefronts/themes/tools/cli",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "liquid-lsp",
+      "description": "Integrate an LSP for Shopify Liquid templates via the Shopify CLI theme language server.",
+      "use_case": "Liquid autocomplete, theme-template diagnostics, Liquid navigation."
+    },
+    {
+      "name": "Lua LSP",
+      "url": "https://claude.com/plugins#lua-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "lua-lsp",
+      "description": "Lua language server for code intelligence.",
+      "use_case": "Lua scripting, Neovim configuration, game-engine Lua editing."
+    },
+    {
+      "name": "PHP LSP",
+      "url": "https://claude.com/plugins#php-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "php-lsp",
+      "description": "PHP language server (Intelephense) for code intelligence.",
+      "use_case": "PHP autocomplete, Laravel/Symfony development, type-inference assistance."
+    },
+    {
+      "name": "Pyright LSP",
+      "url": "https://claude.com/plugins#pyright-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "pyright-lsp",
+      "description": "Python language server (Pyright) for type checking and code intelligence.",
+      "use_case": "Python type checking, autocomplete, strict-mode type inference."
+    },
+    {
+      "name": "Ruby LSP",
+      "url": "https://claude.com/plugins#ruby-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "ruby-lsp",
+      "description": "Ruby language server for code intelligence and analysis.",
+      "use_case": "Ruby/Rails autocomplete, diagnostic feedback, refactor support."
+    },
+    {
+      "name": "Rust Analyzer LSP",
+      "url": "https://claude.com/plugins#rust-analyzer-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "rust-analyzer-lsp",
+      "description": "Rust language server for code intelligence and analysis.",
+      "use_case": "Rust autocomplete, type inference, refactor-rename support."
+    },
+    {
+      "name": "Serena",
+      "url": "https://github.com/oraios/serena",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "serena",
+      "description": "Semantic code analysis MCP server for intelligent code understanding, refactoring, and navigation via language server protocol.",
+      "use_case": "Cross-language semantic code search, intelligent refactoring, deep code understanding."
+    },
+    {
+      "name": "Swift LSP",
+      "url": "https://claude.com/plugins#swift-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "swift-lsp",
+      "description": "Swift language server (SourceKit-LSP) for code intelligence.",
+      "use_case": "Swift/iOS development, SwiftUI autocomplete, Apple-platform code intelligence."
+    },
+    {
+      "name": "TypeScript LSP",
+      "url": "https://claude.com/plugins#typescript-lsp",
+      "category": "Language Servers",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "typescript-lsp",
+      "description": "TypeScript/JavaScript language server for enhanced code intelligence.",
+      "use_case": "TS/JS autocomplete, type inference, refactor-rename across files."
+    },
+    {
+      "name": "AI Governance Legal",
+      "url": "https://claude.com/plugins#ai-governance-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Triage proposed AI use cases against your registry, run impact assessments across regimes in scope, review vendor AI terms, and keep AI policy current with practice.",
+      "use_case": "AI use-case triage, AI impact assessments, vendor AI-terms review."
+    },
+    {
+      "name": "CoCounsel Legal",
+      "url": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Thomson Reuters Westlaw Deep Research reports with inline, linked citations to Westlaw and Practical Law.",
+      "use_case": "Get a cited legal research memo answering a specific statutory question."
+    },
+    {
+      "name": "Commercial Legal",
+      "url": "https://claude.com/plugins#commercial-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Review vendor agreements, NDAs, and SaaS subscriptions against your playbook, track renewals and cancel-by deadlines, and route escalations to the right approver.",
+      "use_case": "Vendor-contract review, renewal-deadline tracking, escalation routing."
+    },
+    {
+      "name": "Corporate Legal",
+      "url": "https://claude.com/plugins#corporate-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Run M&A diligence at scale with cited tabular review, build disclosure schedules and closing checklists, draft board consents, and track entity compliance across jurisdictions.",
+      "use_case": "M&A diligence review, disclosure-schedule building, board-consent drafting."
+    },
+    {
+      "name": "Employment Legal",
+      "url": "https://claude.com/plugins#employment-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Review hires and terminations for jurisdiction-specific risk, classify workers against the controlling state test, track leave deadlines, and draft policies with state supplements.",
+      "use_case": "Termination risk review, worker-classification tests, leave-deadline tracking."
+    },
+    {
+      "name": "IP Legal",
+      "url": "https://claude.com/plugins#ip-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Run first-pass trademark clearance and freedom-to-operate triage, screen invention disclosures, draft cease-and-desist and DMCA letters, and track registration renewals.",
+      "use_case": "Trademark clearance, invention-disclosure screening, cease-and-desist drafting."
+    },
+    {
+      "name": "Law Student",
+      "url": "https://claude.com/plugins#law-student",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Drill Socratically, brief cases, build outlines, run jurisdiction-tuned bar prep, and grade IRAC practice without writing the work for the student.",
+      "use_case": "Case briefing, outline building, bar-prep drilling and IRAC grading."
+    },
+    {
+      "name": "Legal",
+      "url": "https://claude.com/plugins#legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Speed up contract review, NDA triage, and compliance workflows for in-house legal teams including legal-brief drafting and precedent research.",
+      "use_case": "Contract redlining, NDA triage, precedent research, compliance-workflow drafting."
+    },
+    {
+      "name": "Legal Builder Hub",
+      "url": "https://claude.com/plugins#legal-builder-hub",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Find, evaluate, and install community legal skills with a security-review gate before anything lands in your environment.",
+      "use_case": "Legal-skill discovery, security-gated installation, community-skill evaluation."
+    },
+    {
+      "name": "Legal Clinic",
+      "url": "https://claude.com/plugins#legal-clinic",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Set up a clinic, onboard students, run structured intake, track deadlines with malpractice-aware caution, and hand off cases at semester end within ABA Formal Op. 512.",
+      "use_case": "Clinic setup, structured client intake, deadline tracking and case handoff."
+    },
+    {
+      "name": "LegalZoom",
+      "url": "https://www.legalzoom.com",
+      "category": "Legal",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "legalzoom",
+      "description": "AI reviews legal documents for risks and advises when to hire an attorney, with connections to legal professionals.",
+      "use_case": "Initial legal-document risk review, escalation triggers for human-attorney involvement."
+    },
+    {
+      "name": "Litigation Legal",
+      "url": "https://claude.com/plugins#litigation-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Manage the litigation portfolio — matters, deadlines, holds, demands, and outside counsel — and produce claim charts, chronologies, depo prep, privilege logs, and brief drafts.",
+      "use_case": "Litigation-portfolio management, claim-chart building, deposition prep."
+    },
+    {
+      "name": "Privacy Legal",
+      "url": "https://claude.com/plugins#privacy-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Triage processing activities, generate PIAs, review DPAs as controller or processor, draft DSAR responses within statutory timelines, and monitor policy drift.",
+      "use_case": "PIA generation, DPA review, DSAR-response drafting."
+    },
+    {
+      "name": "Product Legal",
+      "url": "https://claude.com/plugins#product-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Review product launches against your risk calibration, answer is-this-a-problem questions quickly, check marketing copy for claims needing substantiation, and flag launches needing legal review.",
+      "use_case": "Product-launch legal review, marketing-claim substantiation checks, risk flagging."
+    },
+    {
+      "name": "Regulatory Legal",
+      "url": "https://claude.com/plugins#regulatory-legal",
+      "category": "Legal",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Watch regulatory feeds, diff new rules against your policy library, track comment deadlines and open gaps, and write a weekly regulatory digest.",
+      "use_case": "Regulatory-feed monitoring, rule-to-policy diffing, comment-deadline tracking."
+    },
+    {
+      "name": "Adspirer Ads Agent",
+      "url": "https://www.adspirer.com",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Cross-platform ad management for Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads with 91 tools for keyword research, campaign creation, and optimization.",
+      "use_case": "Cross-platform ad campaign authoring, keyword research, budget optimization across ad networks."
+    },
+    {
+      "name": "B12",
+      "url": "https://www.b12.io",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Generate and edit a B12 website from a brief description using Claude's browser access.",
+      "use_case": "Generate a small-business website from a short description and then refine it live."
+    },
+    {
+      "name": "Bright Data",
+      "url": "https://brightdata.com",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "brightdata-plugin",
+      "description": "Web scraping, Google search, structured data extraction, and 60+ MCP tools covering Web Unlocker, SERP API, Web Scraper API, and Browser API.",
+      "use_case": "Scraping bot-protected sites, structured Google SERP results, large-scale data extraction."
+    },
+    {
+      "name": "Build with WordPress",
+      "url": "https://wordpress.com",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "build-with-wordpress",
+      "description": "Craft production-grade WordPress sites and applications, from themes and plugins to commerce and deployment.",
+      "use_case": "WordPress site building, theme and plugin development, commerce setup and deployment."
+    },
+    {
+      "name": "Firecrawl",
+      "url": "https://www.firecrawl.dev",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "firecrawl",
+      "description": "Convert websites to LLM-ready markdown or data with scraping, crawling, and structured extraction.",
+      "use_case": "RAG-corpus building, structured site extraction, AI-friendly web data preparation."
+    },
+    {
+      "name": "Marketing",
+      "url": "https://claude.com/plugins#marketing",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Create content, plan campaigns, and analyze performance across marketing channels with brand-voice consistency and competitor tracking.",
+      "use_case": "Content authoring, campaign planning, brand-voice enforcement, competitor monitoring."
+    },
+    {
+      "name": "Nimble",
+      "url": "https://nimbleway.com",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "nimble",
+      "description": "Web data toolkit for search, extract, map, crawl, and structured data agents.",
+      "use_case": "Structured web data harvesting, SERP extraction, site mapping for crawl-aware AI agents."
+    },
+    {
+      "name": "Postiz",
+      "url": "https://postiz.com",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "postiz",
+      "description": "Social media automation CLI for scheduling posts, managing integrations, uploading media, and tracking analytics across 28+ platforms.",
+      "use_case": "Cross-platform social scheduling, content distribution, analytics rollups for marketers."
+    },
+    {
+      "name": "SearchFit SEO",
+      "url": "https://searchfit.ai",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "AI-powered SEO toolkit for auditing websites, planning content strategy, optimizing pages, generating schema markup, and tracking AI visibility.",
+      "use_case": "SEO audit on any site, content-cluster planning, schema-markup generation, AI-search visibility tracking."
+    },
+    {
+      "name": "Spotify Ads API",
+      "url": "https://ads.spotify.com",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "spotify-ads-api",
+      "description": "Manage Spotify ad campaigns in natural language to create campaigns, ad sets, and ads, pull reports, and handle OAuth.",
+      "use_case": "Spotify campaign creation, ad-set management, performance reporting."
+    },
+    {
+      "name": "Windsor.ai",
+      "url": "https://windsor.ai",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "windsor-ai",
+      "description": "Query marketing, sales, CRM, ecommerce, finance, and analytics data from 325+ business sources.",
+      "use_case": "Cross-platform marketing data, CRM and analytics querying, GTM data consolidation."
+    },
+    {
+      "name": "Zyte Web Data",
+      "url": "https://www.zyte.com",
+      "category": "Marketing and Web",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "zyte-web-data",
+      "description": "Web scraping skills powered by the Zyte API to scrape sites, generate and run Scrapy spiders, define extraction schemas, and ship to Scrapy Cloud.",
+      "use_case": "Scrapy spider generation, extraction-schema design, managed crawling at scale."
+    },
+    {
+      "name": "Amplitude",
+      "url": "https://amplitude.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "amplitude",
+      "description": "Act as an expert analyst to instrument events, discover opportunities, analyze charts, manage experiments, and understand users.",
+      "use_case": "Product-analytics instrumentation, funnel analysis, experiment management."
+    },
+    {
+      "name": "CodSpeed",
+      "url": "https://codspeed.io",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "codspeed",
+      "description": "Surface benchmarking results, flamegraphs, and performance comparisons via the CodSpeed MCP.",
+      "use_case": "Benchmark analysis, flamegraph profiling, regression detection."
+    },
+    {
+      "name": "Confidence",
+      "url": "https://confidence.spotify.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "confidence",
+      "description": "Access feature flags, experiments, and migration tools.",
+      "use_case": "Feature-flag management, experiment analysis, flag migration."
+    },
+    {
+      "name": "Dash0",
+      "url": "https://www.dash0.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "dash0",
+      "description": "Capture Claude Code sessions as OpenTelemetry traces covering tool calls, LLM invocations, token usage, and errors.",
+      "use_case": "Session tracing, token-usage monitoring, OTel-backed observability."
+    },
+    {
+      "name": "Datadog",
+      "url": "https://www.datadoghq.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "datadog",
+      "description": "Query Datadog logs, metrics, traces, and dashboards through natural conversation via a preconfigured MCP server.",
+      "use_case": "Log and metric querying, trace investigation, dashboard exploration."
+    },
+    {
+      "name": "Fullstory",
+      "url": "https://www.fullstory.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "fullstory",
+      "description": "Query behavioral analytics, session replays, and customer-experience insights.",
+      "use_case": "Session-replay analysis, behavioral analytics, UX-issue discovery."
+    },
+    {
+      "name": "Grafana Assistant",
+      "url": "https://grafana.com/docs/grafana-cloud/assistant/",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "grafana-assistant",
+      "description": "Skills and rules for developing and using the Grafana Assistant app and CLI.",
+      "use_case": "Grafana Assistant workflows, assistant-CLI automation."
+    },
+    {
+      "name": "Grafana Cloud MCP",
+      "url": "https://grafana.com/products/cloud/",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "grafana-cloud-mcp",
+      "description": "Hosted MCP server for AI-assisted Grafana Cloud observability with no local installation required.",
+      "use_case": "Grafana Cloud queries, hosted observability access, zero-install setup."
+    },
+    {
+      "name": "Grafana MCP",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "grafana-mcp",
+      "description": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
+      "use_case": "Dashboard authoring, alert-rule management, incident investigation."
+    },
+    {
+      "name": "GrowthBook",
+      "url": "https://growthbook.io",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "growthbook",
+      "description": "Agent skills for the full GrowthBook feature-flag and experimentation lifecycle.",
+      "use_case": "Feature-flag management, experiment setup, A/B test analysis."
+    },
+    {
+      "name": "Honeycomb",
+      "url": "https://www.honeycomb.io",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "honeycomb",
+      "description": "Skills, agents, and workflows for Honeycomb observability covering query patterns, production investigations, SLOs, and OpenTelemetry instrumentation.",
+      "use_case": "Production investigations, SLO management, OTel instrumentation, Beeline migration."
+    },
+    {
+      "name": "Langfuse",
+      "url": "https://langfuse.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "langfuse",
+      "description": "Add observability for Claude Code covering tracing, prompt management, and evaluation for LLM engineering.",
+      "use_case": "LLM tracing, prompt versioning, evaluation runs."
+    },
+    {
+      "name": "Langfuse Observability",
+      "url": "https://github.com/langfuse/claude-observability-plugin",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "langfuse-observability",
+      "description": "Capture and export traces, spans, and session telemetry from Claude Code to Langfuse.",
+      "use_case": "LLM monitoring, trace export, session debugging."
+    },
+    {
+      "name": "Logfire",
+      "url": "https://logfire.pydantic.dev",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "logfire",
+      "description": "Add observability to Python apps with auto-instrumentation for FastAPI, httpx, asyncpg, and SQLAlchemy.",
+      "use_case": "Python app instrumentation, request tracing, query monitoring."
+    },
+    {
+      "name": "LogRocket",
+      "url": "https://logrocket.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "logrocket",
+      "description": "Query session replays, metrics, issues, and user behavior in natural language.",
+      "use_case": "Frontend session-replay analysis, error triage, user-behavior insight."
+    },
+    {
+      "name": "MLflow",
+      "url": "https://mlflow.org",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mlflow",
+      "description": "Trace, evaluate, and improve AI agents with MLflow across the instrument, trace, evaluate, and iterate loop.",
+      "use_case": "Agent tracing, evaluation runs, experiment tracking for LLM apps."
+    },
+    {
+      "name": "New Relic",
+      "url": "https://newrelic.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "newrelic",
+      "description": "Observability for Claude Code — investigate APM performance, analyze cloud costs, debug Kubernetes, and write NRQL queries.",
+      "use_case": "APM performance investigation, NRQL query authoring, Kubernetes debugging."
+    },
+    {
+      "name": "PagerDuty Pre-Commit Risk Score",
+      "url": "https://www.pagerduty.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "pagerduty",
+      "description": "Score pre-commit diffs against PagerDuty incident history to surface deployment risk before shipping.",
+      "use_case": "Risk-aware commit gating, incident-history-informed code review, pre-deploy safety checks."
+    },
+    {
+      "name": "PostHog",
+      "url": "https://posthog.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "posthog",
+      "description": "Connect to PostHog to query analytics, manage flags, run A/B tests, track errors, and analyze LLM costs via natural language.",
+      "use_case": "Product-analytics queries, feature-flag management, A/B test analysis, LLM cost tracking."
+    },
+    {
+      "name": "Rootly",
+      "url": "https://rootly.com",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "rootly",
+      "description": "Manage incidents end to end covering deploy safety, incident response, on-call management, and retrospectives.",
+      "use_case": "Incident response, on-call coordination, retrospective authoring."
+    },
+    {
+      "name": "Sentry",
+      "url": "https://sentry.io",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sentry",
+      "description": "Error monitoring to access error reports, analyze stack traces, search issues, and debug production errors.",
+      "use_case": "Production-error triage, stack-trace analysis, issue prioritization from chat."
+    },
+    {
+      "name": "Sentry CLI",
+      "url": "https://docs.sentry.io/product/cli",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sentry",
+      "description": "Interact with Sentry from the command line using the Sentry CLI.",
+      "use_case": "Release management, source-map upload, CLI-driven issue triage."
+    },
+    {
+      "name": "SigNoz",
+      "url": "https://signoz.io",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Open-source observability — MCP setup, docs, queries, dashboards, and alerts.",
+      "use_case": "Set up a dashboard with alerts to track application latency and error rates."
+    },
+    {
+      "name": "Explanatory Output Style",
+      "url": "https://claude.com/plugins#explanatory-output-style",
+      "category": "Output Styles",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "explanatory-output-style",
+      "description": "Adds educational insights on implementation choices and codebase patterns to mimic the deprecated Explanatory style.",
+      "use_case": "Learning-mode coding, teaching-team-members workflow, explanatory commenting style."
+    },
+    {
+      "name": "Learning Output Style",
+      "url": "https://claude.com/plugins#learning-output-style",
+      "category": "Output Styles",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "learning-output-style",
+      "description": "Interactive learning mode that requests meaningful code contributions at key decision points.",
+      "use_case": "Pair-programming-style learning, deliberate-practice coding, junior-developer ramp."
+    },
+    {
+      "name": "Circle",
+      "url": "https://www.circle.com",
+      "category": "Payments and Billing",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "circle-skills",
+      "description": "Ship stablecoin apps faster with USDC payments, cross-chain transfers, wallets, and smart contracts, plus an MCP server.",
+      "use_case": "USDC payment integration, cross-chain transfers, programmable-wallet development."
+    },
+    {
+      "name": "Mercado Pago",
+      "url": "https://www.mercadopago.com",
+      "category": "Payments and Billing",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mercadopago",
+      "description": "Integrate payments, webhooks, test setup, and review, pulling endpoints live from the official MCP.",
+      "use_case": "Payment-flow integration, webhook setup, checkout testing."
+    },
+    {
+      "name": "RevenueCat",
+      "url": "https://www.revenuecat.com",
+      "category": "Payments and Billing",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "revenuecat",
+      "description": "Manage RevenueCat in-app purchase backend directly from your development workflow.",
+      "use_case": "Subscription product configuration, entitlement management, IAP backend tuning."
+    },
+    {
+      "name": "Stripe",
+      "url": "https://stripe.com",
+      "category": "Payments and Billing",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "stripe",
+      "description": "Development plugin for payments, billing, subscriptions, and Stripe API integration.",
+      "use_case": "Stripe API exploration, payment-flow development, subscription-product configuration."
+    },
+    {
+      "name": "SumUp",
+      "url": "https://www.sumup.com",
+      "category": "Payments and Billing",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sumup",
+      "description": "Integrate payments across terminal and online checkout, covering POS apps, online checkout, and Cloud API reader control.",
+      "use_case": "POS app development, online checkout, card-reader control."
+    },
+    {
+      "name": "Amazon Location Service",
+      "url": "https://aws.amazon.com/location",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "amazon-location-service",
+      "description": "Integrate Amazon Location Service for maps, geocoding, routing, and geospatial features with authentication and SDKs.",
+      "use_case": "Maps integration in apps, geocoding flows, routing/directions APIs."
+    },
+    {
+      "name": "Appwrite",
+      "url": "https://appwrite.io",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "appwrite",
+      "description": "Use SDK skills, MCP servers, and deployment commands for the open-source backend platform.",
+      "use_case": "Backend-as-a-service setup, Appwrite SDK development, function deployment."
+    },
+    {
+      "name": "Base44",
+      "url": "https://base44.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "base44",
+      "description": "Build and deploy full-stack apps with CLI project management and JavaScript/TypeScript SDK development.",
+      "use_case": "Full-stack app scaffolding, Base44 SDK development, deployment."
+    },
+    {
+      "name": "Box",
+      "url": "https://www.box.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "box",
+      "description": "Search files, organize folders, collaborate with teams, and use Box AI to answer questions, summarize documents, and extract data.",
+      "use_case": "Enterprise file management, Box AI document Q&A, folder organization automation."
+    },
+    {
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "dropbox",
+      "description": "Search, organize, and save generated content to Dropbox, create sharing links, and ground Claude's answers in your files — respecting your existing Dropbox permissions.",
+      "use_case": "File search across Dropbox, saving generated artifacts back to Dropbox, share-link creation, grounding answers in stored documents."
+    },
+    {
+      "name": "Expo",
+      "url": "https://expo.dev",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "expo",
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo.",
+      "use_case": "Expo app development, EAS build configuration, React Native debugging."
+    },
+    {
+      "name": "Fastly Agent Toolkit",
+      "url": "https://www.fastly.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "fastly-agent-toolkit",
+      "description": "Fastly development tools and platform skills for VCL, edge functions, and CDN configuration.",
+      "use_case": "Fastly edge function development, VCL authoring, CDN configuration."
+    },
+    {
+      "name": "Laravel Boost",
+      "url": "https://laravel.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "laravel-boost",
+      "description": "Laravel MCP server for intelligent Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+      "use_case": "Laravel app development, Eloquent query authoring, Artisan command exploration."
+    },
+    {
+      "name": "Lovable",
+      "url": "https://lovable.dev",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "lovable",
+      "description": "Build, iterate on, deploy, and manage apps with the official MCP server and build and database commands.",
+      "use_case": "App generation, iterative editing, deploy and publish with credit safety."
+    },
+    {
+      "name": "Mapbox",
+      "url": "https://www.mapbox.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mapbox",
+      "description": "Build location-aware apps with skills and MCP servers covering geospatial tools, style management, and web and mobile patterns.",
+      "use_case": "Maps integration, custom style management, geospatial app development."
+    },
+    {
+      "name": "Postman",
+      "url": "https://www.postman.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "postman",
+      "description": "Full API lifecycle management to sync collections, generate client code, discover APIs, run tests, and create requests.",
+      "use_case": "API exploration, client SDK generation from collections, API test authoring."
+    },
+    {
+      "name": "Zapier",
+      "url": "https://zapier.com",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "zapier",
+      "description": "Connect 8,000+ apps to your AI workflow by discovering, enabling, and executing Zapier actions directly from your client.",
+      "use_case": "Cross-app automation, no-code integration bridging, executing actions across SaaS tools without writing each integration."
+    },
+    {
+      "name": "Carbone",
+      "url": "https://carbone.io",
+      "category": "Productivity and Documents",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "carbone-skill",
+      "description": "Official Carbone templating reference covering tags, loops, conditions, formatters, and all output formats including DOCX, XLSX, PPTX, and PDF.",
+      "use_case": "Document-template authoring, report generation, multi-format document output."
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "category": "Productivity and Documents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "notion",
+      "description": "Search pages, create and update documents, and manage databases in your workspace.",
+      "use_case": "Notion doc authoring, database management, knowledge-base search."
+    },
+    {
+      "name": "PDF Viewer",
+      "url": "https://claude.com/plugins#pdf-viewer",
+      "category": "Productivity and Documents",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "View, annotate, and sign PDFs in a live interactive viewer with markup, form-fill, approval stamps, and signature placement.",
+      "use_case": "Contract review with annotations, PDF form filling, signature workflows, approval stamping."
+    },
+    {
+      "name": "Productivity",
+      "url": "https://claude.com/plugins#productivity",
+      "category": "Productivity and Documents",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": true,
+      "slug": null,
+      "description": "Manage tasks, plan your day, and build memory of important work context by syncing with calendar, email, and chat.",
+      "use_case": "Daily planning, task management, cross-tool context building, calendar/email/chat synthesis."
+    },
+    {
+      "name": "Project Artifact",
+      "url": "https://claude.com/plugins#project-artifact",
+      "category": "Productivity and Documents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "project-artifact",
+      "description": "Generate and publish a living project status page as a shareable claude.ai artifact, redeploying the same URL with each refresh.",
+      "use_case": "Stakeholder-facing project status, living progress reports, delta-only updates."
+    },
+    {
+      "name": "Receipts",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/receipts",
+      "category": "Productivity and Documents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "receipts",
+      "description": "A personal Claude Code impact report for justifying usage to a manager or a self-review, covering what you shipped and which projects it went to.",
+      "use_case": "Usage self-review, manager-facing impact summary, per-project contribution report."
+    },
+    {
+      "name": "Asana",
+      "url": "https://asana.com",
+      "category": "Project Management",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "asana",
+      "description": "Integration to create and manage tasks, search projects, update assignments, and track progress.",
+      "use_case": "Task creation from chat, project-progress reporting, assignment management."
+    },
+    {
+      "name": "Atlassian",
+      "url": "https://www.atlassian.com",
+      "category": "Project Management",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "atlassian",
+      "description": "Connect to Jira and Confluence to search and create issues, access docs, manage sprints, and integrate development workflows.",
+      "use_case": "Jira ticket management, Confluence doc search, sprint planning from chat."
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "category": "Project Management",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "github",
+      "description": "Official GitHub MCP server for repository management including issues, PRs, code review, and GitHub API access.",
+      "use_case": "PR management, issue creation and triage, code search across repos."
+    },
+    {
+      "name": "GitLab",
+      "url": "https://gitlab.com",
+      "category": "Project Management",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "gitlab",
+      "description": "Integration for repositories, merge requests, CI/CD pipelines, issues, and wikis with full DevOps lifecycle access.",
+      "use_case": "GitLab MR workflows, CI/CD pipeline debugging, GitLab wiki management."
+    },
+    {
+      "name": "Linear",
+      "url": "https://linear.app",
+      "category": "Project Management",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "linear",
+      "description": "Integration to create issues, manage projects, update statuses, search workspaces, and streamline development workflow.",
+      "use_case": "Issue creation, sprint management, workspace search."
+    },
+    {
+      "name": "monday.com",
+      "url": "https://monday.com",
+      "category": "Project Management",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Official plugin to manage boards, items, docs, and forms across work management, CRM, dev, service, and campaigns with full read/write via OAuth.",
+      "use_case": "Board and item management, work-management automation, form and doc handling."
+    },
+    {
+      "name": "42Crunch API Security Testing",
+      "url": "https://42crunch.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "42crunch-api-security-testing",
+      "description": "Audit OpenAPI specs, detect OWASP API vulnerabilities including BOLA/BFLA, and apply AI-powered fixes in an audit-scan-remediate loop.",
+      "use_case": "OpenAPI security audit, BOLA/BFLA detection, API-spec remediation."
+    },
+    {
+      "name": "Auth0",
+      "url": "https://auth0.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "auth0",
+      "description": "Add authentication to any app by detecting the framework and scaffolding login, logout, sessions, and protected routes.",
+      "use_case": "Auth0 SDK integration, login and session setup, protected-route scaffolding."
+    },
+    {
+      "name": "AWS Agents for DevSecOps",
+      "url": "https://aws.amazon.com/security/",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aws-agents-for-devsecops",
+      "description": "Investigate incidents, review code, run UAT, scan for vulnerabilities, and run pen tests with AWS DevOps and Security Agents.",
+      "use_case": "Incident investigation, security code review, automated penetration testing."
+    },
+    {
+      "name": "Claude Security",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "claude-security",
+      "description": "Deep vulnerability scanning of your own code run entirely inside a Claude Code session at a chosen effort tier, with every finding challenged before it is reported.",
+      "use_case": "In-session security scan of a codebase, effort-tiered vulnerability review, false-positive-resistant findings."
+    },
+    {
+      "name": "CrowdSec",
+      "url": "https://www.crowdsec.net",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "crowdsec",
+      "description": "Install, configure, operate, and debug CrowdSec across cscli, LAPI/CAPI, the hub, bouncers, and WAF/AppSec on bare-metal, Docker, and Kubernetes.",
+      "use_case": "CrowdSec deployment, bouncer configuration, WAF and AppSec debugging."
+    },
+    {
+      "name": "CrowdStrike Falcon Foundry",
+      "url": "https://www.crowdstrike.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "crowdstrike-falcon-foundry",
+      "description": "Build cybersecurity apps on the Falcon platform covering UI, collections, functions, workflows, and API integration.",
+      "use_case": "Falcon Foundry app development, security-workflow authoring, collections design."
+    },
+    {
+      "name": "Duende",
+      "url": "https://duendesoftware.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "duende-skills",
+      "description": "Implement OAuth/OIDC, IdentityServer, token management, ASP.NET Core auth, and BFF patterns for secure identity.",
+      "use_case": "IdentityServer setup, OIDC flow design, BFF authentication."
+    },
+    {
+      "name": "Endor Labs",
+      "url": "https://www.endorlabs.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "ai-plugins",
+      "description": "Set up endorctl and use Endor Labs to scan, prioritize, and fix security risks across the software supply chain.",
+      "use_case": "SCA scanning, supply-chain risk prioritization, dependency-vulnerability remediation."
+    },
+    {
+      "name": "JFrog",
+      "url": "https://jfrog.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "jfrog",
+      "description": "Use the JFrog Platform for Artifactory repos, security findings and exposures, Catalog package safety, and administration.",
+      "use_case": "Artifact management, dependency-exposure triage, package-safety checks."
+    },
+    {
+      "name": "NightVision",
+      "url": "https://nightviz.ai",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "nightvision",
+      "description": "Run DAST and API discovery to find exploitable vulnerabilities in web applications and REST APIs.",
+      "use_case": "Dynamic application security testing, API discovery, exploitable-vuln detection."
+    },
+    {
+      "name": "Security Guidance",
+      "url": "https://claude.com/plugins#security-guidance",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "security-guidance",
+      "description": "Security hook that warns about command injection, XSS, and unsafe code patterns when editing files.",
+      "use_case": "In-editor security guardrails, OWASP-pattern detection, real-time vulnerability prevention."
+    },
+    {
+      "name": "Semgrep",
+      "url": "https://semgrep.dev",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "semgrep",
+      "description": "Catch security vulnerabilities in real-time and guide secure code authoring.",
+      "use_case": "SAST scanning, custom-rule authoring, secure-by-default code generation."
+    },
+    {
+      "name": "Sonatype Guide",
+      "url": "https://www.sonatype.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "sonatype-guide",
+      "description": "MCP for supply chain intelligence and dependency security analysis with vulnerability detection and version recommendations.",
+      "use_case": "Dependency vulnerability scanning, version-recommendation lookup, supply-chain risk analysis."
+    },
+    {
+      "name": "StackHawk API",
+      "url": "https://docs.stackhawk.com/ai-security",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "stackhawk-api",
+      "description": "Query the StackHawk platform API for security-posture reporting, findings analysis, and application management.",
+      "use_case": "Security-posture reporting, findings triage, app inventory queries."
+    },
+    {
+      "name": "StackHawk HawkScan",
+      "url": "https://www.stackhawk.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "stackhawk-hawkscan",
+      "description": "Configure, run, and interpret HawkScan DAST results, generating stackhawk.yml configs and turning findings into prioritized fix tasks.",
+      "use_case": "DAST scan setup, stackhawk.yml generation, security-finding remediation planning."
+    },
+    {
+      "name": "Vanta",
+      "url": "https://www.vanta.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": "vanta",
+      "description": "Connect Claude to Vanta's security and compliance platform via the Vanta MCP server to list failing compliance tests and get test-specific remediation.",
+      "use_case": "Compliance test triage, SOC 2/ISO remediation workflows, security-control gap analysis from chat."
+    },
+    {
+      "name": "WorkOS",
+      "url": "https://workos.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "workos",
+      "description": "Wire up AuthKit, SSO, Directory Sync, RBAC, Vault, Audit Logs, and migrations.",
+      "use_case": "Enterprise SSO setup, SCIM directory sync, RBAC implementation."
+    },
+    {
+      "name": "Zscaler",
+      "url": "https://www.zscaler.com",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "zscaler",
+      "description": "Run zero-trust security operations and policy management via an MCP server.",
+      "use_case": "Zero-trust policy management, security-posture queries, Zscaler operations."
+    },
+    {
+      "name": "MCP Apps",
+      "url": "https://github.com/modelcontextprotocol/ext-apps",
+      "category": "Skills Authoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mcp-apps",
+      "description": "Create MCP Apps with the MCP Apps SDK.",
+      "use_case": "MCP app scaffolding, interactive MCP UI development, MCP Apps SDK usage."
+    },
+    {
+      "name": "MCP Server Dev",
+      "url": "https://claude.com/plugins#mcp-server-dev",
+      "category": "Skills Authoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "mcp-server-dev",
+      "description": "Design and build MCP servers covering deployment (HTTP, MCPB, local), tools, auth, and interactive apps.",
+      "use_case": "MCP server scaffolding, OAuth flow design, MCPB packaging."
+    },
+    {
+      "name": "MCP Tunnels",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-tunnels",
+      "category": "Skills Authoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "mcp-tunnels",
+      "description": "Connect Claude to a private MCP server through an Anthropic MCP tunnel, including the Docker Compose quickstart.",
+      "use_case": "Private MCP server access, tunnel setup, secure MCP proxying."
+    },
+    {
+      "name": "Plugin Developer Toolkit",
+      "url": "https://claude.com/plugins#plugin-developer-toolkit",
+      "category": "Skills Authoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "plugin-dev",
+      "description": "Plugin development toolkit with 7 expert skills for hooks, MCP, commands, agents, validation, and best practices.",
+      "use_case": "Plugin scaffolding, validation against the plugin schema, marketplace authoring."
+    },
+    {
+      "name": "Skill Creator",
+      "url": "https://claude.com/plugins#skill-creator",
+      "category": "Skills Authoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": true,
+      "slug": "skill-creator",
+      "description": "Create, improve, and measure skills covering creation, updating, evaluation, and benchmarking performance.",
+      "use_case": "Skill authoring, skill-performance evaluation, benchmarking before publishing."
+    }
+  ]
+}
