@@ -31,7 +31,7 @@ Each entry must follow this exact format and live in the appropriate category, a
 - [Plugin Name](https://link) - One-sentence description ending with a period. *Use case: Concrete usage scenario, second scenario.* (Surface)
 ```
 
-- **Surface** is one of: `(Claude Code)`, `(Cowork)`, `(Claude Code, Cowork)`
+- **Surface** is one of: `(Claude Code)`, `(Cowork)`, `(Claude Code, Cowork)` — a plugin is tagged for every surface it appears on (the official `claude-plugins-official` manifest is the Claude Code surface; the in-app Cowork plugin catalog is the Cowork surface)
 - Anthropic-verified plugins get a trailing **`A`** marker before the surface tag
 
 ```
@@ -46,6 +46,10 @@ Each entry must follow this exact format and live in the appropriate category, a
 - Only add plugins that are publicly listed at [claude.com/plugins](https://claude.com/plugins). For general MCP servers not yet packaged as plugins, see [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers).
 - Maintain alphabetical order within categories.
 - Don't include install counts — they're volatile. The "Last updated" header is the snapshot.
+
+### Removing vs. re-tagging
+
+A plugin is **removed** only when it disappears from *every* surface it was listed on. If it merely leaves one surface but remains on another — e.g. it drops out of the official `claude-plugins-official` manifest but is still live in the Cowork catalog — **re-tag** it to the surface(s) where it survives rather than deleting the entry. Absence from a single surface is a surface change, not a delisting. (This mirrors the two-surface removal rule used in [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors).)
 
 ## Weekly Updates
 
