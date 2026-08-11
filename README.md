@@ -567,6 +567,7 @@ A plugin marketplace is a Git repo or URL hosting `.claude-plugin/marketplace.js
 - [NotFair](https://github.com/nowork-studio/NotFair) - Open-source SEO, GEO, Google Ads, and Meta Ads skills for Claude Code (18 skills, MIT). *Install with `/plugin marketplace add nowork-studio/NotFair`.*
 - [Seth Hobson's sub-agents](https://github.com/wshobson/agents) - 80+ specialized sub-agents packaged as a plugin collection.
 - [ClaudePluginHub](https://www.claudepluginhub.com) - Community-maintained third-party plugin discovery hub indexing marketplaces and individual plugins outside the official directory.
+- [Claude Market](https://claudemarket.ai) - Community directory of skills, plugins, and MCP servers for OpenClaw, Hermes Agent, Claude Code, and Codex, with a marketplace for personas and skills.
 
 ## Related
 
