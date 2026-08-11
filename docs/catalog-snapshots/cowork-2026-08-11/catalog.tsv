@@ -1,0 +1,129 @@
+Design	Anthropic	2M	Accelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs.
+PDF Viewer	Anthropic	1.2M	View, annotate, and sign PDFs in a live interactive viewer. Mark up contracts, fill forms with visual feedback, stamp approvals, and place signatures — then download the annotated copy.
+Small Business	Anthropic	701.4K	Pre-built small business workflows (including payroll planning, month-end close, weekly briefs, and growth campaigns) using your QuickBooks, PayPal, HubSpot, Docusign, Gsuite, O365, Canva, and other connected tools. You approve every step that touches money or customers.
+Productivity	Anthropic	2.2M	Manage tasks, plan your day, and build up memory of important context about your work. Syncs with your calendar, email, and chat to keep everything organized and on track.
+Marketing	Anthropic	1.7M	Create content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on what's working.
+Engineering	Anthropic	1.5M	Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.
+Data	Anthropic	1.5M	Write SQL, explore datasets, and generate insights faster. Build visualizations and dashboards, and turn raw data into clear stories for stakeholders.
+Finance	Anthropic	1.4M	Streamline finance and accounting workflows, from journal entries and reconciliation to financial statements and variance analysis. Speed up audit prep, month-end close, and keeping your books clean.
+Product Management	Anthropic	1.2M	Write feature specs, plan roadmaps, and synthesize user research faster. Keep stakeholders updated and stay ahead of the competitive landscape.
+Sales	Anthropic	1.1M	Prospect, craft outreach, and build deal strategy faster. Prep for calls, manage your pipeline, and write personalized messaging that moves deals forward.
+Operations	Anthropic	1.1M	Optimize business operations — vendor management, process documentation, change management, capacity planning, and compliance tracking. Keep your organization running efficiently.
+Legal	Anthropic	1.1M	Speed up contract review, NDA triage, and compliance workflows for in-house legal teams. Draft legal briefs, organize precedent research, and manage institutional knowledge.
+Enterprise Search	Anthropic	754K	Search across all of your company's tools in one place. Find anything across email, chat, documents, and wikis without switching between apps.
+Human Resources	Anthropic	656.5K	Streamline people operations — recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep your team running smoothly.
+Customer Support	Anthropic	591.8K	Triage tickets, draft responses, escalate issues, and build your knowledge base. Research customer context and turn resolved issues into self-service content.
+Bio Research	Anthropic	368.1K	Connect to preclinical research tools and databases (literature search, genomics analysis, target prioritization) to accelerate early-stage life sciences R&D
+Commercial Legal	Anthropic	22.9K	Reviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines before they're missed, routes escalations to the right approver, and translates reviews into summaries business stakeholders will actually read.
+Corporate Legal	Anthropic	21.1K	Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions.
+AI Governance Legal	Anthropic	20.2K	Triages proposed AI use cases against your registry, runs impact assessments across the regimes in scope, reviews vendor AI terms for training-on-data and liability gaps, and keeps your AI policy current with practice.
+IP Legal	Anthropic	19.5K	Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.
+Product Legal	Anthropic	19K	Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks.
+Regulatory Legal	Anthropic	18.9K	Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.
+Privacy Legal	Anthropic	18.6K	Triages processing activities, generates PIAs, reviews DPAs as controller or processor, drafts DSAR responses within statutory timelines, and monitors policy drift against practice.
+Employment Legal	Anthropic	18.2K	Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.
+Litigation Legal	Anthropic	17.6K	Manages the litigation portfolio — matters, deadlines, holds, demands, outside counsel — and does the work: claim charts (patent and civil), chronologies, depo prep, privilege logs, brief drafting. Adapts to how you work litigation: in-house, firm, or solo.
+Legal Builder Hub	Anthropic	17.1K	Finds, evaluates, and installs community legal skills — with a security review gate before anything lands in your environment.
+Legal Clinic	Anthropic	13.8K	Sets up the clinic, onboards students, runs structured intake, tracks deadlines with malpractice-aware caution, and hands off cases at semester end — built within ABA Formal Op. 512.
+Law Student	Anthropic	13.4K	Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you.
+Claude for Healthcare	Anthropic	4.5K	Prior auth, ICD-10-CM medical coding, clinical trial protocols, FHIR development — with CMS Coverage, ICD-10, NPI Registry, Clinical Trials, and PubMed connected
+Pubmed	Anthropic	2.8K	Deprecated — install healthcare@healthcare instead. Search biomedical literature from PubMed
+Icd10 codes	Anthropic	2.4K	Deprecated — install healthcare@healthcare instead. Access ICD-10-CM and ICD-10-PCS code sets
+Cms coverage	Anthropic	2.3K	Deprecated — install healthcare@healthcare instead. Access the CMS Coverage Database
+Npi registry	Anthropic	2.2K	Deprecated — install healthcare@healthcare instead. Access US National Provider Identifier (NPI) Registry
+Postiz	Nevo David	1.6M	Social media automation CLI for scheduling posts, managing integrations, uploading media, and tracking analytics across 28+ platforms including X, LinkedIn, Reddit, YouTube, TikTok, Instagram, and more
+Brand Voice	Tribe AI	582.9K	Discover your brand voice from existing documents and conversations, generate enforceable guidelines, and validate AI-generated content against your established tone and positioning.
+Figma	Figma	496.8K	Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.
+Slack	Salesforce	347.4K	Slack integration for searching messages, sending communications, managing canvases, and more
+Adobe for Creativity	Adobe	313K	Brings together Adobe Creative Cloud tools for images, vectors, design, and video. Edit multiple assets at once, adapt for different platforms, and complete multi-step creative workflows for polished results.
+Apollo.io	Apollo.io	243K	Prospect, enrich leads, and load outreach sequences with Apollo.io — one-click MCP server integration for Claude Code and Cowork.
+SearchFit SEO	SearchFit.ai	217.6K	Free AI-powered SEO toolkit — audit websites, plan content strategy, optimize pages, generate schema markup, cluster keywords, and track AI visibility. Works with any website or codebase.
+Common Room	Common Room	207.8K	Turn Common Room into your GTM copilot. Research accounts and contacts, prep for calls with attendee profiles and talking points, and draft personalized outreach across email, LinkedIn, and phone.
+Zoom	Zoom	194.3K	Plan, build, and debug Zoom integrations across REST APIs, Meeting SDK, Video SDK, webhooks, bots, and MCP workflows. Search meetings, retrieve recordings, access transcripts, and design AI-powered Zoom experiences.
+Desktop Commander	Desktop Commander	175.5K	MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data.
+Bright Data	Bright Data	175.5K	Web scraping, Google search, structured data extraction, and MCP server integration powered by Bright Data. Includes 7 skills: scrape any webpage as markdown (with bot detection/CAPTCHA bypass), search Google with structured JSON results, extract data from 40+ websites (Amazon, LinkedIn, Instagram, TikTok, YouTube, and more), orchestrate Bright Data's 60+ MCP tools, built-in best practices for Web Unlocker, SERP API, Web Scraper API, and Browser API, Python SDK best practices for the brightda...
+S&P Global	Kensho Technologies	172.2K	S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries
+Product Tracking	Accoil	159.7K	AI agent skills that make SaaS products data-ready for product analytics — from codebase scan to tracking plan to working instrumentation code.
+Miro	Miro	136.6K	Secure access to Miro boards. Enables AI to read board context, create diagrams, and generate code with enterprise-grade security.
+Canva	Canva	135.6K	Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.
+Nimble	Nimble	133.9K	Nimble web data toolkit — search, extract, map, crawl the web and work with structured data agents
+Bigdata.com	RavenPack	132.3K	Official Bigdata.com plugin providing financial research, analytics, and intelligence tools powered by Bigdata MCP.
+Daloopa	Daloopa	124.7K	Financial analysis skills powered by Daloopa's institutional-grade data
+Zapier	Zapier	114.4K	Connect 8,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client.
+Adspirer	Adspirer	106.7K	Cross-platform ad management for Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads. 91 tools for keyword research, campaign creation, performance analysis, and budget optimization.
+LSEG	LSEG	100.6K	Price bonds, analyze yield curves, evaluate FX carry trades, value options, and build macro dashboards using LSEG financial data and analytics.
+Carta investors	Carta	100.2K	Carta Investors plugin — skills for querying investors data, performance benchmarks, regulatory reporting, AGM deck generation, brand extraction, and more via the Carta MCP server
+Box	Box	93.4K	Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow.
+ZoomInfo	ZoomInfo	92.2K	Search companies and contacts, enrich leads, find lookalikes, and get AI-ranked contact recommendations. Pre-built skills chain multiple ZoomInfo tools into complete B2B sales workflows.
+Vibe prospecting	vibeprospecting.ai	92K	Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automation inside Claude Cowork and Claude Code.
+Fastly	Fastly	84.7K	Fastly development tools and platform skills
+Airtable	Airtable	81.5K	Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, and Databricks. Makes Claude fluent in Airtable: bases and schema, records, and collaboration UI. Bundles the official Airtable MCP server.
+Prisma	Prisma	78.1K	Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly.
+Cockroachdb	Cockroach Labs	77.2K	CockroachDB plugin for Claude Code — explore schemas, write optimized SQL, debug queries, and manage distributed database clusters directly from your AI coding agent.
+Twilio developer kit	Twilio	74.5K	Twilio Skills provide procedural knowledge for AI coding agents — which APIs to use, in what order, and what to avoid. Covers SMS, Voice, WhatsApp, Verify, SendGrid, Compliance, and 30+ products.
+Sanity	Sanity	73.9K	Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing.
+Wix	Wix	73K	Build, manage, and deploy Wix sites and apps. Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.
+Atlan	Atlan	67.5K	Atlan data catalog plugin for Claude Code. Search, explore, govern, and manage your data assets through natural language. Powered by the Atlan MCP server with semantic search, lineage traversal, glossary management, data quality rules, and more.
+Cloudinary	Cloudinary	67.3K	Use Cloudinary directly in Claude. Manage assets, apply transformations, optimize media, and more through natural conversation.
+Intercom	Intercom	66.1K	Intercom integration for Claude Code. Search conversations, analyze customer support patterns, look up contacts and companies, and install the Intercom Messenger. Connect your Intercom workspace to get real-time insights from customer data.
+Carta cap table	Carta	61.2K	Carta Cap Table plugin — skills and hooks for querying cap tables, grants, SAFEs, 409A valuations, waterfall scenarios, and more
+Carta crm	Carta	57.1K	Manage the Carta CRM conversationally — search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings via the Carta CRM MCP Server
+PlanetScale	PlanetScale	55.2K	An authenticated hosted MCP server that accesses your PlanetScale organizations, databases, branches, schema, and Insights data. Query against your data, surface slow queries, and get organizational and account information.
+Base44	base44	55.1K	Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills
+Qodo skills	Qodo.ai	52.5K	Shift-left code review skills that bring Qodo's quality standards and code review capabilities into your local development workflow. Catch issues before commit, enforce organizational standards, and resolve PR feedback directly in your agent.
+Vanta	Vanta	50.2K	The Vanta plugin connects Claude to Vanta's security and compliance platform through the Vanta MCP server. List failing compliance tests, get test-specific remediation context, and fix failing tests with code changes — directly from your Claude session.
+Datadog	Datadog	47.8K	Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation. This plugin is in preview.
+DataRobot Agent Skills	-	46.8K	DataRobot skills for AI/ML workflows — model training, deployment, predictions, feature engineering, monitoring, explainability, data preparation, App Framework CI/CD, and external agent monitoring.
+Servicenow sdk	ServiceNow	45.5K	Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude. Helps developers build, extend, and manage ServiceNow applications, workflows, and agents using the ServiceNow SDK.
+AI-Firstify	TechWolf	42.6K	AI-first project auditor and re-engineer based on the 9 design principles and 7 design patterns from the TechWolf AI-First Bootcamp
+monday.com	monday.com	42K	The official monday.com plugin for Claude Cowork. Manage boards, items, docs, and forms across work management, CRM, dev, service, and campaigns. Full read and write access via OAuth.
+Learn with Coursera	-	39.5K	Turn any learning intent into a personalized Coursera experience. Asks three quick questions (topic, familiarity, preferred format), searches Coursera's catalog, and delivers the right next step — a course, hands-on project, short video, or live roleplay — then maps a path forward. Requires the Coursera connector for catalog tools.
+Dropbox	Dropbox	36.7K	The Dropbox plugin for Claude connects your Dropbox files directly to Claude, so you can search, organize, save generated content, and create sharing links without switching tools. It respects your existing Dropbox permissions, and Claude only works with files you already have access to.
+Exa	Exa	36.1K	Exa AI web search, deep research, and content extraction. Provides MCP tools and research skills for comprehensive web search, people discovery, company research, academic papers, and more.
+monday CRM	monday.com	35.1K	Run your monday CRM in plain language. Build a pipeline from scratch, start the day with a ranked deal briefing, spin up a forecast dashboard, audit board health, clean up messy data in bulk, and turn meeting notes into deal updates. Every skill writes back into monday as a real update, doc, or dashboard. Built on the official monday MCP connector.
+Auth0	Auth0	30.9K	Essential Auth0 skills including quickstarts, migration from other providers, and Multi-Factor Authentication (MFA).
+Tavily	Tavily Team	30.8K	Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.
+Langfuse	Langfuse	30.3K	Skills for working with Langfuse, the open-source LLM engineering platform for tracing, prompt management, and evaluation.
+Qdrant	Qdrant	27.1K	Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage
+Qt Development Skills	Qt Group	27K	Agentic engineering skills for Qt software development, including Qt C++/QML code review, QML coding, and Qt C++/QML code documentation. These skills use AI and can make mistakes. Always double-check the output carefully.
+Browser Use	Browser Use	26.3K	Give Claude a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows.
+Lusha	Lusha	25.7K	Prospect, enrich, and build call-ready lead lists using Lusha's B2B intelligence platform — verified phone numbers, company signals, and lookalike targeting.
+Airwallex AgentOS	Airwallex	25K	Bring Airwallex's global financial infrastructure to Claude. Orchestrate actions across your account in plain language, e.g., set up invoices from a PO, onboard suppliers from invoices, and check current cash position across currencies. AgentOS bundles pre-built finance Skills with MCP servers. A public CLI connects your agent to Airwallex's capabilities.
+Buildkite	-	24.7K	Official Buildkite skills for Claude Code, Cursor, and other AI coding agents — pipelines, migration, preflight, agent runtime, CLI, and API
+Val Town	Val Town	22.9K	Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations, templates).
+Grafana Cloud MCP	Grafana Labs	21.5K	Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required.
+ClickHouse	ClickHouse	21.3K	ClickHouse Claude Code plugin: skills (ClickHouse best practices), rules and MCP.
+Grafana Assistant	Grafana Labs	20.7K	Skills and rules for developing and using the Grafana Assistant app and CLI.
+Pixeltable	Pixeltable	20.1K	Build multimodal AI applications with Pixeltable -- tables, computed columns, embedding search, UDFs, tool-calling agents, and 25+ AI provider integrations.
+Modern Web Guidance	Google Chrome	20K	Keep your coding agent up to date with the latest web best practices
+Grasp	Grasp	18.7K	Deal-work workflows powered by Grasp company lookup, table creation, import, buyer, transaction, table enrichment, contact, and market research tools.
+B12	B12.io	18.7K	B12 plugin with two skills: Website Generator (create a B12 website from a brief description) and B12 Website Editor (edit a live B12 website using Claude's browser access in Claude Cowork).
+GitKraken	GitKraken	17.3K	Gives Claude access to your real Git and project context: commits, branches, pull requests, and issues across every repo you work in. Works with GitHub, GitLab, Azure DevOps, Bitbucket, and Jira.
+Honeycomb	Honeycomb	16.5K	Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration. Designed to complement the Honeycomb MCP server.
+SigNoz	SigNoz	15.8K	Official SigNoz plugin for MCP setup, docs, queries, dashboards, and alerts
+TinyFish	TinyFish	15.3K	The complete web toolkit for your agent. Search the web and get answers in milliseconds. Fetch any URL and get clean markdown content back. Send a browser agent to navigate sites, fill forms, and extract structured data. Spin up a headless browser for full programmatic control when you need it.
+CoCounsel Legal	Thomson Reuters	12.1K	CoCounsel Legal delivers comprehensive Westlaw Deep Research reports with inline, linked citations to Westlaw and Practical Law sources.
+GrowthBook	GrowthBook	11.6K	A suite of agent skills for the full GrowthBook feature flag and experimentation lifecycle.
+Carbone	Carbone	11.2K	Official Carbone skill — complete templating language reference covering tags, loops, conditions, formatters, aggregators, and all output formats (DOCX, XLSX, PPTX, ODT, HTML, Markdown, PDF)
+StackHawk API	StackHawk	10.6K	Query the StackHawk platform API for security posture reporting, findings analysis, and app management. Guides agents through authentication, data retrieval, and result presentation.
+StackHawk HawkScan	StackHawk	10.5K	Configure, run, and interpret HawkScan DAST results. Generates stackhawk.yml configs, runs scans via CLI or Docker, and transforms security findings into prioritized fix tasks for your coding agent.
+Pubmed	U.S. National Library of Medicine	8.6K	PubMed MCP server for searching biomedical literature and research articles
+Scientific problem selection	-	7.6K	Systematic framework for scientific problem selection and strategic research decisions based on Fischbach & Walsh methodology
+Clinical trials	deepsense.ai	7.6K	Access ClinicalTrials.gov data
+Clinical trial protocol	-	7.3K	Generate FDA/NIH-compliant clinical trial protocols for medical devices or drugs
+Biorxiv	deepsense.ai	7.1K	Access to bioRxiv and medRxiv preprint data
+Open targets	OpenTargets	6.7K	Drug target discovery and prioritisation platform
+Chembl	deepsense.ai	6.6K	Access to the ChEMBL Database
+Single cell rna qc	-	6.6K	Quality control for single-cell RNA-seq data following scverse best practices
+Cortellis	Clarivate	6.4K	Cortellis Regulatory Intelligence MCP server by Clarivate for global drug regulatory data and intelligence
+Consensus	Consensus	3.2K	Consensus MCP server for AI-powered search across peer-reviewed scientific research papers
+Tooluniverse	MIMS Harvard	3K	Democratizing AI scientists with ToolUniverse - AI agents and tools for scientific discovery and automation
+Wiley scholar gateway	John Wiley & Sons, Inc.	3K	Scholar Gateway MCP server by Wiley for accessing academic research and publications
+Biorender	BioRender	2.8K	BioRender MCP server for creating and accessing scientific illustrations
+10x genomics	10x Genomics, Inc.	2.7K	10x Genomics Cloud MCP server for accessing analysis data and workflows
+Nextflow development	-	2.5K	Run nf-core bioinformatics pipelines (rnaseq, sarek, atacseq) on local or public GEO/SRA sequencing data
+Adisinsight	Springer Nature	2.5K	AdisInsight MCP server by Springer Nature for drug development pipeline, clinical trials, and deals intelligence
+Scvi tools	-	2.5K	Deep learning toolkit for single-cell omics analysis using scvi-tools
+Medidata	Medidata Solutions	2.5K	Medidata's MCP Connector for Claude with Platform Help and Predictive Site Ranking for clinical trials
+Synapse	Sage Bionetworks	2.4K	Synapse.org MCP server by Sage Bionetworks for collaborative research data management
+Instrument data to allotrope	-	2.3K	Convert instrument data to Allotrope Simple Model (ASM) format

@@ -871,7 +871,7 @@
       "use_case": "Zoom app development, meeting recording retrieval, transcript access, AI-powered Zoom experiences."
     },
     {
-      "name": "Apollo",
+      "name": "Apollo.io",
       "url": "https://www.apollo.io",
       "category": "CRM and Sales",
       "surfaces": [
@@ -1165,7 +1165,7 @@
         "Claude Code"
       ],
       "anthropic": false,
-      "slug": "clickhouse",
+      "slug": "clickhouse-best-practices",
       "description": "Apply 28 prioritized best-practice rules for ClickHouse schema design, query optimization, and data ingestion.",
       "use_case": "ClickHouse schema review, query optimization, ingestion tuning."
     },
@@ -1534,7 +1534,7 @@
       "use_case": "Prisma schema authoring, migration generation, PostgreSQL data interaction."
     },
     {
-      "name": "Qdrant Skills",
+      "name": "Qdrant",
       "url": "https://qdrant.tech",
       "category": "Data and Databases",
       "surfaces": [
@@ -2007,7 +2007,7 @@
         "Claude Code"
       ],
       "anthropic": false,
-      "slug": "liquid-lsp",
+      "slug": "liquid-skills",
       "description": "Apply Liquid fundamentals, CSS/JS/HTML standards, and WCAG accessibility patterns for Shopify themes.",
       "use_case": "Liquid theme coding, accessibility compliance, theme coding standards."
     },
@@ -2304,7 +2304,7 @@
       "use_case": "Spec authoring, roadmap planning, research synthesis, competitive monitoring."
     },
     {
-      "name": "Product Tracking Skills",
+      "name": "Product Tracking",
       "url": "https://accoil.com",
       "category": "Engineering and Product",
       "surfaces": [
@@ -2535,7 +2535,7 @@
       "use_case": "Query Medidata's platform help and predictive site-ranking data while planning enrollment for a clinical trial."
     },
     {
-      "name": "Nextflow",
+      "name": "Nextflow development",
       "url": "https://www.nextflow.io",
       "category": "Healthcare and Life Sciences",
       "surfaces": [
@@ -2557,18 +2557,6 @@
       "slug": null,
       "description": "Drug-target discovery and prioritization across the Open Targets platform.",
       "use_case": "Prioritize candidate drug targets for a disease of interest by reviewing genetic association and tractability evidence."
-    },
-    {
-      "name": "Owkin",
-      "url": "https://www.owkin.com",
-      "category": "Healthcare and Life Sciences",
-      "surfaces": [
-        "Cowork"
-      ],
-      "anthropic": false,
-      "slug": null,
-      "description": "Interact with AI agents built for biology from Owkin.",
-      "use_case": "Consult Owkin's AI agents while formulating a hypothesis about a disease mechanism during early-stage drug discovery."
     },
     {
       "name": "scvi-tools",
@@ -3003,7 +2991,7 @@
       "use_case": "Regulatory-feed monitoring, rule-to-policy diffing, comment-deadline tracking."
     },
     {
-      "name": "Adspirer Ads Agent",
+      "name": "Adspirer",
       "url": "https://www.adspirer.com",
       "category": "Marketing and Web",
       "surfaces": [
@@ -3415,7 +3403,7 @@
         "Claude Code"
       ],
       "anthropic": false,
-      "slug": "sentry",
+      "slug": "sentry-cli",
       "description": "Interact with Sentry from the command line using the Sentry CLI.",
       "use_case": "Release management, source-map upload, CLI-driven issue triage."
     },
@@ -3591,7 +3579,7 @@
       "use_case": "Expo app development, EAS build configuration, React Native debugging."
     },
     {
-      "name": "Fastly Agent Toolkit",
+      "name": "Fastly",
       "url": "https://www.fastly.com",
       "category": "Platforms and SaaS",
       "surfaces": [
@@ -3600,7 +3588,7 @@
       ],
       "anthropic": false,
       "slug": "fastly-agent-toolkit",
-      "description": "Fastly development tools and platform skills for VCL, edge functions, and CDN configuration.",
+      "description": "Development tools and platform skills for the Fastly edge platform.",
       "use_case": "Fastly edge function development, VCL authoring, CDN configuration."
     },
     {
@@ -3742,8 +3730,7 @@
       "url": "https://asana.com",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code",
-        "Cowork"
+        "Claude Code"
       ],
       "anthropic": false,
       "slug": "asana",
@@ -3755,8 +3742,7 @@
       "url": "https://www.atlassian.com",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code",
-        "Cowork"
+        "Claude Code"
       ],
       "anthropic": false,
       "slug": "atlassian",
@@ -3768,8 +3754,7 @@
       "url": "https://github.com",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code",
-        "Cowork"
+        "Claude Code"
       ],
       "anthropic": false,
       "slug": "github",
@@ -3793,8 +3778,7 @@
       "url": "https://linear.app",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code",
-        "Cowork"
+        "Claude Code"
       ],
       "anthropic": false,
       "slug": "linear",
@@ -3855,8 +3839,7 @@
       "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
       "category": "Security",
       "surfaces": [
-        "Claude Code",
-        "Cowork"
+        "Claude Code"
       ],
       "anthropic": false,
       "slug": "claude-security",
@@ -4093,6 +4076,198 @@
       "slug": "skill-creator",
       "description": "Create, improve, and measure skills covering creation, updating, evaluation, and benchmarking performance.",
       "use_case": "Skill authoring, skill-performance evaluation, benchmarking before publishing."
+    },
+    {
+      "name": "Airwallex Dev",
+      "url": "https://www.airwallex.com/docs",
+      "category": "Payments and Billing",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "airwallex-dev",
+      "description": "Generates checkout, card-element, onboarding, and subscription-billing code for Airwallex payment integrations and wires it into a project.",
+      "use_case": "Wiring a hosted payment page into a checkout flow, generating subscription-billing code, scaffolding supplier onboarding against Airwallex APIs."
+    },
+    {
+      "name": "Aiven",
+      "url": "https://aiven.io",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "aiven",
+      "description": "Deploy managed PostgreSQL, Kafka, OpenSearch, ClickHouse, and other data services from Claude.",
+      "use_case": "Spinning up a managed Postgres for a prototype, standing up a Kafka cluster without infra work, comparing service plans before committing."
+    },
+    {
+      "name": "Atlassian Teamwork Graph CLI",
+      "url": "https://developer.atlassian.com/cloud/twg-cli/",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "atlassian-twg-cli",
+      "description": "Atlassian's agent-first CLI for work context — Jira issues, Confluence pages, Bitbucket PRs, and connected third-party sources.",
+      "use_case": "Pulling the Jira ticket and linked Confluence spec into context before coding, checking open Bitbucket PRs from the terminal, tracing a requirement across connected tools."
+    },
+    {
+      "name": "Catalyst by Zoho",
+      "url": "https://catalyst.zoho.com/",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "catalyst-by-zoho",
+      "description": "Official plugin for the Catalyst serverless platform with skills covering services, SDKs, CLI, architecture patterns, and migration.",
+      "use_case": "Scaffolding a serverless function with the CLI, checking pricing before picking a service, migrating an existing app onto Catalyst."
+    },
+    {
+      "name": "CrowdStrike Falcon Fusion",
+      "url": "https://github.com/CrowdStrike/fusion-skills",
+      "category": "Security",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "crowdstrike-falcon-fusion",
+      "description": "Author, deploy, and execute Falcon Fusion workflows with live action discovery, schema-validated YAML, and execution monitoring.",
+      "use_case": "Authoring a Fusion workflow YAML with schema validation, importing and releasing a workflow, monitoring an execution run."
+    },
+    {
+      "name": "Matt Pocock Skills",
+      "url": "https://github.com/mattpocock/skills",
+      "category": "Developer Workflows",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mattpocock-skills",
+      "description": "Engineering agent skills for spec and ticket flows, TDD, code review, and domain modelling.",
+      "use_case": "Running a TDD loop on a new feature, turning a vague ticket into a spec before coding, getting a design grilled before implementation."
+    },
+    {
+      "name": "MongoDB Atlas",
+      "url": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "mongodb-atlas",
+      "description": "Connect to MongoDB Atlas clusters through the Atlas managed MCP server to explore data, manage collections, and optimize queries.",
+      "use_case": "Exploring collections on an Atlas cluster after OAuth sign-in, optimizing a slow aggregation, generating code that follows MongoDB best practices."
+    },
+    {
+      "name": "Noibu",
+      "url": "https://help.noibu.com/articles/3918362002-overview-of-the-noibu-plugin-for-claude",
+      "category": "Observability and Monitoring",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "noibu",
+      "description": "Connects Claude to ecommerce session, error, and conversion data to tie customer-experience issues to revenue.",
+      "use_case": "Tracing a checkout error to its session recording, quantifying revenue lost to a conversion bug, prioritizing fixes by dollar impact."
+    },
+    {
+      "name": "PayPal",
+      "url": "https://developer.paypal.com/",
+      "category": "Payments and Billing",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "paypal",
+      "description": "Development plugin for integrating payments, subscriptions, invoices, and disputes through PayPal APIs and MCP server.",
+      "use_case": "Integrating a subscriptions flow against PayPal APIs, wiring dispute handling into a storefront, testing invoice creation from a sandbox."
+    },
+    {
+      "name": "Salesforce Development",
+      "url": "https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development",
+      "category": "Platforms and SaaS",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "salesforce-development",
+      "description": "Build Salesforce apps and agents with metadata, Apex, deploy and retrieve, security, and reporting building blocks.",
+      "use_case": "Generating Apex with deploy and retrieve wired in, auditing org security settings, discovering installed-versus-available org capabilities."
+    },
+    {
+      "name": "Shippo",
+      "url": "https://docs.goshippo.com",
+      "category": "Business Operations",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "shippo",
+      "description": "Handle shipments end to end across USPS, UPS, FedEx, DHL, and 40+ carriers — compare rates, buy labels, track packages.",
+      "use_case": "Comparing live carrier rates for a package, buying and printing a shipping label, checking where a shipment stalled in transit."
+    },
+    {
+      "name": "Confluent Streaming Skills",
+      "url": "https://www.confluent.io",
+      "category": "Data and Databases",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "streaming-skills-plugin",
+      "description": "Skills for streaming application development covering Kafka and Flink client libraries and Schema Registry.",
+      "use_case": "Writing a Kafka consumer with the right client library patterns, wiring Schema Registry into a producer, building a Flink job against Confluent Cloud."
+    },
+    {
+      "name": "Synthflow",
+      "url": "https://synthflow.ai",
+      "category": "AI Development and Agents",
+      "surfaces": [
+        "Claude Code"
+      ],
+      "anthropic": false,
+      "slug": "synthflow",
+      "description": "Connects Claude Code to the Synthflow voice-agent platform with skills for reviewing calls and auditing agent prompts.",
+      "use_case": "Reviewing a batch of voice-agent calls for failure patterns, auditing an agent prompt against call outcomes, searching platform docs mid-build."
+    },
+    {
+      "name": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "MCP server from the National Library of Medicine for searching biomedical literature and research articles.",
+      "use_case": "Searching biomedical literature by topic and date range, pulling abstracts for a journal-club packet, checking whether a claim has recent citations."
+    },
+    {
+      "name": "Scientific Problem Selection",
+      "url": "https://claude.com/plugins#scientific-problem-selection",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Framework for scientific problem selection and research strategy decisions based on the Fischbach and Walsh methodology.",
+      "use_case": "Stress-testing a proposed research direction against selection criteria, ranking candidate projects before committing a lab year."
+    },
+    {
+      "name": "Clinical Trial Protocol",
+      "url": "https://claude.com/plugins#clinical-trial-protocol",
+      "category": "Healthcare and Life Sciences",
+      "surfaces": [
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Generate FDA and NIH-compliant clinical trial protocols for medical devices or drugs.",
+      "use_case": "Drafting a protocol skeleton for a device study, generating inclusion criteria language, structuring endpoints for an NIH submission."
     }
   ]
 }

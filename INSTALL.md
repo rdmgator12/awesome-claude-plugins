@@ -6,7 +6,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 /plugin install <name>@claude-plugins-official
 ```
 
-269 plugins:
+282 plugins:
 
 | Plugin | Category | Install |
 | --- | --- | --- |
@@ -17,19 +17,22 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Aikido Security | Code Quality and Review | `/plugin install aikido@claude-plugins-official` |
 | Airtable | Data and Databases | `/plugin install airtable@claude-plugins-official` |
 | Airwallex AgentOS | Finance and Accounting | `/plugin install airwallex-agentos@claude-plugins-official` |
+| Airwallex Dev | Payments and Billing | `/plugin install airwallex-dev@claude-plugins-official` |
+| Aiven | Data and Databases | `/plugin install aiven@claude-plugins-official` |
 | AlloyDB | Data and Databases | `/plugin install alloydb@claude-plugins-official` |
 | AlloyDB Omni | Data and Databases | `/plugin install alloydb-omni@claude-plugins-official` |
 | altimate-code | Data and Databases | `/plugin install altimate-code@claude-plugins-official` |
 | Amazon Location Service | Platforms and SaaS | `/plugin install amazon-location-service@claude-plugins-official` |
 | AMD Skills | AI Development and Agents | `/plugin install amd-skills@claude-plugins-official` |
 | Amplitude | Observability and Monitoring | `/plugin install amplitude@claude-plugins-official` |
-| Apollo | CRM and Sales | `/plugin install apollo@claude-plugins-official` |
 | Apollo GraphQL | Developer Workflows | `/plugin install apollo-skills@claude-plugins-official` |
+| Apollo.io | CRM and Sales | `/plugin install apollo@claude-plugins-official` |
 | Appwrite | Platforms and SaaS | `/plugin install appwrite@claude-plugins-official` |
 | Asana | Project Management | `/plugin install asana@claude-plugins-official` |
 | Astronomer Data Agents | Data and Databases | `/plugin install astronomer-data-agents@claude-plugins-official` |
 | Atlan | Data and Databases | `/plugin install atlan@claude-plugins-official` |
 | Atlassian | Project Management | `/plugin install atlassian@claude-plugins-official` |
+| Atlassian Teamwork Graph CLI | Developer Workflows | `/plugin install atlassian-twg-cli@claude-plugins-official` |
 | atomic-agents | AI Development and Agents | `/plugin install atomic-agents@claude-plugins-official` |
 | Auth0 | Security | `/plugin install auth0@claude-plugins-official` |
 | AWS Agents | AI Development and Agents | `/plugin install aws-agents@claude-plugins-official` |
@@ -59,6 +62,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Carta cap table | Finance and Accounting | `/plugin install carta-cap-table@claude-plugins-official` |
 | Carta crm | CRM and Sales | `/plugin install carta-crm@claude-plugins-official` |
 | Carta investors | Finance and Accounting | `/plugin install carta-investors@claude-plugins-official` |
+| Catalyst by Zoho | Cloud and Infrastructure | `/plugin install catalyst-by-zoho@claude-plugins-official` |
 | Chrome DevTools | Browser Automation | `/plugin install chrome-devtools-mcp@claude-plugins-official` |
 | Circle | Payments and Billing | `/plugin install circle-skills@claude-plugins-official` |
 | Circleback | Communication and Messaging | `/plugin install circleback@claude-plugins-official` |
@@ -68,7 +72,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Claude Security | Security | `/plugin install claude-security@claude-plugins-official` |
 | CLAUDE.md Management | Developer Workflows | `/plugin install claude-md-management@claude-plugins-official` |
 | ClickHouse | Data and Databases | `/plugin install clickhouse@claude-plugins-official` |
-| ClickHouse Best Practices | Data and Databases | `/plugin install clickhouse@claude-plugins-official` |
+| ClickHouse Best Practices | Data and Databases | `/plugin install clickhouse-best-practices@claude-plugins-official` |
 | Cloud SQL for MySQL | Data and Databases | `/plugin install cloud-sql-mysql@claude-plugins-official` |
 | Cloud SQL for PostgreSQL | Data and Databases | `/plugin install cloud-sql-postgresql@claude-plugins-official` |
 | Cloud SQL for SQL Server | Data and Databases | `/plugin install cloud-sql-sqlserver@claude-plugins-official` |
@@ -82,10 +86,12 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | CodSpeed | Observability and Monitoring | `/plugin install codspeed@claude-plugins-official` |
 | Commit Commands | Developer Workflows | `/plugin install commit-commands@claude-plugins-official` |
 | Confidence | Observability and Monitoring | `/plugin install confidence@claude-plugins-official` |
+| Confluent Streaming Skills | Data and Databases | `/plugin install streaming-skills-plugin@claude-plugins-official` |
 | Context7 | Documentation | `/plugin install context7@claude-plugins-official` |
 | Convex | Data and Databases | `/plugin install convex@claude-plugins-official` |
 | CrowdSec | Security | `/plugin install crowdsec@claude-plugins-official` |
 | CrowdStrike Falcon Foundry | Security | `/plugin install crowdstrike-falcon-foundry@claude-plugins-official` |
+| CrowdStrike Falcon Fusion | Security | `/plugin install crowdstrike-falcon-fusion@claude-plugins-official` |
 | CWC Makers | Developer Workflows | `/plugin install cwc-makers@claude-plugins-official` |
 | Dash0 | Observability and Monitoring | `/plugin install dash0@claude-plugins-official` |
 | Data | Data and Databases | `/plugin install data@claude-plugins-official` |
@@ -111,7 +117,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Explanatory Output Style | Output Styles | `/plugin install explanatory-output-style@claude-plugins-official` |
 | Expo | Platforms and SaaS | `/plugin install expo@claude-plugins-official` |
 | fakechat | Communication and Messaging | `/plugin install fakechat@claude-plugins-official` |
-| Fastly Agent Toolkit | Platforms and SaaS | `/plugin install fastly-agent-toolkit@claude-plugins-official` |
+| Fastly | Platforms and SaaS | `/plugin install fastly-agent-toolkit@claude-plugins-official` |
 | Feature Dev | Developer Workflows | `/plugin install feature-dev@claude-plugins-official` |
 | FiftyOne | AI Development and Agents | `/plugin install fiftyone@claude-plugins-official` |
 | Figma | Design and Creative | `/plugin install figma@claude-plugins-official` |
@@ -150,7 +156,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | LegalZoom | Legal | `/plugin install legalzoom@claude-plugins-official` |
 | Linear | Project Management | `/plugin install linear@claude-plugins-official` |
 | Liquid LSP | Language Servers | `/plugin install liquid-lsp@claude-plugins-official` |
-| Liquid Skills | Developer Workflows | `/plugin install liquid-lsp@claude-plugins-official` |
+| Liquid Skills | Developer Workflows | `/plugin install liquid-skills@claude-plugins-official` |
 | Logfire | Observability and Monitoring | `/plugin install logfire@claude-plugins-official` |
 | LogRocket | Observability and Monitoring | `/plugin install logrocket@claude-plugins-official` |
 | Looker | Data and Databases | `/plugin install looker@claude-plugins-official` |
@@ -160,6 +166,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Lusha | CRM and Sales | `/plugin install lusha@claude-plugins-official` |
 | Mapbox | Platforms and SaaS | `/plugin install mapbox@claude-plugins-official` |
 | Math Olympiad | Education and Learning | `/plugin install math-olympiad@claude-plugins-official` |
+| Matt Pocock Skills | Developer Workflows | `/plugin install mattpocock-skills@claude-plugins-official` |
 | MCP Apps | Skills Authoring | `/plugin install mcp-apps@claude-plugins-official` |
 | MCP Server Dev | Skills Authoring | `/plugin install mcp-server-dev@claude-plugins-official` |
 | MCP Tunnels | Skills Authoring | `/plugin install mcp-tunnels@claude-plugins-official` |
@@ -173,12 +180,14 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Modern Web Guidance | Developer Workflows | `/plugin install modern-web-guidance@claude-plugins-official` |
 | monday CRM | CRM and Sales | `/plugin install monday-crm@claude-plugins-official` |
 | MongoDB | Data and Databases | `/plugin install mongodb@claude-plugins-official` |
+| MongoDB Atlas | Data and Databases | `/plugin install mongodb-atlas@claude-plugins-official` |
 | Neon | Data and Databases | `/plugin install neon@claude-plugins-official` |
 | Netlify Skills | Cloud and Infrastructure | `/plugin install netlify-skills@claude-plugins-official` |
 | NetSuite SuiteCloud | Developer Workflows | `/plugin install netsuite-suitecloud@claude-plugins-official` |
 | New Relic | Observability and Monitoring | `/plugin install newrelic@claude-plugins-official` |
 | NightVision | Security | `/plugin install nightvision@claude-plugins-official` |
 | Nimble | Marketing and Web | `/plugin install nimble@claude-plugins-official` |
+| Noibu | Observability and Monitoring | `/plugin install noibu@claude-plugins-official` |
 | Notion | Productivity and Documents | `/plugin install notion@claude-plugins-official` |
 | NVIDIA Skills | AI Development and Agents | `/plugin install nvidia-skills@claude-plugins-official` |
 | Oracle AI Data Platform Databricks Migrator | Data and Databases | `/plugin install oracle-ai-data-platform-workbench-databricks-migrator@claude-plugins-official` |
@@ -187,6 +196,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Oracle Database | Data and Databases | `/plugin install oracledb@claude-plugins-official` |
 | Output.ai | AI Development and Agents | `/plugin install outputai@claude-plugins-official` |
 | PagerDuty Pre-Commit Risk Score | Observability and Monitoring | `/plugin install pagerduty@claude-plugins-official` |
+| PayPal | Payments and Billing | `/plugin install paypal@claude-plugins-official` |
 | PHP LSP | Language Servers | `/plugin install php-lsp@claude-plugins-official` |
 | Pigment | Data and Databases | `/plugin install pigment@claude-plugins-official` |
 | Pinecone | Data and Databases | `/plugin install pinecone@claude-plugins-official` |
@@ -204,7 +214,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Project Artifact | Productivity and Documents | `/plugin install project-artifact@claude-plugins-official` |
 | Pydantic AI | AI Development and Agents | `/plugin install pydantic-ai@claude-plugins-official` |
 | Pyright LSP | Language Servers | `/plugin install pyright-lsp@claude-plugins-official` |
-| Qdrant Skills | Data and Databases | `/plugin install qdrant-skills@claude-plugins-official` |
+| Qdrant | Data and Databases | `/plugin install qdrant-skills@claude-plugins-official` |
 | Qodo Skills | Code Quality and Review | `/plugin install qodo@claude-plugins-official` |
 | Qt Development Skills | Developer Workflows | `/plugin install qt-development-skills@claude-plugins-official` |
 | Quarkus Agent | Developer Workflows | `/plugin install quarkus-agent@claude-plugins-official` |
@@ -222,6 +232,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Runway API | Design and Creative | `/plugin install runway-api@claude-plugins-official` |
 | Rust Analyzer LSP | Language Servers | `/plugin install rust-analyzer-lsp@claude-plugins-official` |
 | SageMaker AI | AI Development and Agents | `/plugin install sagemaker-ai@claude-plugins-official` |
+| Salesforce Development | Platforms and SaaS | `/plugin install salesforce-development@claude-plugins-official` |
 | Sanity | Design and Creative | `/plugin install sanity@claude-plugins-official` |
 | SAP CDS / CAP | Developer Workflows | `/plugin install cds-mcp@claude-plugins-official` |
 | SAP Fiori | Developer Workflows | `/plugin install sap-fiori-mcp-server@claude-plugins-official` |
@@ -231,10 +242,11 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Security Guidance | Security | `/plugin install security-guidance@claude-plugins-official` |
 | Semgrep | Security | `/plugin install semgrep@claude-plugins-official` |
 | Sentry | Observability and Monitoring | `/plugin install sentry@claude-plugins-official` |
-| Sentry CLI | Observability and Monitoring | `/plugin install sentry@claude-plugins-official` |
+| Sentry CLI | Observability and Monitoring | `/plugin install sentry-cli@claude-plugins-official` |
 | Serena | Language Servers | `/plugin install serena@claude-plugins-official` |
 | Servicenow sdk | Developer Workflows | `/plugin install servicenow-sdk@claude-plugins-official` |
 | session-report | Code Quality and Review | `/plugin install session-report@claude-plugins-official` |
+| Shippo | Business Operations | `/plugin install shippo@claude-plugins-official` |
 | shopify-ai-toolkit | Documentation | `/plugin install shopify-ai-toolkit@claude-plugins-official` |
 | Skill Creator | Skills Authoring | `/plugin install skill-creator@claude-plugins-official` |
 | Slack | Communication and Messaging | `/plugin install slack@claude-plugins-official` |
@@ -251,6 +263,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | Supabase | Data and Databases | `/plugin install supabase@claude-plugins-official` |
 | Superpowers | Developer Workflows | `/plugin install superpowers@claude-plugins-official` |
 | Swift LSP | Language Servers | `/plugin install swift-lsp@claude-plugins-official` |
+| Synthflow | AI Development and Agents | `/plugin install synthflow@claude-plugins-official` |
 | Tavily | AI Development and Agents | `/plugin install tavily@claude-plugins-official` |
 | TDengine IDMP | Data and Databases | `/plugin install idmp-plugin@claude-plugins-official` |
 | TeamCity CLI | Developer Workflows | `/plugin install teamcity-cli@claude-plugins-official` |
