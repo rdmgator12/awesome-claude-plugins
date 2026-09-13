@@ -74,6 +74,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Language Servers](#language-servers)
 - [Legal](#legal)
 - [Marketing and Web](#marketing-and-web)
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases.
 - [Observability and Monitoring](#observability-and-monitoring)
 - [Output Styles](#output-styles)
 - [Payments and Billing](#payments-and-billing)
