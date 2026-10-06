@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** July 23, 2026 | **Total plugins:** 348 | **Surfaces:** Claude Code (286) · Cowork (125) · both (63) | **Categories:** 28
+**Last updated:** July 23, 2026 | **Total plugins:** 349 | **Surfaces:** Claude Code (287) · Cowork (126) · both (64) | **Categories:** 28
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -20,8 +20,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 >
 > Plugins run on two surfaces, and this list catalogs **both** — the surface tag on every entry tells you where each one is available:
 >
-> - **Claude Code** (the developer CLI) — its marketplace (`claude-plugins-official`) is the *full* catalog, auto-installed on startup and dominated by developer and infrastructure plugins: language servers, cloud (AWS/GCP/Azure/Oracle), databases, CI/CD, security, and code tooling. **~286 of the entries below run here.**
-> - **Cowork** (Anthropic's agentic workspace inside claude.ai) — its plugin library surfaces a **curated business/role subset**: CRM, finance, marketing, design, data dashboards, the Anthropic role bundles, and — new this week — full **Legal** (12 role-specialized plugins) and **Healthcare / life-sciences** verticals. **125 entries run here; 63 run on both.**
+> - **Claude Code** (the developer CLI) — its marketplace (`claude-plugins-official`) is the *full* catalog, auto-installed on startup and dominated by developer and infrastructure plugins: language servers, cloud (AWS/GCP/Azure/Oracle), databases, CI/CD, security, and code tooling. **~287 of the entries below run here.**
+> - **Cowork** (Anthropic's agentic workspace inside claude.ai) — its plugin library surfaces a **curated business/role subset**: CRM, finance, marketing, design, data dashboards, the Anthropic role bundles, and — new this week — full **Legal** (12 role-specialized plugins) and **Healthcare / life-sciences** verticals. **126 entries run here; 64 run on both.**
 >
 > So the plugin browser in the **claude.ai desktop app shows far fewer plugins than this list** — it's the Cowork storefront, not the whole catalog. Developer and infrastructure plugins don't appear there because they target a coding environment, not a Cowork VM. If a plugin you expected is missing from the desktop app, it's almost certainly a Claude Code–only entry.
 >
@@ -170,6 +170,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [Netlify Skills](https://www.netlify.com) - Netlify platform skills for functions, edge functions, blobs, database, image CDN, forms, config, and CLI workflows. *Use case: JAMstack deployment, edge function development, Netlify forms and config tuning.* (Claude Code)
 - [Railway](https://railway.app) - Deploy and manage apps, databases, and infrastructure on Railway covering project setup, deploys, and environment configuration. *Use case: Quick app deploys, database provisioning, env-var management.* (Claude Code)
 - [Render](https://render.com) - Deploy, debug, and monitor applications on Render with skills, an agent, slash commands, and a render.yaml validation hook. *Use case: Render deploys, config validation pre-push, production debugging.* (Claude Code)
+- [Shipvela](https://shipvela.com) - Publish supported websites with owner confirmation, deployment status and a live HTTPS URL. *Use case: Preparing a static portfolio for review, following its deployment, inspecting a failed build.* (Claude Code, Cowork)
 - [Terraform](https://www.terraform.io) - MCP server for advanced infrastructure-as-code automation and Terraform-ecosystem integration. *Use case: HCL authoring, state-file inspection, provider exploration.* (Claude Code)
 - [Val Town](https://val.town) - Build and deploy on Val Town with HTTP vals, cron jobs, SQLite, email, OAuth, and React UI. *Use case: Serverless function deployment, scheduled jobs, lightweight full-stack vals.* (Claude Code, Cowork)
 - [Vercel](https://vercel.com) - Integration to manage deployments, builds, logs, domains, and frontend infrastructure. *Use case: Next.js deployment workflows, build-log triage, domain configuration, edge function management.* (Claude Code)

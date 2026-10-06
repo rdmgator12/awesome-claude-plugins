@@ -4268,6 +4268,19 @@
       "slug": null,
       "description": "Generate FDA and NIH-compliant clinical trial protocols for medical devices or drugs.",
       "use_case": "Drafting a protocol skeleton for a device study, generating inclusion criteria language, structuring endpoints for an NIH submission."
+    },
+    {
+      "name": "Shipvela",
+      "url": "https://shipvela.com",
+      "category": "Cloud and Infrastructure",
+      "surfaces": [
+        "Claude Code",
+        "Cowork"
+      ],
+      "anthropic": false,
+      "slug": null,
+      "description": "Publish supported websites with owner confirmation, deployment status and a live HTTPS URL.",
+      "use_case": "Preparing a static portfolio for review, following its deployment, inspecting a failed build."
     }
   ]
 }
