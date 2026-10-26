@@ -278,6 +278,7 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 - [TDengine IDMP](https://github.com/taosdata/agent-skills) - Packaged skills for TDengine's industrial data management platform covering discovery, schema inspection, and safe operational workflows. *Use case: Industrial time-series data discovery, schema inspection, guarded operational tasks.* (Claude Code)
 - [VSQL Extension Builder](https://villagesql.com) - Build a VillageSQL extension for MySQL end-to-end through a 7-phase persona-driven workflow. *Use case: Porting PostgreSQL extensions to MySQL, MySQL extension scaffolding.* (Claude Code)
 - [Zilliz](https://zilliz.com) - Manage Zilliz Cloud with 14 skills for cluster lifecycle, collection schema, vector search, index tuning, and backups. *Use case: Zilliz cluster lifecycle, vector-collection schema, index tuning.* (Claude Code)
+- [Mode VC Radar MCP](https://modevc.com/api/mcp) - Read-only venture capital & AI market research MCP server (39 empirical AI charts, 3,650 VC firms, SEC Form D filings, and 18 founder financial calculators; free Streamable HTTP at https://modevc.com/api/mcp).
 
 ## Design and Creative
 
