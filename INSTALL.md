@@ -6,7 +6,7 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 /plugin install <name>@claude-plugins-official
 ```
 
-282 plugins:
+281 plugins:
 
 | Plugin | Category | Install |
 | --- | --- | --- |
@@ -40,7 +40,6 @@ One-line install for every Claude Code plugin in the official `claude-plugins-of
 | AWS Amplify | Cloud and Infrastructure | `/plugin install aws-amplify@claude-plugins-official` |
 | AWS Core | Cloud and Infrastructure | `/plugin install aws-core@claude-plugins-official` |
 | AWS Data Analytics | Data and Databases | `/plugin install aws-data-analytics@claude-plugins-official` |
-| AWS Dev Toolkit | Cloud and Infrastructure | `/plugin install aws-dev-toolkit@claude-plugins-official` |
 | AWS Serverless | Cloud and Infrastructure | `/plugin install aws-serverless@claude-plugins-official` |
 | AWS Startup Advisor | Cloud and Infrastructure | `/plugin install aws-startup-advisor@claude-plugins-official` |
 | AWS Transform | Cloud and Infrastructure | `/plugin install aws-transform@claude-plugins-official` |

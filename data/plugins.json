@@ -409,18 +409,6 @@
       "use_case": "AWS IaC authoring, core-service usage, common-task automation."
     },
     {
-      "name": "AWS Dev Toolkit",
-      "url": "https://github.com/aws-samples/sample-claude-code-plugins-for-startups",
-      "category": "Cloud and Infrastructure",
-      "surfaces": [
-        "Claude Code"
-      ],
-      "anthropic": false,
-      "slug": "aws-dev-toolkit",
-      "description": "Use 34 skills, 11 agents, and 3 MCP servers for building, migrating, and reviewing AWS architecture.",
-      "use_case": "AWS architecture review, migration planning, multi-service development."
-    },
-    {
       "name": "AWS Serverless",
       "url": "https://aws.amazon.com/serverless",
       "category": "Cloud and Infrastructure",

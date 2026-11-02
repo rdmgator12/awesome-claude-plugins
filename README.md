@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** July 23, 2026 | **Total plugins:** 348 | **Surfaces:** Claude Code (286) · Cowork (125) · both (63) | **Categories:** 28
+**Last updated:** July 23, 2026 | **Total plugins:** 347 | **Surfaces:** Claude Code (285) · Cowork (125) · both (63) | **Categories:** 28
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
@@ -20,7 +20,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 >
 > Plugins run on two surfaces, and this list catalogs **both** — the surface tag on every entry tells you where each one is available:
 >
-> - **Claude Code** (the developer CLI) — its marketplace (`claude-plugins-official`) is the *full* catalog, auto-installed on startup and dominated by developer and infrastructure plugins: language servers, cloud (AWS/GCP/Azure/Oracle), databases, CI/CD, security, and code tooling. **~286 of the entries below run here.**
+> - **Claude Code** (the developer CLI) — its marketplace (`claude-plugins-official`) is the *full* catalog, auto-installed on startup and dominated by developer and infrastructure plugins: language servers, cloud (AWS/GCP/Azure/Oracle), databases, CI/CD, security, and code tooling. **~285 of the entries below run here.**
 > - **Cowork** (Anthropic's agentic workspace inside claude.ai) — its plugin library surfaces a **curated business/role subset**: CRM, finance, marketing, design, data dashboards, the Anthropic role bundles, and — new this week — full **Legal** (12 role-specialized plugins) and **Healthcare / life-sciences** verticals. **125 entries run here; 63 run on both.**
 >
 > So the plugin browser in the **claude.ai desktop app shows far fewer plugins than this list** — it's the Cowork storefront, not the whole catalog. Developer and infrastructure plugins don't appear there because they target a coding environment, not a Cowork VM. If a plugin you expected is missing from the desktop app, it's almost certainly a Claude Code–only entry.
@@ -156,7 +156,6 @@ In Cowork, plugins appear in the workspace's plugin manager — connect the mark
 
 - [AWS Amplify](https://docs.amplify.aws/) - Build full-stack apps with AWS Amplify Gen 2 covering auth, data models, storage, GraphQL APIs, and Lambda functions. *Use case: Amplify Gen 2 scaffolding, GraphQL data modeling, auth flow setup.* (Claude Code)
 - [AWS Core](https://aws.amazon.com/developer/) - Build, deploy, and operate applications on AWS with infrastructure-as-code authoring and core-service skills. *Use case: AWS IaC authoring, core-service usage, common-task automation.* (Claude Code)
-- [AWS Dev Toolkit](https://github.com/aws-samples/sample-claude-code-plugins-for-startups) - Use 34 skills, 11 agents, and 3 MCP servers for building, migrating, and reviewing AWS architecture. *Use case: AWS architecture review, migration planning, multi-service development.* (Claude Code)
 - [AWS Serverless](https://aws.amazon.com/serverless) - Design, build, deploy, test, and debug serverless applications using AWS Lambda, API Gateway, DynamoDB, and related services. *Use case: Lambda authoring, SAM template generation, serverless local testing.* (Claude Code)
 - [AWS Startup Advisor](https://aws.amazon.com/startups/) - Get personalized AWS architecture, cost, security, and migration guidance for startups, including Activate credits eligibility. *Use case: Day-one account setup, startup architecture review, cost optimization.* (Claude Code)
 - [AWS Transform](https://aws.amazon.com/transform/) - Migrate and modernize codebases to AWS including .NET, mainframe COBOL, VMware, SQL Server, and language and SDK upgrades. *Use case: NET-to-.NET 8 migration, COBOL-to-Java modernization, SDK upgrades.* (Claude Code)
