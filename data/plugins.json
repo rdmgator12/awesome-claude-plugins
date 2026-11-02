@@ -32,7 +32,7 @@
   "plugins": [
     {
       "name": "Agent SDK Dev",
-      "url": "https://claude.com/plugins#agent-sdk-dev",
+      "url": "https://claude.com/marketplace/plugins/agent-sdk-dev",
       "category": "AI Development and Agents",
       "surfaces": [
         "Claude Code",
@@ -365,7 +365,7 @@
     },
     {
       "name": "Enterprise Search",
-      "url": "https://claude.com/plugins#enterprise-search",
+      "url": "https://claude.com/marketplace/plugins/enterprise-search",
       "category": "Business Operations",
       "surfaces": [
         "Cowork"
@@ -377,7 +377,7 @@
     },
     {
       "name": "Operations",
-      "url": "https://claude.com/plugins#operations",
+      "url": "https://claude.com/marketplace/plugins/operations",
       "category": "Business Operations",
       "surfaces": [
         "Cowork"
@@ -389,7 +389,7 @@
     },
     {
       "name": "Small Business",
-      "url": "https://claude.com/plugins#small-business",
+      "url": "https://claude.com/marketplace/plugins/small-business",
       "category": "Business Operations",
       "surfaces": [
         "Cowork"
@@ -645,7 +645,7 @@
     },
     {
       "name": "Code Review",
-      "url": "https://claude.com/plugins#code-review",
+      "url": "https://claude.com/marketplace/plugins/code-review",
       "category": "Code Quality and Review",
       "surfaces": [
         "Claude Code",
@@ -658,7 +658,7 @@
     },
     {
       "name": "Code Simplifier",
-      "url": "https://claude.com/plugins#code-simplifier",
+      "url": "https://claude.com/marketplace/plugins/code-simplifier",
       "category": "Code Quality and Review",
       "surfaces": [
         "Claude Code",
@@ -721,7 +721,7 @@
     },
     {
       "name": "PR Review Toolkit",
-      "url": "https://claude.com/plugins#pr-review-toolkit",
+      "url": "https://claude.com/marketplace/plugins/pr-review-toolkit",
       "category": "Code Quality and Review",
       "surfaces": [
         "Claude Code",
@@ -747,7 +747,7 @@
     },
     {
       "name": "session-report",
-      "url": "https://claude.com/plugins#session-report",
+      "url": "https://claude.com/marketplace/plugins/session-report",
       "category": "Code Quality and Review",
       "surfaces": [
         "Claude Code"
@@ -811,7 +811,7 @@
     },
     {
       "name": "fakechat",
-      "url": "https://claude.com/plugins#fakechat",
+      "url": "https://claude.com/marketplace/plugins/fakechat",
       "category": "Communication and Messaging",
       "surfaces": [
         "Claude Code",
@@ -824,7 +824,7 @@
     },
     {
       "name": "iMessage",
-      "url": "https://claude.com/plugins#imessage",
+      "url": "https://claude.com/marketplace/plugins/imessage",
       "category": "Communication and Messaging",
       "surfaces": [
         "Claude Code",
@@ -979,7 +979,7 @@
     },
     {
       "name": "Sales",
-      "url": "https://claude.com/plugins#sales",
+      "url": "https://claude.com/marketplace/plugins/sales",
       "category": "CRM and Sales",
       "surfaces": [
         "Cowork"
@@ -1017,7 +1017,7 @@
     },
     {
       "name": "Customer Support",
-      "url": "https://claude.com/plugins#customer-support",
+      "url": "https://claude.com/marketplace/plugins/customer-support",
       "category": "Customer Support",
       "surfaces": [
         "Cowork"
@@ -1786,7 +1786,7 @@
     },
     {
       "name": "Design",
-      "url": "https://claude.com/plugins#design",
+      "url": "https://claude.com/marketplace/plugins/design",
       "category": "Design and Creative",
       "surfaces": [
         "Cowork"
@@ -1811,7 +1811,7 @@
     },
     {
       "name": "Frontend Design",
-      "url": "https://claude.com/plugins#frontend-design",
+      "url": "https://claude.com/marketplace/plugins/frontend-design",
       "category": "Design and Creative",
       "surfaces": [
         "Claude Code",
@@ -1849,7 +1849,7 @@
     },
     {
       "name": "Playground",
-      "url": "https://claude.com/plugins#playground",
+      "url": "https://claude.com/marketplace/plugins/playground",
       "category": "Design and Creative",
       "surfaces": [
         "Claude Code",
@@ -1952,7 +1952,7 @@
     },
     {
       "name": "Claude Code Setup",
-      "url": "https://claude.com/plugins#claude-code-setup",
+      "url": "https://claude.com/marketplace/plugins/claude-code-setup",
       "category": "Developer Workflows",
       "surfaces": [
         "Claude Code",
@@ -1965,7 +1965,7 @@
     },
     {
       "name": "CLAUDE.md Management",
-      "url": "https://claude.com/plugins#claude-md-management",
+      "url": "https://claude.com/marketplace/plugins/claude-md-management",
       "category": "Developer Workflows",
       "surfaces": [
         "Claude Code",
@@ -1991,7 +1991,7 @@
     },
     {
       "name": "Commit Commands",
-      "url": "https://claude.com/plugins#commit-commands",
+      "url": "https://claude.com/marketplace/plugins/commit-commands",
       "category": "Developer Workflows",
       "surfaces": [
         "Claude Code",
@@ -2030,7 +2030,7 @@
     },
     {
       "name": "Feature Dev",
-      "url": "https://claude.com/plugins#feature-dev",
+      "url": "https://claude.com/marketplace/plugins/feature-dev",
       "category": "Developer Workflows",
       "surfaces": [
         "Claude Code",
@@ -2069,7 +2069,7 @@
     },
     {
       "name": "Hookify",
-      "url": "https://claude.com/plugins#hookify",
+      "url": "https://claude.com/marketplace/plugins/hookify",
       "category": "Developer Workflows",
       "surfaces": [
         "Claude Code",
@@ -2159,7 +2159,7 @@
     },
     {
       "name": "Ralph Loop",
-      "url": "https://claude.com/plugins#ralph-loop",
+      "url": "https://claude.com/marketplace/plugins/ralph-loop",
       "category": "Developer Workflows",
       "surfaces": [
         "Claude Code",
@@ -2376,7 +2376,7 @@
     },
     {
       "name": "Engineering",
-      "url": "https://claude.com/plugins#engineering",
+      "url": "https://claude.com/marketplace/plugins/engineering",
       "category": "Engineering and Product",
       "surfaces": [
         "Cowork"
@@ -2388,7 +2388,7 @@
     },
     {
       "name": "Product Management",
-      "url": "https://claude.com/plugins#product-management",
+      "url": "https://claude.com/marketplace/plugins/product-management",
       "category": "Engineering and Product",
       "surfaces": [
         "Cowork"
@@ -2451,7 +2451,7 @@
     },
     {
       "name": "Finance",
-      "url": "https://claude.com/plugins#finance",
+      "url": "https://claude.com/marketplace/plugins/finance",
       "category": "Finance and Accounting",
       "surfaces": [
         "Cowork"
@@ -2487,7 +2487,7 @@
     },
     {
       "name": "Bio Research",
-      "url": "https://claude.com/plugins#bio-research",
+      "url": "https://claude.com/marketplace/plugins/bio-research",
       "category": "Healthcare and Life Sciences",
       "surfaces": [
         "Cowork"
@@ -2656,7 +2656,7 @@
     },
     {
       "name": "Human Resources",
-      "url": "https://claude.com/plugins#human-resources",
+      "url": "https://claude.com/marketplace/plugins/human-resources",
       "category": "Human Resources",
       "surfaces": [
         "Cowork"
@@ -2668,7 +2668,7 @@
     },
     {
       "name": "C# LSP",
-      "url": "https://claude.com/plugins#csharp-lsp",
+      "url": "https://claude.com/marketplace/plugins/csharp-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2680,7 +2680,7 @@
     },
     {
       "name": "Clangd LSP",
-      "url": "https://claude.com/plugins#clangd-lsp",
+      "url": "https://claude.com/marketplace/plugins/clangd-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2728,7 +2728,7 @@
     },
     {
       "name": "Kotlin LSP",
-      "url": "https://claude.com/plugins#kotlin-lsp",
+      "url": "https://claude.com/marketplace/plugins/kotlin-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code",
@@ -2754,7 +2754,7 @@
     },
     {
       "name": "Lua LSP",
-      "url": "https://claude.com/plugins#lua-lsp",
+      "url": "https://claude.com/marketplace/plugins/lua-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2766,7 +2766,7 @@
     },
     {
       "name": "PHP LSP",
-      "url": "https://claude.com/plugins#php-lsp",
+      "url": "https://claude.com/marketplace/plugins/php-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2778,7 +2778,7 @@
     },
     {
       "name": "Pyright LSP",
-      "url": "https://claude.com/plugins#pyright-lsp",
+      "url": "https://claude.com/marketplace/plugins/pyright-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2790,7 +2790,7 @@
     },
     {
       "name": "Ruby LSP",
-      "url": "https://claude.com/plugins#ruby-lsp",
+      "url": "https://claude.com/marketplace/plugins/ruby-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2802,7 +2802,7 @@
     },
     {
       "name": "Rust Analyzer LSP",
-      "url": "https://claude.com/plugins#rust-analyzer-lsp",
+      "url": "https://claude.com/marketplace/plugins/rust-analyzer-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2827,7 +2827,7 @@
     },
     {
       "name": "Swift LSP",
-      "url": "https://claude.com/plugins#swift-lsp",
+      "url": "https://claude.com/marketplace/plugins/swift-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code",
@@ -2840,7 +2840,7 @@
     },
     {
       "name": "TypeScript LSP",
-      "url": "https://claude.com/plugins#typescript-lsp",
+      "url": "https://claude.com/marketplace/plugins/typescript-lsp",
       "category": "Language Servers",
       "surfaces": [
         "Claude Code"
@@ -2852,7 +2852,7 @@
     },
     {
       "name": "AI Governance Legal",
-      "url": "https://claude.com/plugins#ai-governance-legal",
+      "url": "https://claude.com/marketplace/plugins/ai-governance-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2876,7 +2876,7 @@
     },
     {
       "name": "Commercial Legal",
-      "url": "https://claude.com/plugins#commercial-legal",
+      "url": "https://claude.com/marketplace/plugins/commercial-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2888,7 +2888,7 @@
     },
     {
       "name": "Corporate Legal",
-      "url": "https://claude.com/plugins#corporate-legal",
+      "url": "https://claude.com/marketplace/plugins/corporate-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2900,7 +2900,7 @@
     },
     {
       "name": "Employment Legal",
-      "url": "https://claude.com/plugins#employment-legal",
+      "url": "https://claude.com/marketplace/plugins/employment-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2912,7 +2912,7 @@
     },
     {
       "name": "IP Legal",
-      "url": "https://claude.com/plugins#ip-legal",
+      "url": "https://claude.com/marketplace/plugins/ip-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2924,7 +2924,7 @@
     },
     {
       "name": "Law Student",
-      "url": "https://claude.com/plugins#law-student",
+      "url": "https://claude.com/marketplace/plugins/law-student",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2936,7 +2936,7 @@
     },
     {
       "name": "Legal",
-      "url": "https://claude.com/plugins#legal",
+      "url": "https://claude.com/marketplace/plugins/legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2948,7 +2948,7 @@
     },
     {
       "name": "Legal Builder Hub",
-      "url": "https://claude.com/plugins#legal-builder-hub",
+      "url": "https://claude.com/marketplace/plugins/legal-builder-hub",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2960,7 +2960,7 @@
     },
     {
       "name": "Legal Clinic",
-      "url": "https://claude.com/plugins#legal-clinic",
+      "url": "https://claude.com/marketplace/plugins/legal-clinic",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2985,7 +2985,7 @@
     },
     {
       "name": "Litigation Legal",
-      "url": "https://claude.com/plugins#litigation-legal",
+      "url": "https://claude.com/marketplace/plugins/litigation-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -2997,7 +2997,7 @@
     },
     {
       "name": "Privacy Legal",
-      "url": "https://claude.com/plugins#privacy-legal",
+      "url": "https://claude.com/marketplace/plugins/privacy-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -3009,7 +3009,7 @@
     },
     {
       "name": "Product Legal",
-      "url": "https://claude.com/plugins#product-legal",
+      "url": "https://claude.com/marketplace/plugins/product-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -3021,7 +3021,7 @@
     },
     {
       "name": "Regulatory Legal",
-      "url": "https://claude.com/plugins#regulatory-legal",
+      "url": "https://claude.com/marketplace/plugins/regulatory-legal",
       "category": "Legal",
       "surfaces": [
         "Cowork"
@@ -3095,7 +3095,7 @@
     },
     {
       "name": "Marketing",
-      "url": "https://claude.com/plugins#marketing",
+      "url": "https://claude.com/marketplace/plugins/marketing",
       "category": "Marketing and Web",
       "surfaces": [
         "Cowork"
@@ -3479,7 +3479,7 @@
     },
     {
       "name": "Explanatory Output Style",
-      "url": "https://claude.com/plugins#explanatory-output-style",
+      "url": "https://claude.com/marketplace/plugins/explanatory-output-style",
       "category": "Output Styles",
       "surfaces": [
         "Claude Code",
@@ -3492,7 +3492,7 @@
     },
     {
       "name": "Learning Output Style",
-      "url": "https://claude.com/plugins#learning-output-style",
+      "url": "https://claude.com/marketplace/plugins/learning-output-style",
       "category": "Output Styles",
       "surfaces": [
         "Claude Code",
@@ -3750,7 +3750,7 @@
     },
     {
       "name": "PDF Viewer",
-      "url": "https://claude.com/plugins#pdf-viewer",
+      "url": "https://claude.com/marketplace/plugins/pdf-viewer",
       "category": "Productivity and Documents",
       "surfaces": [
         "Cowork"
@@ -3762,7 +3762,7 @@
     },
     {
       "name": "Productivity",
-      "url": "https://claude.com/plugins#productivity",
+      "url": "https://claude.com/marketplace/plugins/productivity",
       "category": "Productivity and Documents",
       "surfaces": [
         "Cowork"
@@ -3774,7 +3774,7 @@
     },
     {
       "name": "Project Artifact",
-      "url": "https://claude.com/plugins#project-artifact",
+      "url": "https://claude.com/marketplace/plugins/project-artifact",
       "category": "Productivity and Documents",
       "surfaces": [
         "Claude Code",
@@ -4003,7 +4003,7 @@
     },
     {
       "name": "Security Guidance",
-      "url": "https://claude.com/plugins#security-guidance",
+      "url": "https://claude.com/marketplace/plugins/security-guidance",
       "category": "Security",
       "surfaces": [
         "Claude Code",
@@ -4119,7 +4119,7 @@
     },
     {
       "name": "MCP Server Dev",
-      "url": "https://claude.com/plugins#mcp-server-dev",
+      "url": "https://claude.com/marketplace/plugins/mcp-server-dev",
       "category": "Skills Authoring",
       "surfaces": [
         "Claude Code",
@@ -4158,7 +4158,7 @@
     },
     {
       "name": "Skill Creator",
-      "url": "https://claude.com/plugins#skill-creator",
+      "url": "https://claude.com/marketplace/plugins/skill-creator",
       "category": "Skills Authoring",
       "surfaces": [
         "Claude Code",
@@ -4193,7 +4193,7 @@
       "anthropic": false,
       "slug": "aiven",
       "description": "Deploy managed PostgreSQL, Kafka, OpenSearch, ClickHouse, and other data services from Claude.",
-      "use_case": "Spinning up a managed Postgres for a prototype, standing up a Kafka cluster without infra work, comparing service plans before committing."
+      "use_case": "Spinning up a managed PostgreSQL for a prototype, standing up a Kafka cluster without infra work, comparing service plans before committing."
     },
     {
       "name": "Atlassian Teamwork Graph CLI",
