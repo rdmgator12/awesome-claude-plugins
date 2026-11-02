@@ -9,11 +9,11 @@
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
-For more information, see the [Plugins overview](https://claude.com/docs/plugins/overview), [plugin marketplaces guide](https://code.claude.com/docs/en/plugin-marketplaces), [submission form](https://claude.com/plugins#submit), and the [official Anthropic marketplace repo](https://github.com/anthropics/claude-plugins-official) (renamed from `claude-plugins-public`; the old URL still redirects).
+For more information, see the [Plugins overview](https://claude.com/docs/plugins/overview), [plugin marketplaces guide](https://code.claude.com/docs/en/plugin-marketplaces), [submission form](https://claude.com/docs/plugins/submit), and the [official Anthropic marketplace repo](https://github.com/anthropics/claude-plugins-official) (renamed from `claude-plugins-public`; the old URL still redirects).
 
 Plugins marked with **`A`** are built and verified by Anthropic. Each entry ends with a surface tag: `(Claude Code)`, `(Cowork)`, or `(Claude Code, Cowork)`.
 
-This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
+This list is updated regularly. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 > [!NOTE]
 > ### Two surfaces, one list
@@ -34,7 +34,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 >
 > - **MCP (Model Context Protocol)** is the open standard. Servers expose tools, prompts, and resources; clients call them. Spec at [modelcontextprotocol.io](https://modelcontextprotocol.io).
 > - **MCP server** is any running server implementing MCP. Remote MCP servers (internet-hosted, OAuth) work on every Claude surface; local MCP servers (stdio) work only in Claude Desktop and Claude Code.
-> - **Connector** is an MCP server listed in Anthropic's [Connectors Directory](https://claude.com/partners/mcp) — reviewed by Anthropic, named-card UI, cross-surface (Claude.ai, Desktop, Mobile, Cowork, Code). Tracked in [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors).
+> - **Connector** is an MCP server listed in Anthropic's [Connectors Directory](https://claude.com/marketplace/connectors-plugins) — reviewed by Anthropic, named-card UI, cross-surface (Claude.ai, Desktop, Mobile, Cowork, Code). Tracked in [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors).
 > - **Custom Connector** is an MCP server you add yourself via Settings → "Add custom connector" with a URL. Same runtime as directory connectors; no Anthropic review; appears as "Custom".
 > - **Plugin** is a packaged bundle that can contain any combination of skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers. Versioned, semver, one-command install via `/plugin install`. Works on Claude Code and Cowork. **This list covers plugins.**
 > - **Plugin Marketplace** is a Git repo or URL hosting `.claude-plugin/marketplace.json` that catalogs plugins. The official Anthropic marketplace (`claude-plugins-official`) is auto-installed on Claude Code startup.
@@ -43,11 +43,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > Mental model: **Connector** = "Claude can call your API" (tool surface). **Plugin** = "Claude knows how to use your product" (workflow + tools + skills). **MCP** = the protocol both speak. Most partners ship both — a remote MCP server (connector) and a plugin that wraps it with skills and slash commands.
 
 > [!TIP]
-> ### Plugin of the Week — July 23, 2026
+> ### Plugin of the Week — November 2, 2026
 >
-> **Litigation Legal** · *Legal*
+> **Claude for Financial Advisors** · *Finance and Accounting*
 >
-> The story this week is a vertical, not a single plugin: Cowork gained an entire **Legal practice suite** — twelve role-specialized, Anthropic-built plugins covering Litigation, Corporate, IP, Employment, Privacy, Regulatory, Commercial, Product, and AI Governance work, plus Law Student, Legal Clinic (built within ABA Formal Op. 512), and a security-gated Legal Builder Hub. Litigation Legal headlines it: it manages the matter portfolio — deadlines, holds, demands, outside counsel — and does the production work too, from patent and civil claim charts to chronologies, deposition prep, privilege logs, and brief drafts, adapting to in-house, firm, or solo practice. Landing alongside it is a deep **Healthcare and life-sciences** cohort — Claude for Healthcare (prior auth, ICD-10-CM coding, FHIR) and a research bench of Open Targets, Owkin, Synapse, ToolUniverse, scvi-tools, Medidata, Cortellis, BioRender, ChEMBL, and more. This is the largest single reconcile in the list's history: **+54 plugins (279 → 333)**, almost all of it Cowork's business and professional verticals rather than the developer marketplace, which added a smaller wave of its own (New Relic, MLflow, GrowthBook, GitKraken, DeepEval, CrowdSec, Browser Use, and Anthropic's own Claude Security and Receipts). No plugins were removed: three that left the official manifest (Adspirer, SearchFit, Product Tracking) remain live in Cowork and were re-tagged Cowork-only rather than dropped. Listed under Legal below.
+> The story this update is another vertical: Anthropic's **financial-services suite**. Claude for Financial Advisors headlines it, with ready-to-run Cowork workflows for client meeting prep, follow-ups, and briefs that pull live data from the tools an advisory firm already uses through connectors. The plugin holds no client data, and the advisor approves anything written back to another system. Around it, Anthropic's `financial-services` repo adds four role bundles (Equity Research, Financial Analysis, Investment Banking, Private Equity) and eleven single-task plugins, from Pitch Agent and Model Builder to GL Reconciler, Month-End Closer, KYC Screener, and Statement Auditor. Partners filled in the advisor desk: BlackRock Advisor Center, Vanguard Advisor Tools, Morningstar, Zocks, Wealthbox, Juniper Square, and Chronograph's GP and LP plugins. It is the largest reconcile in the list's history: **+181 plugins (347 → 523)**, drawn from the official manifest, Anthropic's public directory, and a plugin-by-plugin check of the in-app directory. That directory now carries most official-marketplace plugins too, so 193 Claude Code entries also picked up the Cowork tag. Five Cowork-only life-sciences plugins (10x Genomics, Instrument Data to Allotrope, Nextflow development, scvi-tools, Single-Cell RNA QC) were removed because they no longer appear in either catalog. Listed under Finance and Accounting below.
 
 ---
 
@@ -110,7 +110,7 @@ claude --plugin-dir /path/to/plugin
 claude --plugin-url https://example.com/plugin.zip
 ```
 
-In Cowork, plugins appear in the workspace's plugin manager — connect the marketplace once per workspace and enable plugins per project.
+In the Claude app (Cowork), open **Customize → Plugins → Discover**, find the plugin, and click **Add**.
 
 ## AI Development and Agents
 
@@ -242,15 +242,15 @@ For complete authoring guidance, see the Plugin Developer Toolkit entry in the S
 
 A plugin marketplace is a Git repo or URL hosting `.claude-plugin/marketplace.json` that catalogs available plugins. Anyone can run one. Notable marketplaces:
 
-- [claude-plugins-official](https://github.com/anthropics/claude-plugins-public#readme) - Anthropic's curated, vetted marketplace, auto-installed on Claude Code startup. *Use case: First-stop discovery; install with `/plugin install <name>@claude-plugins-official`.*
+- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official#readme) - Anthropic's curated, vetted marketplace, auto-installed on Claude Code startup. *Use case: First-stop discovery; install with `/plugin install <name>@claude-plugins-official`.*
 - [claude-code-plugins (Anthropic demo)](https://github.com/anthropics/claude-code) - Anthropic's example marketplace of reference plugins demonstrating the plugin system. *Use case: Plugin format examples, integration patterns; install with `/plugin marketplace add anthropics/claude-code`.*
-- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source SEO, GEO, Google Ads, and Meta Ads skills for Claude Code (18 skills, MIT). *Install with `/plugin marketplace add nowork-studio/NotFair`.*
-- [Seth Hobson's sub-agents](https://github.com/wshobson/agents) - 80+ specialized sub-agents packaged as a plugin collection.
+- [NotFair](https://github.com/nowork-studio/notfair-plugin) - Open-source SEO, GEO, and marketing skills for AI agents (MIT). *Install with `/plugin marketplace add nowork-studio/notfair-plugin`.*
+- [Seth Hobson's agents](https://github.com/wshobson/agents) - Multi-harness plugin marketplace (`claude-code-workflows`, 94 plugins) for Claude Code, Codex, Cursor, and other agent tools.
 - [ClaudePluginHub](https://www.claudepluginhub.com) - Community-maintained third-party plugin discovery hub indexing marketplaces and individual plugins outside the official directory.
 
 ## Related
 
-- [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors) - Anthropic Claude connectors directory (841 entries) — the MCP-server layer that plugins often bundle.
+- [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors) - Anthropic Claude connectors directory (8,046 entries) — the MCP-server layer that plugins often bundle.
 - [awesome-grok-connectors](https://github.com/rdmgator12/awesome-grok-connectors) - xAI Grok connectors directory.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Community-maintained directory of MCP servers across all clients.
 - [awesome-perplexity-connectors](https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-) - Perplexity AI connectors directory.

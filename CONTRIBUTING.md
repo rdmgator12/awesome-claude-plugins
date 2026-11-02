@@ -64,6 +64,6 @@ To add, edit, or move a plugin:
 
 CI runs `python3 scripts/generate_readme.py --check` and fails if the generated files are out of sync with the data — so a hand-edited README won't merge.
 
-## Weekly Updates
+## Regular Updates
 
-This list is updated weekly to stay in sync with claude.com/plugins. If you notice plugins added to the directory that aren't listed here, please open an issue or PR.
+This list is updated regularly to stay in sync with claude.com/plugins. If you notice plugins added to the directory that aren't listed here, please open an issue or PR.
