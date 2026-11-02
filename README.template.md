@@ -5,7 +5,7 @@
 > [!NOTE]
 > **This is a free, independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.** "Claude," "Claude Code," and "Cowork" are trademarks of Anthropic PBC. Each plugin is the property of its respective owner. This list is published under the CC0 license shown in the badge above — public domain, free to copy, fork, redistribute.
 
-**Last updated:** July 23, 2026 | **Total plugins:** {{TOTAL}} | **Surfaces:** Claude Code ({{CC}}) · Cowork ({{COWORK}}) · both ({{BOTH}}) | **Categories:** {{NCAT}}
+**Last updated:** November 2, 2026 | **Total plugins:** {{TOTAL}} | **Surfaces:** Claude Code ({{CC}}) · Cowork ({{COWORK}}) · both ({{BOTH}}) | **Categories:** {{NCAT}}
 
 Plugins originated in Claude Code (October 2025) as packaged, versioned, shareable directories that bundle skills, MCP server references, slash commands, sub-agents, hooks, and LSP servers into a single installable unit. As of v2.1.129 (May 6, 2026), Anthropic runs the **Official Claude Plugins Directory** (`claude-plugins-official`) — a curated, vetted catalog auto-installed on Claude Code startup. Plugins also extend **Cowork**, Anthropic's agentic workspace, with role-class workflow bundles (Productivity, Design, Marketing, etc.) used by knowledge workers inside isolated VM environments.
 
