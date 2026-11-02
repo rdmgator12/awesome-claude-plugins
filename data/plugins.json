@@ -35,7 +35,8 @@
       "url": "https://claude.com/plugins#agent-sdk-dev",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "agent-sdk-dev",
@@ -47,7 +48,8 @@
       "url": "https://www.salesforce.com/agentforce",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "agentforce-adlc",
@@ -84,7 +86,8 @@
       "url": "https://github.com/BrainBlend-AI/atomic-agents",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "atomic-agents",
@@ -121,7 +124,8 @@
       "url": "https://github.com/confident-ai/deepeval",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "deepeval",
@@ -133,7 +137,8 @@
       "url": "https://www.domino.ai",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "dominodatalab",
@@ -158,7 +163,8 @@
       "url": "https://voxel51.com",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "fiftyone",
@@ -182,7 +188,8 @@
       "url": "https://huggingface.co",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "huggingface-skills",
@@ -194,7 +201,8 @@
       "url": "https://github.com/NVIDIA/skills",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "nvidia-skills",
@@ -206,7 +214,8 @@
       "url": "https://output.ai",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "outputai",
@@ -231,7 +240,8 @@
       "url": "https://ai.pydantic.dev",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "pydantic-ai",
@@ -243,7 +253,8 @@
       "url": "https://github.com/Digital-Process-Tools/claude-remember",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "remember",
@@ -255,7 +266,8 @@
       "url": "https://aws.amazon.com/sagemaker/",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sagemaker-ai",
@@ -280,7 +292,8 @@
       "url": "https://www.together.ai",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "togetherai-skills",
@@ -292,7 +305,8 @@
       "url": "https://you.com",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "youdotcom-agent-skills",
@@ -329,7 +343,8 @@
       "url": "https://playwright.dev",
       "category": "Browser Automation",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "playwright",
@@ -389,7 +404,8 @@
       "url": "https://docs.amplify.aws/",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aws-amplify",
@@ -401,7 +417,8 @@
       "url": "https://aws.amazon.com/developer/",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aws-core",
@@ -413,7 +430,8 @@
       "url": "https://aws.amazon.com/serverless",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aws-serverless",
@@ -425,7 +443,8 @@
       "url": "https://aws.amazon.com/startups/",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aws-startup-advisor",
@@ -437,7 +456,8 @@
       "url": "https://aws.amazon.com/transform/",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aws-transform",
@@ -461,7 +481,8 @@
       "url": "https://www.cloudflare.com",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "cloudflare",
@@ -473,7 +494,8 @@
       "url": "https://aws.amazon.com",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "deploy-on-aws",
@@ -485,7 +507,8 @@
       "url": "https://firebase.google.com",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "firebase",
@@ -497,7 +520,8 @@
       "url": "https://www.hostinger.com",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "hostinger",
@@ -509,7 +533,8 @@
       "url": "https://aws.amazon.com/cloud-migration/",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "migration-to-aws",
@@ -533,7 +558,8 @@
       "url": "https://railway.app",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "railway",
@@ -545,7 +571,8 @@
       "url": "https://render.com",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "render",
@@ -557,7 +584,8 @@
       "url": "https://www.terraform.io",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "terraform",
@@ -607,7 +635,8 @@
       "url": "https://www.aikido.dev",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aikido",
@@ -619,7 +648,8 @@
       "url": "https://claude.com/plugins#code-review",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "code-review",
@@ -631,7 +661,8 @@
       "url": "https://claude.com/plugins#code-simplifier",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "code-simplifier",
@@ -643,7 +674,8 @@
       "url": "https://www.coderabbit.ai",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "coderabbit",
@@ -655,7 +687,8 @@
       "url": "https://www.greptile.com",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "greptile",
@@ -691,7 +724,8 @@
       "url": "https://claude.com/plugins#pr-review-toolkit",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "pr-review-toolkit",
@@ -728,7 +762,8 @@
       "url": "https://www.sonarsource.com/products/sonarqube",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sonarqube",
@@ -740,7 +775,8 @@
       "url": "https://sourcegraph.com",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sourcegraph",
@@ -752,7 +788,8 @@
       "url": "https://circleback.ai",
       "category": "Communication and Messaging",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "circleback",
@@ -764,7 +801,8 @@
       "url": "https://discord.com",
       "category": "Communication and Messaging",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "discord",
@@ -776,7 +814,8 @@
       "url": "https://claude.com/plugins#fakechat",
       "category": "Communication and Messaging",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "fakechat",
@@ -788,7 +827,8 @@
       "url": "https://claude.com/plugins#imessage",
       "category": "Communication and Messaging",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "imessage",
@@ -800,7 +840,8 @@
       "url": "https://resend.com",
       "category": "Communication and Messaging",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "resend",
@@ -825,7 +866,8 @@
       "url": "https://telegram.org",
       "category": "Communication and Messaging",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "telegram",
@@ -901,7 +943,8 @@
       "url": "https://hunter.io",
       "category": "CRM and Sales",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "hunter",
@@ -1015,7 +1058,8 @@
       "url": "https://cloud.google.com/alloydb",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "alloydb",
@@ -1027,7 +1071,8 @@
       "url": "https://cloud.google.com/alloydb/omni",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "alloydb-omni",
@@ -1039,7 +1084,8 @@
       "url": "https://www.altimate.ai",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "altimate-code",
@@ -1076,7 +1122,8 @@
       "url": "https://aws.amazon.com/big-data/datalakes-and-analytics/",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aws-data-analytics",
@@ -1100,7 +1147,8 @@
       "url": "https://github.com/microsoft/azure-sql-database-container",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "azure-sql-developer",
@@ -1125,7 +1173,8 @@
       "url": "https://cloud.google.com/bigquery",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "bigquery-data-analytics",
@@ -1150,7 +1199,8 @@
       "url": "https://clickhouse.com/docs/best-practices",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "clickhouse-best-practices",
@@ -1162,7 +1212,8 @@
       "url": "https://cloud.google.com/sql/docs/mysql",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "cloud-sql-mysql",
@@ -1174,7 +1225,8 @@
       "url": "https://cloud.google.com/sql/docs/postgres",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "cloud-sql-postgresql",
@@ -1186,7 +1238,8 @@
       "url": "https://cloud.google.com/sql/docs/sqlserver",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "cloud-sql-sqlserver",
@@ -1272,7 +1325,8 @@
       "url": "https://aws.amazon.com/products/databases/",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "databases-on-aws",
@@ -1284,7 +1338,8 @@
       "url": "https://developers.databricks.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "databricks",
@@ -1296,7 +1351,8 @@
       "url": "https://datahub.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "datahub-skills",
@@ -1308,7 +1364,8 @@
       "url": "https://cloud.google.com/dataproc",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "dataproc",
@@ -1320,7 +1377,8 @@
       "url": "https://powerplatform.microsoft.com/en-us/dataverse/",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "dataverse",
@@ -1332,7 +1390,8 @@
       "url": "https://duckdb.org",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "duckdb-skills",
@@ -1344,7 +1403,8 @@
       "url": "https://cloud.google.com/firestore",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "firestore-native",
@@ -1356,7 +1416,8 @@
       "url": "https://cloud.google.com/dataplex",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "knowledge-catalog",
@@ -1368,7 +1429,8 @@
       "url": "https://cloud.google.com/looker",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "looker",
@@ -1404,7 +1466,8 @@
       "url": "https://neon.tech",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "neon",
@@ -1416,7 +1479,8 @@
       "url": "https://github.com/oracle-samples/oracle-aidp-samples",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "oracle-ai-data-platform-workbench-databricks-migrator",
@@ -1428,7 +1492,8 @@
       "url": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "oracle-ai-data-platform-workbench-spark-connectors",
@@ -1440,7 +1505,8 @@
       "url": "https://www.oracle.com/data-platform/",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "oracle-ai-data-platform-workbench-engineer-agent",
@@ -1452,7 +1518,8 @@
       "url": "https://www.oracle.com/database",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "oracledb",
@@ -1464,7 +1531,8 @@
       "url": "https://www.pigment.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "pigment",
@@ -1476,7 +1544,8 @@
       "url": "https://www.pinecone.io",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "pinecone",
@@ -1501,7 +1570,8 @@
       "url": "https://www.preset.io",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "preset-cli-skills",
@@ -1539,7 +1609,8 @@
       "url": "https://redis.io",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "redis-development",
@@ -1551,7 +1622,8 @@
       "url": "https://www.rilldata.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "rill",
@@ -1563,7 +1635,8 @@
       "url": "https://github.com/SAP-samples/hana-cli-claude-plugin",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sap-hana-cli",
@@ -1575,7 +1648,8 @@
       "url": "https://www.snowflake.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "snowflake-cortex-code",
@@ -1599,7 +1673,8 @@
       "url": "https://cloud.google.com/spanner",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "spanner",
@@ -1611,7 +1686,8 @@
       "url": "https://supabase.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "supabase",
@@ -1623,7 +1699,8 @@
       "url": "https://github.com/taosdata/agent-skills",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "idmp-plugin",
@@ -1635,7 +1712,8 @@
       "url": "https://villagesql.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "vsql-extension-builder",
@@ -1647,7 +1725,8 @@
       "url": "https://zilliz.com",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "zilliz",
@@ -1735,7 +1814,8 @@
       "url": "https://claude.com/plugins#frontend-design",
       "category": "Design and Creative",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "frontend-design",
@@ -1772,7 +1852,8 @@
       "url": "https://claude.com/plugins#playground",
       "category": "Design and Creative",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "playground",
@@ -1784,7 +1865,8 @@
       "url": "https://runwayml.com",
       "category": "Design and Creative",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "runway-api",
@@ -1809,7 +1891,8 @@
       "url": "https://open.spotify.com",
       "category": "Design and Creative",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "save-to-spotify",
@@ -1833,7 +1916,8 @@
       "url": "https://www.apollographql.com",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "apollo-skills",
@@ -1858,7 +1942,8 @@
       "url": "https://ckeditor.com",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "ckeditor",
@@ -1870,7 +1955,8 @@
       "url": "https://claude.com/plugins#claude-code-setup",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "claude-code-setup",
@@ -1882,7 +1968,8 @@
       "url": "https://claude.com/plugins#claude-md-management",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "claude-md-management",
@@ -1894,7 +1981,8 @@
       "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "code-modernization",
@@ -1906,7 +1994,8 @@
       "url": "https://claude.com/plugins#commit-commands",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "commit-commands",
@@ -1918,7 +2007,8 @@
       "url": "https://claude.com/cwc-makers",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "cwc-makers",
@@ -1943,7 +2033,8 @@
       "url": "https://claude.com/plugins#feature-dev",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "feature-dev",
@@ -1955,7 +2046,8 @@
       "url": "https://developer.atlassian.com/platform/forge",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "forge-skills",
@@ -1980,7 +2072,8 @@
       "url": "https://claude.com/plugins#hookify",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "hookify",
@@ -1992,7 +2085,8 @@
       "url": "https://shopify.dev/docs/api/liquid",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "liquid-skills",
@@ -2004,7 +2098,8 @@
       "url": "https://mergify.com",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "mergify",
@@ -2029,7 +2124,8 @@
       "url": "https://www.netsuite.com",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "netsuite-suitecloud",
@@ -2066,7 +2162,8 @@
       "url": "https://claude.com/plugins#ralph-loop",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "ralph-loop",
@@ -2078,7 +2175,8 @@
       "url": "https://cap.cloud.sap",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "cds-mcp",
@@ -2090,7 +2188,8 @@
       "url": "https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sap-fiori-mcp-server",
@@ -2102,7 +2201,8 @@
       "url": "https://help.sap.com/docs/MDK",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sap-mdk-server",
@@ -2127,7 +2227,8 @@
       "url": "https://github.com/obra/superpowers",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "superpowers",
@@ -2139,7 +2240,8 @@
       "url": "https://www.jetbrains.com/teamcity",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "teamcity-cli",
@@ -2199,7 +2301,8 @@
       "url": "https://context7.com",
       "category": "Documentation",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "context7",
@@ -2211,7 +2314,8 @@
       "url": "https://learn.microsoft.com",
       "category": "Documentation",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "microsoft-docs",
@@ -2223,7 +2327,8 @@
       "url": "https://mintlify.com",
       "category": "Documentation",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "mintlify",
@@ -2235,7 +2340,8 @@
       "url": "https://shopify.dev",
       "category": "Documentation",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "shopify-ai-toolkit",
@@ -2260,7 +2366,8 @@
       "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
       "category": "Education and Learning",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "math-olympiad",
@@ -2419,7 +2526,8 @@
       "url": "https://boltz.bio",
       "category": "Healthcare and Life Sciences",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "boltz",
@@ -2623,7 +2731,8 @@
       "url": "https://claude.com/plugins#kotlin-lsp",
       "category": "Language Servers",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "kotlin-lsp",
@@ -2635,7 +2744,8 @@
       "url": "https://shopify.dev/docs/storefronts/themes/tools/cli",
       "category": "Language Servers",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "liquid-lsp",
@@ -2707,7 +2817,8 @@
       "url": "https://github.com/oraios/serena",
       "category": "Language Servers",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "serena",
@@ -2719,7 +2830,8 @@
       "url": "https://claude.com/plugins#swift-lsp",
       "category": "Language Servers",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "swift-lsp",
@@ -2863,7 +2975,8 @@
       "url": "https://www.legalzoom.com",
       "category": "Legal",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "legalzoom",
@@ -2972,7 +3085,8 @@
       "url": "https://www.firecrawl.dev",
       "category": "Marketing and Web",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "firecrawl",
@@ -3046,7 +3160,8 @@
       "url": "https://windsor.ai",
       "category": "Marketing and Web",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "windsor-ai",
@@ -3058,7 +3173,8 @@
       "url": "https://www.zyte.com",
       "category": "Marketing and Web",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "zyte-web-data",
@@ -3070,7 +3186,8 @@
       "url": "https://amplitude.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "amplitude",
@@ -3106,7 +3223,8 @@
       "url": "https://www.dash0.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "dash0",
@@ -3131,7 +3249,8 @@
       "url": "https://www.fullstory.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "fullstory",
@@ -3169,7 +3288,8 @@
       "url": "https://github.com/grafana/mcp-grafana",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "grafana-mcp",
@@ -3220,7 +3340,8 @@
       "url": "https://github.com/langfuse/claude-observability-plugin",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "langfuse-observability",
@@ -3232,7 +3353,8 @@
       "url": "https://logfire.pydantic.dev",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "logfire",
@@ -3244,7 +3366,8 @@
       "url": "https://logrocket.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "logrocket",
@@ -3256,7 +3379,8 @@
       "url": "https://mlflow.org",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "mlflow",
@@ -3268,7 +3392,8 @@
       "url": "https://newrelic.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "newrelic",
@@ -3280,7 +3405,8 @@
       "url": "https://www.pagerduty.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "pagerduty",
@@ -3292,7 +3418,8 @@
       "url": "https://posthog.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "posthog",
@@ -3304,7 +3431,8 @@
       "url": "https://rootly.com",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "rootly",
@@ -3316,7 +3444,8 @@
       "url": "https://sentry.io",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sentry",
@@ -3328,7 +3457,8 @@
       "url": "https://docs.sentry.io/product/cli",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sentry-cli",
@@ -3352,7 +3482,8 @@
       "url": "https://claude.com/plugins#explanatory-output-style",
       "category": "Output Styles",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "explanatory-output-style",
@@ -3364,7 +3495,8 @@
       "url": "https://claude.com/plugins#learning-output-style",
       "category": "Output Styles",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "learning-output-style",
@@ -3376,7 +3508,8 @@
       "url": "https://www.circle.com",
       "category": "Payments and Billing",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "circle-skills",
@@ -3388,7 +3521,8 @@
       "url": "https://www.mercadopago.com",
       "category": "Payments and Billing",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "mercadopago",
@@ -3412,7 +3546,8 @@
       "url": "https://stripe.com",
       "category": "Payments and Billing",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "stripe",
@@ -3424,7 +3559,8 @@
       "url": "https://www.sumup.com",
       "category": "Payments and Billing",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sumup",
@@ -3436,7 +3572,8 @@
       "url": "https://aws.amazon.com/location",
       "category": "Platforms and SaaS",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "amazon-location-service",
@@ -3448,7 +3585,8 @@
       "url": "https://appwrite.io",
       "category": "Platforms and SaaS",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "appwrite",
@@ -3499,7 +3637,8 @@
       "url": "https://expo.dev",
       "category": "Platforms and SaaS",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "expo",
@@ -3524,7 +3663,8 @@
       "url": "https://laravel.com",
       "category": "Platforms and SaaS",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "laravel-boost",
@@ -3536,7 +3676,8 @@
       "url": "https://lovable.dev",
       "category": "Platforms and SaaS",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "lovable",
@@ -3560,7 +3701,8 @@
       "url": "https://www.postman.com",
       "category": "Platforms and SaaS",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "postman",
@@ -3598,7 +3740,8 @@
       "url": "https://www.notion.so",
       "category": "Productivity and Documents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "notion",
@@ -3634,7 +3777,8 @@
       "url": "https://claude.com/plugins#project-artifact",
       "category": "Productivity and Documents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "project-artifact",
@@ -3658,7 +3802,8 @@
       "url": "https://asana.com",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "asana",
@@ -3682,7 +3827,8 @@
       "url": "https://github.com",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "github",
@@ -3694,7 +3840,8 @@
       "url": "https://gitlab.com",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "gitlab",
@@ -3706,7 +3853,8 @@
       "url": "https://linear.app",
       "category": "Project Management",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "linear",
@@ -3730,7 +3878,8 @@
       "url": "https://42crunch.com",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "42crunch-api-security-testing",
@@ -3755,7 +3904,8 @@
       "url": "https://aws.amazon.com/security/",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aws-agents-for-devsecops",
@@ -3767,7 +3917,8 @@
       "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "claude-security",
@@ -3791,7 +3942,8 @@
       "url": "https://www.crowdstrike.com",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "crowdstrike-falcon-foundry",
@@ -3803,7 +3955,8 @@
       "url": "https://duendesoftware.com",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "duende-skills",
@@ -3827,7 +3980,8 @@
       "url": "https://jfrog.com",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "jfrog",
@@ -3839,7 +3993,8 @@
       "url": "https://nightviz.ai",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "nightvision",
@@ -3851,7 +4006,8 @@
       "url": "https://claude.com/plugins#security-guidance",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "security-guidance",
@@ -3875,7 +4031,8 @@
       "url": "https://www.sonatype.com",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "sonatype-guide",
@@ -3926,7 +4083,8 @@
       "url": "https://workos.com",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "workos",
@@ -3938,7 +4096,8 @@
       "url": "https://www.zscaler.com",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "zscaler",
@@ -3950,7 +4109,8 @@
       "url": "https://github.com/modelcontextprotocol/ext-apps",
       "category": "Skills Authoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "mcp-apps",
@@ -3962,7 +4122,8 @@
       "url": "https://claude.com/plugins#mcp-server-dev",
       "category": "Skills Authoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "mcp-server-dev",
@@ -3974,7 +4135,8 @@
       "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-tunnels",
       "category": "Skills Authoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "mcp-tunnels",
@@ -3986,7 +4148,8 @@
       "url": "https://claude.com/plugins#plugin-developer-toolkit",
       "category": "Skills Authoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "plugin-dev",
@@ -3998,7 +4161,8 @@
       "url": "https://claude.com/plugins#skill-creator",
       "category": "Skills Authoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": true,
       "slug": "skill-creator",
@@ -4010,7 +4174,8 @@
       "url": "https://www.airwallex.com/docs",
       "category": "Payments and Billing",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "airwallex-dev",
@@ -4022,7 +4187,8 @@
       "url": "https://aiven.io",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "aiven",
@@ -4034,7 +4200,8 @@
       "url": "https://developer.atlassian.com/cloud/twg-cli/",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "atlassian-twg-cli",
@@ -4046,7 +4213,8 @@
       "url": "https://catalyst.zoho.com/",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "catalyst-by-zoho",
@@ -4058,7 +4226,8 @@
       "url": "https://github.com/CrowdStrike/fusion-skills",
       "category": "Security",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "crowdstrike-falcon-fusion",
@@ -4094,7 +4263,8 @@
       "url": "https://help.noibu.com/articles/3918362002-overview-of-the-noibu-plugin-for-claude",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "noibu",
@@ -4106,7 +4276,8 @@
       "url": "https://developer.paypal.com/",
       "category": "Payments and Billing",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "paypal",
@@ -4130,7 +4301,8 @@
       "url": "https://docs.goshippo.com",
       "category": "Business Operations",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "shippo",
@@ -4142,7 +4314,8 @@
       "url": "https://www.confluent.io",
       "category": "Data and Databases",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "streaming-skills-plugin",
@@ -4154,7 +4327,8 @@
       "url": "https://synthflow.ai",
       "category": "AI Development and Agents",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "synthflow",
@@ -4202,7 +4376,8 @@
       "url": "https://www.activecampaign.com",
       "category": "Marketing and Web",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "activecampaign",
@@ -4214,7 +4389,8 @@
       "url": "https://github.com/amzn/selling-partner-agentic-toolkit",
       "category": "Business Operations",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "amazon-selling-partner",
@@ -4238,7 +4414,8 @@
       "url": "https://claude.com/marketplace/plugins/chronograph-gp",
       "category": "Finance and Accounting",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "chronograph-gp",
@@ -4250,7 +4427,8 @@
       "url": "https://claude.com/marketplace/plugins/chronograph-lp",
       "category": "Finance and Accounting",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "chronograph-lp",
@@ -4274,7 +4452,8 @@
       "url": "https://www.dynatrace.com/hub/detail/claude-code-cli/",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "dynatrace",
@@ -4286,7 +4465,8 @@
       "url": "https://docs.gc.ai/api-reference/mcp/overview",
       "category": "Legal",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "gc-ai",
@@ -4298,7 +4478,8 @@
       "url": "https://cloud.google.com/storage",
       "category": "Cloud and Infrastructure",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "google-cloud-storage",
@@ -4310,7 +4491,8 @@
       "url": "https://govtribe.com",
       "category": "CRM and Sales",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "govtribe",
@@ -4322,7 +4504,8 @@
       "url": "https://www.hubspot.com",
       "category": "CRM and Sales",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "hubspot-sales",
@@ -4360,7 +4543,8 @@
       "url": "https://github.com/intuit/quickbooks-claude-plugin",
       "category": "Finance and Accounting",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "intuit-quickbooks",
@@ -4385,7 +4569,8 @@
       "url": "https://www.linqalpha.com",
       "category": "Finance and Accounting",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "linq-alpha",
@@ -4435,7 +4620,8 @@
       "url": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-analytics",
       "category": "Observability and Monitoring",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "pendo-analytics",
@@ -4447,7 +4633,8 @@
       "url": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-guides",
       "category": "Engineering and Product",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "pendo-guides",
@@ -4459,7 +4646,8 @@
       "url": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-orchestrate",
       "category": "Marketing and Web",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "pendo-orchestrate",
@@ -4471,7 +4659,8 @@
       "url": "https://github.com/qodo-ai/qodo-skills.git",
       "category": "Code Quality and Review",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "qodo-standards",
@@ -4483,7 +4672,8 @@
       "url": "https://www.scandit.com",
       "category": "Developer Workflows",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "scandit-sdk",
@@ -4519,7 +4709,8 @@
       "url": "https://superdesign.dev",
       "category": "Design and Creative",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "superdesign",
@@ -4544,7 +4735,8 @@
       "url": "https://advisors.vanguard.com",
       "category": "Finance and Accounting",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "vanguard-advisor-tools",
@@ -4556,7 +4748,8 @@
       "url": "https://github.com/wingspanHQ/mcp-claude-plugin",
       "category": "Payments and Billing",
       "surfaces": [
-        "Claude Code"
+        "Claude Code",
+        "Cowork"
       ],
       "anthropic": false,
       "slug": "wingspan",

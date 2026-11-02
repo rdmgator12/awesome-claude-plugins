@@ -44,6 +44,7 @@ Each entry must follow this exact format and live in the appropriate category, a
 - Keep descriptions concise — one sentence for the description, one for the use case.
 - Use cases should be specific and practical, not marketing copy.
 - Only add plugins that are publicly listed at [claude.com/plugins](https://claude.com/plugins). For general MCP servers not yet packaged as plugins, see [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers).
+- Plugins that appear in the Claude app's directory only as **Community** plugins, and not at claude.com/plugins, are out of scope.
 - Maintain alphabetical order within categories.
 - Don't include install counts — they're volatile. The "Last updated" header is the snapshot.
 

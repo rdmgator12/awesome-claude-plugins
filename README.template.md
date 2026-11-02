@@ -16,16 +16,16 @@ Plugins marked with **`A`** are built and verified by Anthropic. Each entry ends
 This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 > [!NOTE]
-> ### Two surfaces, one list — why this is bigger than the claude.ai plugin browser
+> ### Two surfaces, one list
 >
-> Plugins run on two surfaces, and this list catalogs **both** — the surface tag on every entry tells you where each one is available:
+> Plugins run on two surfaces, and the surface tag on every entry tells you where each one is available:
 >
-> - **Claude Code** (the developer CLI) — its marketplace (`claude-plugins-official`) is the *full* catalog, auto-installed on startup and dominated by developer and infrastructure plugins: language servers, cloud (AWS/GCP/Azure/Oracle), databases, CI/CD, security, and code tooling. **~{{CC}} of the entries below run here.**
-> - **Cowork** (Anthropic's agentic workspace inside claude.ai) — its plugin library surfaces a **curated business/role subset**: CRM, finance, marketing, design, data dashboards, the Anthropic role bundles, and — new this week — full **Legal** (12 role-specialized plugins) and **Healthcare / life-sciences** verticals. **{{COWORK}} entries run here; {{BOTH}} run on both.**
+> - **Claude Code** (the developer CLI) — the official marketplace (`claude-plugins-official`), auto-installed on startup, plus a few partner marketplaces whose plugins appear in the public catalog. Developer and infrastructure plugins dominate here: language servers, cloud (AWS/GCP/Azure/Oracle), databases, CI/CD, security, and code tooling. **{{CC}} of the entries below run here.**
+> - **Cowork** (the plugin directory inside the Claude app) — Anthropic's role and financial-services bundles, partner plugins submitted to the Anthropic Directory, and, as of November 2026, most official-marketplace plugins as well. **{{COWORK}} entries run here; {{BOTH}} run on both.**
 >
-> So the plugin browser in the **claude.ai desktop app shows far fewer plugins than this list** — it's the Cowork storefront, not the whole catalog. Developer and infrastructure plugins don't appear there because they target a coding environment, not a Cowork VM. If a plugin you expected is missing from the desktop app, it's almost certainly a Claude Code–only entry.
+> The in-app directory also shows thousands of **Community** plugins pulled from public GitHub repos. This list does not track those: an entry must appear in the public Claude Plugins catalog at claude.com/plugins. If a plugin you expected is missing from the app, check its tag; Claude Code–only entries install from the CLI.
 >
-> *Scope note: counts here track the official `claude-plugins-official` marketplace plus the Cowork directory. A handful of plugins ship from partner marketplaces (e.g. `techwolf-ai/ai-first-toolkit`) and appear in the public Claude Plugins catalog but not the official marketplace manifest; those are added individually as they're found.*
+> *Scope note: Claude Code tags come from the `claude-plugins-official` manifest, plus partner marketplaces (e.g. `techwolf-ai/ai-first-toolkit`) for plugins in the public catalog but not the manifest. Cowork tags come from a search of the in-app directory for each plugin, last run November 2, 2026.*
 
 > [!IMPORTANT]
 > ### Plugin vs Connector vs MCP vs Custom Plugin
