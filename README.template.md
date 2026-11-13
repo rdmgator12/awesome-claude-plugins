@@ -247,6 +247,7 @@ A plugin marketplace is a Git repo or URL hosting `.claude-plugin/marketplace.js
 - [NotFair](https://github.com/nowork-studio/notfair-plugin) - Open-source SEO, GEO, and marketing skills for AI agents (MIT). *Install with `/plugin marketplace add nowork-studio/notfair-plugin`.*
 - [Seth Hobson's agents](https://github.com/wshobson/agents) - Multi-harness plugin marketplace (`claude-code-workflows`, 94 plugins) for Claude Code, Codex, Cursor, and other agent tools.
 - [ClaudePluginHub](https://www.claudepluginhub.com) - Community-maintained third-party plugin discovery hub indexing marketplaces and individual plugins outside the official directory.
+- [HOL Plugins](https://hol.org/plugins) - Public plugin directory covering Claude Code, Codex, Cursor and MCP plugins, ranked by trust score with scanner-backed security signals.
 
 ## Related
 
